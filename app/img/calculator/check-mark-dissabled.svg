@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>471B1061-4F1E-4746-956F-80F6ED596D6A</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Разделы/Калькулятор-" transform="translate(-801.000000, -374.000000)" fill-rule="nonzero">
+            <g id="Group-28">
+                <g transform="translate(608.000000, 374.000000)">
+                    <g id="Group-26-Copy" transform="translate(193.000000, 0.000000)">
+                        <g id="Glyphs/icons/Check/CheckMarkDissabled">
+                            <circle id="Oval" cx="16" cy="16" r="16"></circle>
+                            <path d="M16,32 C7.163444,32 0,24.836556 0,16 C0,7.163444 7.163444,0 16,0 C24.836556,0 32,7.163444 32,16 C32,24.836556 24.836556,32 16,32 Z M24.926273,11.9386049 C25.0245757,11.841587 25.0245757,11.685092 24.926273,11.5885264 L23.3867348,10.0724242 C23.2884322,9.9758586 23.129724,9.9758586 23.0311917,10.0724242 L13.5883993,19.370084 L8.96886574,14.8217773 C8.87079281,14.7252117 8.71162527,14.7252117 8.61332266,14.8217773 L7.0735547,16.3378795 C6.97548177,16.4346712 6.97548177,16.5913924 7.0735547,16.6877319 L13.4103981,22.9274062 C13.508471,23.0241979 13.6676385,23.0241979 13.7659412,22.9274062 L24.926273,11.9386049 Z" id="Combined-Shape" fill="#F9F9F9"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="68px" height="68px" viewBox="0 0 68 68" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>42C7DD7B-1426-4CAE-B830-A4E8D29984C6</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <filter x="-61.5%" y="-61.5%" width="222.9%" height="222.9%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.188405797 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Оставить-заявку" transform="translate(10.000000, 5.000000)" fill-rule="nonzero">
+            <g filter="url(#filter-1)">
+                <rect id="Rectangle" fill="#FFC225" x="0" y="0" width="48" height="48" rx="24"></rect>
+                <path d="M20.0585938,36.0888672 L17.7235202,31.1563816 C17.4872076,30.6572075 17.700299,30.0609777 18.1994732,29.8246651 C18.4630123,29.6999038 18.7678787,29.69638 19.0342312,29.8150166 L21.8545401,31.0712155 C22.359043,31.2959271 22.5858587,31.8870722 22.3611472,32.3915751 C22.3421229,32.4342868 22.3201264,32.4756117 22.2953196,32.5152456 L20.0585938,36.0888672 Z M31.6530762,15.8125 L16.9018849,27.2852279 C16.6172074,27.5066356 16.2353666,27.5576071 15.9025809,27.4186238 L11.6809668,25.655526 C11.171341,25.442688 10.9307471,24.8570154 11.1435851,24.3473896 C11.2330367,24.1332041 11.3942111,23.9568068 11.599476,23.8484401 L35.1976505,11.3901093 C35.6860507,11.1322652 36.2910014,11.3191678 36.5488456,11.8075681 C36.6680123,12.0332899 36.6963542,12.2960363 36.6280647,12.5419787 L31.2260156,31.9972967 C31.078256,32.5294485 30.5270789,32.84106 29.9949271,32.6933004 C29.9707073,32.6865754 29.9467497,32.6789396 29.9231053,32.6704093 L22.1751892,29.8751599 C21.1361703,29.5003085 20.5977561,28.3541402 20.9726075,27.3151213 C21.0663372,27.05532 21.2128611,26.817748 21.4029467,26.6173748 L31.6530762,15.8125 Z" id="Combined-Shape" fill="#2E2E2E"></path>
+            </g>
+        </g>
+    </g>
+</svg>

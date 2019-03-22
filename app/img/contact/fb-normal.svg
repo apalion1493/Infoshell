@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>DFCBFFE0-E342-4B5B-B138-F5B33D62AF65</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <filter x="-14.2%" y="-9.7%" width="128.4%" height="119.4%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="10" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="10" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0939481431 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Разделы/Контакты" transform="translate(-200.000000, -511.000000)" fill-rule="nonzero">
+            <g id="Group-10">
+                <g filter="url(#filter-1)" transform="translate(120.000000, 50.000000)">
+                    <g id="Social/Fb(Normal)" transform="translate(79.727273, 461.000000)">
+                        <circle id="Oval" fill="#3B5998" cx="20.2727273" cy="20" r="20"></circle>
+                        <path d="M23.3794945,20.4803007 L20.8178613,20.4803007 L20.8178613,30.7272727 L16.9367693,30.7272727 L16.9367693,20.4803007 L15.0909091,20.4803007 L15.0909091,16.879107 L16.9367693,16.879107 L16.9367693,14.5487256 C16.9367693,12.8822515 17.661755,10.2727273 20.8524088,10.2727273 L23.7272727,10.2858601 L23.7272727,13.7814322 L21.6413713,13.7814322 C21.2992231,13.7814322 20.8181172,13.9680863 20.8181172,14.7630425 L20.8181172,16.8824601 L23.7185719,16.8824601 L23.3794945,20.4803007 Z" id="Shape" fill="#FFFFFF"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Разработка мобильных приложений на заказ. Калькулятор расчета цены: создание приложений для iPhone, iPad, iOS, Android - Infoshell</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Студии Infoshell – создание приложений для мобильных устройств Android и iOS, Windows на заказ. Профессиональные разработчики, портфолио, калькулятор расчета стоимости. Контакты в Москве и Санкт-Петербурге"/>
+    <meta name="keywords" content="создание мобильного приложения на заказ, калькулятор стоимости"/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900&amp;subset=latin,cyrillic" rel="stylesheet">
+    <link href="https://infoshell.ru/wp-content/themes/mark_up/css1/main2.css?v=20190201" rel="stylesheet">
+    <link href="https://infoshell.ru/wp-content/themes/mark_up/css1/formCorrections.css" rel="stylesheet">
+    <link href="https://yandex.st/bootstrap/2.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://yandex.st/jquery/2.2.3/jquery.min.js" type="text/javascript"></script>
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=<ecb25afb-cfce-4ea7-80df-ed4fc56c4af8>" type="text/javascript"></script>
+
+    <script src="js/balloon_autopan.js" type="text/javascript"></script>
+
+    <link rel="stylesheet" href="libs/OwlCarousel2/dist/assets/owl.carousel.css">
+    <link rel="stylesheet" href="libs/OwlCarousel2/dist/assets/owl.theme.default.css">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="css/main.css">
+
+
+</head>
+<body>
+
+<div class="page-surround infoshel-page">
+    <header class="infoshel-header">
+        <div class="infoshel-header__container">
+            <div class="infoshel-header__container-burger">
+                <div class="infoshel-header__container-burger-line"></div>
+            </div>
+            <div class="infoshel-header__container-logo">
+                <a href="#"></a>
+            </div>
+            <div class="infoshel-header__container-menu">
+                <nav class="infoshel-header__container-nav">
+                    <ul class="infoshel-header__container-nav-menu">
+                        <li>
+                            <!-- add "active" class to <a> if necessary--><a href="/portfolio/" class="">Портфолио</a>
+                        </li>
+                        <li>
+                            <!-- add "active" class to <a> if necessary--><a href="/services/" class="">Услуги</a>
+                        </li>
+                        <li>
+                            <!-- add "active" class to <a> if necessary--><a href="/company/" class="">Компания</a>
+                        </li>
+                        <li>
+                            <!-- add "active" class to <a> if necessary--><a href="/blog/" class="">Блог</a>
+                        </li>
+                        <li>
+                            <!-- add "active" class to <a> if necessary--><a href="/contact/" class="">Контакты</a>
+                        </li>
+                    </ul>
+                    <!-- /ul.menu-->
+                </nav>
+            </div>
+            <div class="infoshel-header__container-content">
+                <div class="infoshel-header__container-socialNetworks">
+                    <ul>
+                        <li>
+                            <a class="infoshel-header__container-socialNetworks-vk infoshel-header__container-socialNetworks-icon" href=""></a>
+                        </li>
+
+                        <li>
+                            <a class="infoshel-header__container-socialNetworks-fb infoshel-header__container-socialNetworks-icon" href=""></a>
+                        </li>
+
+                        <li>
+                            <a class="infoshel-header__container-socialNetworks-dr infoshel-header__container-socialNetworks-icon" href=""></a>
+                        </li>
+
+                        <li>
+                            <a class="infoshel-header__container-socialNetworks-bh infoshel-header__container-socialNetworks-icon" href=""></a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="infoshel-header__container-phones">
+                    <p>Мск:<a href="tel:+74952155182">+7 (495) 215 51 82 </a></p>
+                    <p>СПб:<a href="tel:+78122428058">+7 (812) 242 80 58 </a></p>
+                </div>
+
+                <div class="infoshel-header__container-requestCall">
+                    <a href="">
+                        <span>Заказать<br>звонок</span>
+                        <i class="infoshel-header__container-requestCall-icon"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="infoshel-main">
+        <section class="infoshel-main-slider">
+            <div class="infoshel-main-slider__container owl-theme owl-carousel">
+                <div class="infoshel-main-slider__img infoshel-main-slider__img-first">
+                    <img src="img/img-01@3x.jpg" alt="">
+                </div>
+                <div class="infoshel-main-slider__img infoshel-main-slider__img-second">
+                    <img src="img/slider-02.jpg" alt="">
+                </div>
+                <div class="infoshel-main-slider__img infoshel-main-slider__img-three">
+                    <img src="img/slider-03.jpg" alt="">
+                </div>
+                <div class="infoshel-main-slider__img infoshel-main-slider__img-fourth">
+                    <img src="img/slider-04.jpg" alt="">
+                </div>
+                <div class="infoshel-main-slider__img infoshel-main-slider__img-five">
+                    <img src="img/slider-05.jpg" alt="">
+                </div>
+                <div class="infoshel-main-slider__img infoshel-main-slider__img-six">
+                    <img src="img/slider-06.jpg" alt="">
+                </div>
+                <div class="infoshel-main-slider__img infoshel-main-slider__img-seven">
+                    <img src="img/slider-07.jpg" alt="">
+                </div>
+            </div>
+            <div class="infoshel-main-slider__bottom-text">
+                <div class="infoshel-main-slider__bottom-text-container">
+                    <span>Воплощаем ваши digital-амбиции.<br>
+                Работаем по SCRUM.</span>
+                    <button class="infoshel-button infoshel-main-slider__btn">Оставить заявку</button>
+                </div>
+            </div>
+        </section>
+        <section class="infoshel-main-services">
+            <div class="infoshel-main-services__logos owl-theme owl-carousel">
+                <div class="infoshel-main-services__logos-icon infoshel-main-services__logos-azbo"></div>
+                <div class="infoshel-main-services__logos-icon infoshel-main-services__logos-zenit"></div>
+                <div class="infoshel-main-services__logos-icon infoshel-main-services__logos-record"></div>
+                <div class="infoshel-main-services__logos-icon infoshel-main-services__logos-step"></div>
+                <div class="infoshel-main-services__logos-icon infoshel-main-services__logos-mrsk"></div>
+                <div class="infoshel-main-services__logos-icon infoshel-main-services__logos-and"></div>
+                <div class="infoshel-main-services__logos-icon infoshel-main-services__logos-bol"></div>
+                <div class="infoshel-main-services__logos-icon infoshel-main-services__logos-emblem"></div>
+                <div class="infoshel-main-services__logos-icon infoshel-main-services__logos-pek"></div>
+                <div class="infoshel-main-services__logos-icon infoshel-main-services__logos-love"></div>
+            </div>
+            <div class="infoshel-main-services__main infoshel-container">
+                <h2 class="infoshel-h2">Услуги</h2>
+                <div class="infoshel-main-services__main-container">
+                    <div class="infoshel-main-services__main-block">
+                        <div class="infoshel-main-services__main-block-color infoshel-main-services__main-block-color-ios">
+                            <div class="infoshel-main-services__main-icon infoshel-main-services__main-icon-ios"></div>
+                        </div>
+                        <h3 class="infoshel-main-services__main-block-h3">Разработка iOS-приложений</h3>
+                    </div>
+
+                    <div class="infoshel-main-services__main-block">
+                        <div class="infoshel-main-services__main-block-color infoshel-main-services__main-block-color-android">
+                            <div class="infoshel-main-services__main-icon infoshel-main-services__main-icon-android"></div>
+                        </div>
+                        <h3 class="infoshel-main-services__main-block-h3">Разработка Android-приложений</h3>
+                    </div>
+
+                    <div class="infoshel-main-services__main-block">
+                        <div class="infoshel-main-services__main-block-color infoshel-main-services__main-block-color-web">
+                            <div class="infoshel-main-services__main-icon infoshel-main-services__main-icon-web"></div>
+                        </div>
+                        <h3 class="infoshel-main-services__main-block-h3">Разработка Android-приложений</h3>
+                    </div>
+
+                    <div class="infoshel-main-services__main-block">
+                        <div class="infoshel-main-services__main-block-color infoshel-main-services__main-block-color-mob">
+                            <div class="infoshel-main-services__main-icon infoshel-main-services__main-icon-mob"></div>
+                        </div>
+                        <h3 class="infoshel-main-services__main-block-h3">Создание мобильных и веб-игр</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="infoshel-main-itProduct">
+            <div class="infoshel-main-itProduct__container infoshel-container">
+                <h2 class="infoshel-h2 infoshel-main-itProduct__h2">Зачем нужен IT-продукт?</h2>
+                <div class="infoshel-main-itProduct__content">
+                    <div class="infoshel-main-itProduct__content-block">
+                        <div class="infoshel-main-itProduct__content-icon infoshel-main-itProduct__content-icon-automation"></div>
+                        <p class="infoshel-main-itProduct__content-block-text">Автоматизировать и масштабировать бизнес</p>
+                    </div>
+
+                    <div class="infoshel-main-itProduct__content-block">
+                        <div class="infoshel-main-itProduct__content-icon infoshel-main-itProduct__content-icon-profit"></div>
+                        <p class="infoshel-main-itProduct__content-block-text">Увеличить прибыль</p>
+                    </div>
+
+                    <div class="infoshel-main-itProduct__content-block">
+                        <div class="infoshel-main-itProduct__content-icon infoshel-main-itProduct__content-icon-audience"></div>
+                        <p class="infoshel-main-itProduct__content-block-text">Постоянно быть в контакте с аудиторией</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="infoshel-main-ourWork">
+            <h2 class="infoshel-h2 infoshel-main-ourWork__h2">Наши работы</h2>
+            <span class="infoshel-main-ourWork__title-span">Мы превращаем идеи в отличные результаты</span>
+            <div class="infoshel-main-ourWork__slider owl-theme owl-carousel">
+                <div class="infoshel-main-ourWork__slider-img">
+                    <div class="infoshel-main-ourWork__slider-img-block">
+                        <img src="img/ourWork/easy-style.jpg" alt="">
+                        <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-ios infoshel-main-ourWork__icon-surfprise-ios"></span>
+                        <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-android infoshel-main-ourWork__icon-surfprise-android"></span>
+                    </div>
+                    <div class="infoshel-main-ourWork__slider-img-text">
+                        <h4>Easy Style</h4>
+                        <p>Создаем дизайн и занимаемся разработкой системы. Каждые две недели предоставляем продукт с новыми функциями. Обсуждаем, что будет сделано за следующие две недели.</p>
+                    </div>
+                </div>
+                <div class="infoshel-main-ourWork__slider-img">
+                    <div class="infoshel-main-ourWork__slider-img-block">
+                        <img src="img/ourWork/kinoxod.jpg" alt="">
+                        <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-ios infoshel-main-ourWork__icon-kino-ios"></span>
+                        <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-android infoshel-main-ourWork__icon-kino-android"></span>
+                    </div>
+                    <div class="infoshel-main-ourWork__slider-img-text">
+                        <h4>Киноход</h4>
+                        <p>Создаем дизайн и занимаемся разработкой системы. Каждые две недели предоставляем продукт с новыми функциями. Обсуждаем, что будет сделано за следующие две недели.</p>
+                    </div>
+                </div>
+
+                <div class="infoshel-main-ourWork__slider-img">
+                    <div class="infoshel-main-ourWork__slider-img-block">
+                        <img src="img/ourWork/kinoxod.jpg" alt="">
+                        <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-ios infoshel-main-ourWork__icon-kino-ios"></span>
+                    </div>
+                    <div class="infoshel-main-ourWork__slider-img-text">
+                        <h4>Киноход</h4>
+                        <p>Создаем дизайн и занимаемся разработкой системы. Каждые две недели предоставляем продукт с новыми функциями. Обсуждаем, что будет сделано за следующие две недели.</p>
+                    </div>
+                </div>
+
+                <div class="infoshel-main-ourWork__slider-img">
+                    <div class="infoshel-main-ourWork__slider-img-block">
+                        <img src="img/ourWork/surfprise.jpg" alt="">
+                        <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-ios infoshel-main-ourWork__icon-surfprise-ios"></span>
+                        <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-android infoshel-main-ourWork__icon-surfprise-android"></span>
+                    </div>
+                    <div class="infoshel-main-ourWork__slider-img-text">
+                        <h4>Surfprise</h4>
+                        <p>Создаем дизайн и занимаемся разработкой системы. Каждые две недели предоставляем продукт с новыми функциями. Обсуждаем, что будет сделано за следующие две недели.</p>
+                    </div>
+                </div>
+
+                <div class="infoshel-main-ourWork__slider-img">
+                    <div class="infoshel-main-ourWork__slider-img-block">
+                        <img src="img/ourWork/foodclube.jpg" alt="">
+                        <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-ios infoshel-main-ourWork__icon-surfprise-ios"></span>
+                        <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-android infoshel-main-ourWork__icon-surfprise-android"></span>
+                    </div>
+                    <div class="infoshel-main-ourWork__slider-img-text">
+                        <h4>Foodclub</h4>
+                        <p>Создаем дизайн и занимаемся разработкой системы. Каждые две недели предоставляем продукт с новыми функциями. Обсуждаем, что будет сделано за следующие две недели.</p>
+                    </div>
+                </div>
+
+                <div class="infoshel-main-ourWork__slider-img">
+                    <div class="infoshel-main-ourWork__slider-img-block">
+                        <img src="img/ourWork/dostaevsky.jpg" alt="">
+                        <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-ios infoshel-main-ourWork__icon-surfprise-ios"></span>
+                        <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-android infoshel-main-ourWork__icon-surfprise-android"></span>
+                    </div>
+                    <div class="infoshel-main-ourWork__slider-img-text">
+                        <h4>Dostaevsky</h4>
+                        <p>Создаем дизайн и занимаемся разработкой системы. Каждые две недели предоставляем продукт с новыми функциями. Обсуждаем, что будет сделано за следующие две недели.</p>
+                    </div>
+                </div>
+
+                <div class="infoshel-main-ourWork__slider-img">
+                    <div class="infoshel-main-ourWork__slider-img-block">
+                        <img src="img/ourWork/dostaevsky1.jpg" alt="">
+                        <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-ios infoshel-main-ourWork__icon-surfprise-ios"></span>
+                    </div>
+                    <div class="infoshel-main-ourWork__slider-img-text">
+                        <h4>Dostaevsky</h4>
+                        <p>Создаем дизайн и занимаемся разработкой системы. Каждые две недели предоставляем продукт с новыми функциями. Обсуждаем, что будет сделано за следующие две недели.</p>
+                    </div>
+                </div>
+
+                <div class="infoshel-main-ourWork__slider-img">
+                    <div class="infoshel-main-ourWork__slider-img-block">
+                        <img src="img/ourWork/fsx.jpg" alt="">
+                        <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-web infoshel-main-ourWork__icon-surfprise-ios"></span>
+                    </div>
+                    <div class="infoshel-main-ourWork__slider-img-text">
+                        <h4>FSX</h4>
+                        <p>Создаем дизайн и занимаемся разработкой системы. Каждые две недели предоставляем продукт с новыми функциями. Обсуждаем, что будет сделано за следующие две недели.</p>
+                    </div>
+                </div>
+
+                <div class="infoshel-main-ourWork__slider-img">
+                    <div class="infoshel-main-ourWork__slider-img-block">
+                        <img src="img/ourWork/nevedro.jpg" alt="">
+                        <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-web infoshel-main-ourWork__icon-surfprise-ios"></span>
+                    </div>
+                    <div class="infoshel-main-ourWork__slider-img-text">
+                        <h4>Ne vedro</h4>
+                        <p>Создаем дизайн и занимаемся разработкой системы. Каждые две недели предоставляем продукт с новыми функциями. Обсуждаем, что будет сделано за следующие две недели.</p>
+                    </div>
+                </div>
+
+                <div class="infoshel-main-ourWork__slider-img">
+                    <div class="infoshel-main-ourWork__slider-img-block">
+                        <img src="img/ourWork/parklook.jpg" alt="">
+                        <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-ios infoshel-main-ourWork__icon-surfprise-ios"></span>
+                    </div>
+                    <div class="infoshel-main-ourWork__slider-img-text">
+                        <h4>Park look</h4>
+                        <p>Создаем дизайн и занимаемся разработкой системы. Каждые две недели предоставляем продукт с новыми функциями. Обсуждаем, что будет сделано за следующие две недели.</p>
+                    </div>
+                </div>
+
+                <div class="infoshel-main-ourWork__slider-img">
+                    <div class="infoshel-main-ourWork__slider-img-block">
+                        <img src="img/ourWork/rubike.jpg" alt="">
+                        <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-ios infoshel-main-ourWork__icon-surfprise-ios"></span>
+                        <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-android infoshel-main-ourWork__icon-surfprise-android"></span>
+                    </div>
+                    <div class="infoshel-main-ourWork__slider-img-text">
+                        <h4>Rubike</h4>
+                        <p>Создаем дизайн и занимаемся разработкой системы. Каждые две недели предоставляем продукт с новыми функциями. Обсуждаем, что будет сделано за следующие две недели.</p>
+                    </div>
+                </div>
+
+                <div class="infoshel-main-ourWork__slider-img">
+                    <div class="infoshel-main-ourWork__slider-img-block">
+                        <img src="img/ourWork/universe.jpg" alt="">
+                        <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-web infoshel-main-ourWork__icon-surfprise-ios"></span>
+                    </div>
+                    <div class="infoshel-main-ourWork__slider-img-text">
+                        <h4>Foodclub</h4>
+                        <p>Создаем дизайн и занимаемся разработкой системы. Каждые две недели предоставляем продукт с новыми функциями. Обсуждаем, что будет сделано за следующие две недели.</p>
+                    </div>
+                </div>
+
+                <div class="infoshel-main-ourWork__slider-img">
+                    <div class="infoshel-main-ourWork__slider-img-block">
+                        <img src="img/ourWork/spotymoon.jpg" alt="">
+                        <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-web infoshel-main-ourWork__icon-surfprise-ios"></span>
+                    </div>
+                    <div class="infoshel-main-ourWork__slider-img-text">
+                        <h4>SpotyMoon</h4>
+                        <p>Создаем дизайн и занимаемся разработкой системы. Каждые две недели предоставляем продукт с новыми функциями. Обсуждаем, что будет сделано за следующие две недели.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="infoshel-main-scrum">
+            <div class="infoshel-container">
+                <h2 class="infoshel-h2 infoshel-main-scrum__h2">Работаем по SCRUM</h2>
+                <p class="infoshel-main-scrum__briefly">Получаем работающую систему, сохраняя время и ресурсы</p>
+                <div class="infoshel-main-scrum__container">
+                    <div class="infoshel-main-scrum__content-block infoshel-main-scrum__content-block-first">
+                        <span class="infoshel-main-scrum__list">1</span>
+                        <div class="infoshel-main-scrum__text">
+                            <span class="infoshel-main-scrum__title">Знакомство</span>
+                            <p>Знакомимся с идеей, кратко описываем систему и предварительный функционал.</p>
+                        </div>
+                        <span class="infoshel-main-scrum__bottom-text">Обсуждение цены, договор на проектирование</span>
+                    </div>
+
+                    <div class="infoshel-main-scrum__content-block infoshel-main-scrum__content-block-second">
+                        <span class="infoshel-main-scrum__list">2</span>
+                        <div class="infoshel-main-scrum__text">
+                            <span class="infoshel-main-scrum__title">Этап проектирования</span>
+                            <p>Проектируем прототип системы. Подробно описываем фуционал системы для оценки разработки.</p>
+                        </div>
+                        <span class="infoshel-main-scrum__bottom-text">Обсуждение цены, договор на проектирование</span>
+                    </div>
+
+                    <div class="infoshel-main-scrum__content-block">
+                        <span class="infoshel-main-scrum__list">3</span>
+                        <div class="infoshel-main-scrum__text">
+                            <span class="infoshel-main-scrum__title">Разработка</span>
+                            <p>Создаем дизайн и занимаемся разработкой системы. Каждые две недели предоставляем продукт с новыми функциями. Обсуждаем, что будет сделано за следующие две недели.</p>
+                        </div>
+                    </div>
+
+                    <div class="infoshel-main-scrum__content-block">
+                        <span class="infoshel-main-scrum__list">4</span>
+                        <div class="infoshel-main-scrum__text">
+                            <span class="infoshel-main-scrum__title">Поддержка</span>
+                            <p>Заботимся о стабильности системы и оперативно реагируем на ошибки после релиза.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="infoshel-main-reviews">
+            <div class="infoshel-container">
+                <h2 class="infoshel-h2 infoshel-main-reviews__h2">Отзывы заказчиков</h2>
+                <p class="infoshel-main-reviews__title">Конечная цель любого мобильного приложения – автоматизация бизнес-процессов, создание имиджа компании, увеличение прибыли бизнеса за счет популярности продукта в интернете</p>
+                <div class="infoshel-main-reviews__container">
+                    <div class="infoshel-main-reviews__block">
+                        <div class="infoshel-main-reviews__block-name">
+                            <img src="img/reviews/alexander-vasiliev.jpg" alt="">
+                            <div>
+                                <span>Павел Зарубин</span>
+                                <p>Ведущий project-менеджер компании PayBer</p>
+                            </div>
+                        </div>
+                        <p class="infoshel-main-reviews__block-comment">Выражаем благодарность компании Infoshell за плодотворное сотрудничество. Особо хотел выделить iOS - программиста Ярослава Паномаренко, который быстро и качественно реализовал поставленные задачи.</p>
+                    </div>
+
+                    <div class="infoshel-main-reviews__block">
+                        <div class="infoshel-main-reviews__block-name">
+                            <img src="img/reviews/valeriy-kaplenko.jpg" alt="">
+                            <div>
+                                <span>Валерий Капленко</span>
+                                <p>Руководитель службы информационного обеспечения Faberlic</p>
+                            </div>
+                        </div>
+                        <p class="infoshel-main-reviews__block-comment">Хочу отметить профессиональный подход к делу, высокую исполнительность и отзывчивость ко всем нашим просьбам и требованиям. </p>
+                    </div>
+
+                    <div class="infoshel-main-reviews__block">
+                        <div class="infoshel-main-reviews__block-name">
+                            <img src="img/reviews/alexander-vasiliev.jpg" alt="">
+                            <div>
+                                <span>Александр Василиев</span>
+                                <p>Генеральный директор Apps4All</p>
+                            </div>
+                        </div>
+                        <p class="infoshel-main-reviews__block-comment">Профессиональный подход, быстрота принятия решений, а так же детальная проработка наших идей позволили создать высококачественное мобильное приложение.</p>
+                    </div>
+                </div>
+                <button class="infoshel-button infoshel-main-reviews__btn">Все отзывы и письма</button>
+            </div>
+        </section>
+        <section class="infoshel-main-calculator">
+            <div class="infoshel-container">
+                <h2 class="infoshel-h2 infoshel-main-calculator__h2">Калькулятор расчета конечной стоимости работ</h2>
+                <p class="infoshel-main-calculator__title">Узнайте стоимость вашего приложения, ответив на несколько простых вопросов!</p>
+                <div class="infoshel-main-calculator__list-steps">
+                    <div class="infoshel-main-calculator__list-step active">
+                        <span>1</span>
+                        <p>Выберите платформу</p>
+                    </div>
+
+                    <div class="infoshel-main-calculator__list-step">
+                        <span>2</span>
+                        <p>Выберите устройство</p>
+                    </div>
+
+                    <div class="infoshel-main-calculator__list-step">
+                        <span>3</span>
+                        <p>Сложность приложения</p>
+                    </div>
+
+                    <div class="infoshel-main-calculator__list-step">
+                        <span>4</span>
+                        <p>Дизайн</p>
+                    </div>
+
+                    <div class="infoshel-main-calculator__list-step">
+                        <span>5</span>
+                        <p>Ориентация</p>
+                    </div>
+
+                    <div class="infoshel-main-calculator__list-step">
+                        <span>6</span>
+                        <p>Авторизация</p>
+                    </div>
+                </div>
+                <div class="infoshel-main-calculator__platforms">
+                    <div class="infoshel-main-calculator__platform infoshel-main-calculator__platform-ios active"><!--для активного состояния добавить класс active-->
+                        <div class="infoshel-main-calculator__platform-icon infoshel-main-calculator__platform-iconIos"></div>
+                        <p>Мобильная платформа iOS</p>
+                    </div>
+                    <div class="infoshel-main-calculator__platform infoshel-main-calculator__platform-android "><!--для активного состояния добавить класс active-->
+                        <div class="infoshel-main-calculator__platform-icon infoshel-main-calculator__platform-iconAndroid"></div>
+                        <p>Мобильная платформа Android</p>
+                    </div>
+                    <div class="infoshel-main-calculator__platform infoshel-main-calculator__platform-web "><!--для активного состояния добавить класс active-->
+                        <div class="infoshel-main-calculator__platform-icon infoshel-main-calculator__platform-iconWeb"></div>
+                        <p>Веб-сайт</p>
+                    </div>
+                </div>
+                <div class="infoshel-main-calculator__btn-group">
+                    <button class="infoshel-button  infoshel-main-calculator__btn-prev">Назад</button>
+                    <button class="infoshel-button infoshel-main-calculator__btn-next">Далее</button>
+                </div>
+            </div>
+        </section>
+        <section class="infoshel-main-blog">
+            <div class="infoshel-main-blog__container">
+                <h2 class="infoshel-h2 infoshel-main-blog__h2">Блог</h2>
+                <div class="infoshel-main-blog__slider owl-theme owl-carousel">
+                    <div class="infoshel-main-blog__slider-block">
+                        <img src="img/blog/bitmap-1.jpg" alt="1">
+                        <div class="infoshel-main-blog__slider-text">
+                            <span>Разработка web-приложений</span>
+                            <p>Последние годы Web-приложения стремительно развиваются, постепенно вытесняя настольные решения и становясь важнейшим компонентом бизнеса в современном мире…</p>
+                        </div>
+                    </div>
+
+                    <div class="infoshel-main-blog__slider-block">
+                        <img src="img/blog/bitmap-2.jpg" alt="2">
+                        <div class="infoshel-main-blog__slider-text">
+                            <span>Вводный курс по разработке приложений для iOS</span>
+                            <p>Экскурс в IOS разработку Давайте, для начала, разберемся с актуальностью разработки под Apple устройства в целом. Ведь на сегодняшний день…</p>
+                        </div>
+                    </div>
+
+                    <div class="infoshel-main-blog__slider-block">
+                        <img src="img/blog/bitmap-3.jpg" alt="3">
+                        <div class="infoshel-main-blog__slider-text">
+                            <span>Дополненная реальность (augmented reality, AR)</span>
+                            <p>Дополненная реальность (augmented reality, AR) Дополненная реальность (augmented reality, AR) — многообещающая мобильная технология, которая активно…</p>
+                        </div>
+                    </div>
+
+                    <div class="infoshel-main-blog__slider-block">
+                        <img src="img/blog/bitmap-3.jpg" alt="3">
+                        <div class="infoshel-main-blog__slider-text">
+                            <span>Дополненная реальность (augmented reality, AR)</span>
+                            <p>Дополненная реальность (augmented reality, AR) Дополненная реальность (augmented reality, AR) — многообещающая мобильная технология, которая активно…</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="infoshel-main-card">
+            <!--div id="map1"></div>
+            <div id="map2"></div-->
+            <div id="map"></div>
+            <div class="map-mobil"></div>
+            <div class="infoshel-container">
+                <div class="with-full-map">
+                    <div class="infoshel-main-card__accordion">
+                        <p class="infoshel-main-card__accordion__title infoshel-main-card__accordion__title-top">Контакты:</p>
+                        <div id="accordion">
+                            <h3>Россия, г. Москва<span class="infoshel-main-card__accordion-checkon"></span></h3>
+                            <div>
+                                <p><b>Адрес:</b> ст. метро Маяковская, 1-я Тверская-Ямская улица, 16/23, оф. 8</p>
+                                <p><b>Телефон</b>/факс: (495) 215-51-82</p>
+                                <p><b>E-mail:</b> info@infoshell.ru</p>
+                            </div>
+                            <h3><span class="infoshel-main-card__accordion-pointblack"></span>Россия, г. Санкт-Петербург <span class="infoshel-main-card__accordion-checkon"></span></h3>
+                            <div>
+                                <p><b>Адрес:</b> ст. метро Маяковская, 1-я Тверская-Ямская улица, 16/23, оф. 8</p>
+                                <p><b>Телефон</b>/факс: (495) 215-51-82</p>
+                                <p><b>E-mail:</b> info@infoshell.ru</p>
+                            </div>
+                            <h3><span class="infoshel-main-card__accordion-pointblack"></span>Россия, г. Томск <span class="infoshel-main-card__accordion-checkon"></span></h3>
+                            <div>
+                                <p><b>Адрес:</b> ст. метро Маяковская, 1-я Тверская-Ямская улица, 16/23, оф. 8</p>
+                                <p><b>Телефон</b>/факс: (495) 215-51-82</p>
+                                <p><b>E-mail:</b> info@infoshell.ru</p>
+                            </div>
+                            <h3><span class="infoshel-main-card__accordion-pointblack"></span>Россия, г. Улан-Удэ <span class="infoshel-main-card__accordion-checkon"></span></h3>
+                            <div>
+                                <p><b>Адрес:</b> ст. метро Маяковская, 1-я Тверская-Ямская улица, 16/23, оф. 8</p>
+                                <p><b>Телефон</b>/факс: (495) 215-51-82</p>
+                                <p><b>E-mail:</b> info@infoshell.ru</p>
+                            </div>
+                        </div>
+                        <p class="infoshel-main-card__accordion__title infoshel-main-card__accordion__title-bottom">Мы в социальных сетях:</p>
+                        <div class="infoshel-main-card__accordion-list">
+                            <a class="infoshel-main-card__accordion-link infoshel-main-card__accordion-link-vk" href="#"></a>
+                            <a class="infoshel-main-card__accordion-link infoshel-main-card__accordion-link-fb" href="#"></a>
+                            <a class="infoshel-main-card__accordion-link infoshel-main-card__accordion-link-in" href="#"></a>
+                            <a class="infoshel-main-card__accordion-link infoshel-main-card__accordion-link-bh" href="#"></a>
+                        </div>
+                    </div>
+
+                    <div class="infoshel-main-card__accordion infoshel-main-card__accordion-write">
+                        <div id="accordion-1">
+                            <h3>Написать нам<span class="infoshel-main-card__accordion-checkon"></span></h3>
+                            <div>
+                                <p>Адрес: ст. метро Маяковская, 1-я Тверская-Ямская улица, 16/23, оф. 8</p>
+                                <p>Телефон/факс: (495) 215-51-82</p>
+                                <p>E-mail: info@infoshell.ru</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="infoshel-footer">
+        <div class="infoshel-container infoshel-footer__container">
+            <div class="infoshel-footer__container-logo">
+                <a href="#"></a>
+            </div>
+            <div class="infoshel-footer__container-download">
+                <a href="#">Скачать презентацию о компании <span></span></a>
+            </div>
+            <div class="infoshel-footer__container-phone">
+                <p>Мск: +7 (495) 215 51 82</p>
+                <p>СПб: +7 (812) 242 80 58</p>
+                <a href="#"><span></span>Заказать звонок</a>
+            </div>
+            <div class="infoshel-footer__container-link">
+                <a href="#"></a>
+            </div>
+        </div>
+    </footer>
+</div>
+<div class="side-menu">
+    <div class="side-menu__header">
+        <a class="side-menu__header-logo" href="index.html">
+            <img src="img/main.svg" alt="">
+        </a>
+        <span class="side-menu__header-close"></span>
+    </div>
+    <div class="side-menu__menu">
+        <ul>
+            <li class="side-menu__menu-link active"><a href="#">Услуги</a></li>
+            <li class="side-menu__menu-link"><a href="#">Портфолио</a></li>
+            <li class="side-menu__menu-link"><a href="#">Компания</a></li>
+            <li class="side-menu__menu-link"><a href="#">Блог</a></li>
+            <li class="side-menu__menu-link"><a href="#">Контакты</a></li>
+        </ul>
+    </div>
+    <div class="side-menu__menu-btn">
+        <button class="infoshel-button side-menu__menu-button">Оставить заявку</button>
+        <button class="infoshel-button side-menu__menu-button side-menu__menu-button-white">Заказать звонок</button>
+    </div>
+    <div class="side-menu__social-links">
+        <a class="side-menu__social-link side-menu__social-link-vk" href="#"></a>
+        <a class="side-menu__social-link side-menu__social-link-fb" href="#"></a>
+        <a class="side-menu__social-link side-menu__social-link-dr" href="#"></a>
+        <a class="side-menu__social-link side-menu__social-link-bh" href="#"></a>
+    </div>
+</div>
+
+
+
+
+<script src="https://infoshell.ru/wp-content/themes/mark_up/js1/main2.js?v=1.1"></script>
+<script src="https://infoshell.ru/wp-content/themes/mark_up/js/home.js"></script>
+<script src="https://infoshell.ru/wp-content/themes/mark_up/js1/ajaxForms.js?v=1.1"></script>
+
+<link rel="stylesheet" href="https://infoshell.ru/wp-content/themes/mark_up/calc/css/bootstrap.calc-icons.css?v=20190208" />
+<link rel="stylesheet" href="https://infoshell.ru/wp-content/themes/mark_up/calc/css/styles.css?v=20190208" />
+<!--link rel="stylesheet" href="https://infoshell.ru/wp-content/themes/mark_up/calc/css/infoshell-calc.all.min.css?20190208" /-->
+<!--[if lt IE 9]><script src="https://infoshell.ru/wp-content/themes/mark_up/calc/js/html5shiv.respond.min.js"></script><![endif]-->
+
+<!--[if lt IE 8]><link rel="stylesheet" href="https://infoshell.ru/wp-content/themes/mark_up/calc/css/ie7.css">
+<script src="https://infoshell.ru/wp-content/themes/mark_up/calc/js/ie7.js"></script><![endif]-->
+
+
+<script type="text/javascript" src="https://infoshell.ru/wp-content/themes/mark_up/calc/js/bootstrap.js"></script>
+<script type="text/javascript" src="https://infoshell.ru/wp-content/themes/mark_up/calc/js/calc.js?v=20190208"></script>
+
+<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&amp;subset=cyrillic" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&amp;subset=cyrillic" rel="stylesheet">
+<!--Мои js-->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script src="libs/OwlCarousel2/dist/owl.carousel.js"></script>
+<script src="js/main.js"></script>
+<script>
+    $(".infoshel-main-slider__container").owlCarousel({
+        nav:true,
+        loop:true,
+        items:1
+    });
+
+    $(".infoshel-main-ourWork__slider").owlCarousel({
+        nav:true,
+        items:1,
+        margin:1,
+        loop:true,
+        autoWidth:true,
+        center:true,
+        dots: false
+    });
+
+    $(".infoshel-main-blog__slider").owlCarousel({
+        nav:true,
+        loop:true,
+        dots: false,
+        button: true,
+        items:3,
+        responsive:{
+            0:{
+                items:1,
+                nav:true,
+                autoWidth:true,
+                center:true
+            },
+            576:{
+                items:1,
+                nav:true
+            },
+            650:{
+                items:2,
+                nav:false
+            },
+            1000:{
+                items:3,
+                nav:true,
+            }
+        }
+    });
+
+    $(".infoshel-main-services__logos").owlCarousel({
+        nav:true,
+        items:10,
+        dots: false,
+        responsive:{
+            0:{
+                items:1,
+                nav:true,
+                autoWidth:true,
+                loop: true,
+            },
+            1200:{
+                items:10,
+                nav:true,
+                loop:false,
+                autoWidth: false,
+            }
+        }
+    });
+
+
+</script>
+<script type="text/javascript">
+    $( function() {
+        $( "#accordion" ).accordion({
+            heightStyle: "content",
+            icons: false,
+            collapsible: true
+        });
+    } );
+
+    $( function() {
+        $( "#accordion-1" ).accordion({
+            heightStyle: "content",
+            icons: false,
+            collapsible: true
+        });
+    } );
+</script>
+
+</body>
+</html>
