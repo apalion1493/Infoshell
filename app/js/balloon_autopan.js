@@ -140,10 +140,7 @@ function init () {
 
 function Map_Width(myMap){
     var _window_w=jQuery(window).width();
-    document.getElementById('map').scrollIntoView();
-    //myMap.destroy();// Деструктор карты
-    //myMap = null;
-    //console.log('test1delete');
+    // document.getElementById('map').scrollIntoView();
 
 
     if (_window_w < 768) {
