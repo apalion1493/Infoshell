@@ -1,0 +1,154 @@
+.infoshel-main-form {
+  background-color: #373838;
+}
+
+.infoshel-main-form__container {
+  padding-top: 143px;
+  padding-bottom: 148px;
+  font-family: 'Montserrat', sans-serif;
+
+  h1 {
+    color: #F9F9F9;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+  }
+}
+
+.infoshel-main-form__title-text {
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  color: #f4f4f4;
+  line-height: 1.5;
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.infoshel-main-form__form-left {
+  max-width: 384px;
+  width: 100%;
+}
+
+.infoshel-main-form__form-right {
+  width: 100%;
+  margin-left: 23px;
+}
+
+.infoshel-main-form__form {
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 148px;
+
+  label {
+    color: #f9f9f9;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 9px;
+  }
+
+  .form-group {
+    margin-bottom: 24px;
+  }
+
+  input {
+    height: 54px;
+    border-radius: 2px;
+    background-color: #ffffff;
+  }
+}
+
+textarea {
+  resize: none;
+  height: 265px !important;
+  border-radius: 2px;
+  background-color: #ffffff;
+}
+
+.infoshel-main-form__block-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.infoshel-main-form__block-btn-download {
+  display: flex;
+  color: #ffffff;
+  align-items: center;
+  cursor: pointer;
+
+  span {
+    background: url("../../img/form-page/attach-file.svg") no-repeat center;
+    background-size: 100% auto;
+    width: 46px;
+    height: 46px;
+    margin-right: 15.5px;
+    display: block;
+  }
+
+  p {
+    margin-bottom: 0;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+  }
+}
+
+.infoshel-main-form__form-btn {
+  height: 46px;
+}
+
+@media (max-width: 940px) {
+  .infoshel-main-form__block-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .infoshel-main-form__block-btn-download {
+    margin-bottom: 27px;
+  }
+}
+
+@media (max-width: 767.98px) {
+   .infoshel-main-form__block-btn-download-text-bottom {
+    font-size: 13px !important;
+  }
+
+  .infoshel-main-form__title-text {
+    display: none;
+  }
+
+  .infoshel-main-form__form {
+    margin-top: 21px;
+  }
+
+  .infoshel-main-form__container h1 {
+    font-size: 24px;
+  }
+
+  .infoshel-container {
+    padding-top: 31px;
+  }
+
+  .infoshel-main-form__form-btn {
+    width: 100%;
+  }
+}
+
+@media (max-width: 700px) {
+  .infoshel-main-form__form {
+    flex-direction: column;
+  }
+
+  .infoshel-main-form__form-right {
+    margin-left: 0;
+  }
+
+  .infoshel-main-form__form-left {
+    max-width: 100%;
+  }
+}

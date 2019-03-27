@@ -18,3 +18,15 @@ $(function() {
 var foo = jQuery('.infoshel-main-slider__img-six');
 
 foo.detach(); //удаляем элемент
+
+$(document).ready(function(){
+    $('.infoshel-header__container-requestCall').hover(
+        function() {
+            $( this ).addClass('class-name1');
+            $( this ).removeClass('class-name2');
+        }, function() {
+            $( this ).removeClass('class-name1');
+            $( this ).addClass('class-name2');
+        }
+    );
+});
