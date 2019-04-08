@@ -116,7 +116,7 @@ function init () {
 
         // Создание метки с пользовательским макетом балуна.
         myPlacemark = window.myPlacemark = new ymaps.Placemark([59.962552, 30.314054], {
-            balloonContent: '<img src="img/main.svg" width="72" height="46">' + '<span><b>Saint-Petersburg:</b> Kamennoostrovskiy Avenue, 26-28</span>'
+            balloonContent: '<img src="img/main.svg" width="72" height="76">' + '<span><b>Saint-Petersburg:</b> Kamennoostrovskiy Avenue, 26-28</span>'
         }, {
             balloonShadow: false,
             balloonLayout: MyBalloonLayout,
@@ -144,10 +144,8 @@ function Map_Width(myMap){
 
 
     if (_window_w < 768) {
-        console.log('test1');
-        myMap.panTo([59.943552, 30.314054]);
+        myMap.panTo([59.940552, 30.314054]);
     } else {
-        console.log('test2');
         myMap.panTo([59.962552, 30.294054]);
     }
 

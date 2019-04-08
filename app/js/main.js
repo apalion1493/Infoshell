@@ -15,9 +15,9 @@ $(function() {
 });
 
 
-var foo = jQuery('.infoshel-main-slider__img-six');
-
-foo.detach(); //удаляем элемент
+// var foo = jQuery('.infoshel-main-slider__img-six');
+//
+// foo.detach(); //удаляем элемент
 
 $(document).ready(function(){
     $('.infoshel-header__container-requestCall').hover(

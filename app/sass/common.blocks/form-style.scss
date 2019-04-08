@@ -3,8 +3,8 @@
 }
 
 .infoshel-main-form__container {
-  padding-top: 143px;
-  padding-bottom: 148px;
+  padding-top: 30px;
+  padding-bottom: 0;
   font-family: 'Montserrat', sans-serif;
 
   h1 {
@@ -41,7 +41,7 @@
   margin-top: 70px;
   display: flex;
   justify-content: space-between;
-  padding-bottom: 148px;
+  padding-bottom: 30px;
 
   label {
     color: #f9f9f9;
@@ -64,7 +64,7 @@
 
 textarea {
   resize: none;
-  height: 265px !important;
+  height: 275px!important;
   border-radius: 2px;
   background-color: #ffffff;
 }
@@ -101,6 +101,10 @@ textarea {
   height: 46px;
 }
 
+.modal-body {
+  background-color: #373838
+}
+
 @media (max-width: 940px) {
   .infoshel-main-form__block-btn {
     display: flex;
@@ -128,10 +132,6 @@ textarea {
 
   .infoshel-main-form__container h1 {
     font-size: 24px;
-  }
-
-  .infoshel-container {
-    padding-top: 31px;
   }
 
   .infoshel-main-form__form-btn {

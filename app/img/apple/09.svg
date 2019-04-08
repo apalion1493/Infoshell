@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="54px" height="54px" viewBox="0 0 54 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>F991236B-9986-412F-BC80-13880B4E0197</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons/Benefits/05" transform="translate(0.000000, -1.000000)">
+            <g id="icon">
+                <g transform="translate(3.000000, 0.000000)">
+                    <rect id="Rectangle" fill-rule="nonzero" x="0" y="0" width="52" height="52"></rect>
+                    <path d="M25,52 C38.3251953,52 42.9277344,41.9820638 42.9277344,33.1455078 C42.9277344,24.3089518 33.836556,14.2910156 25,14.2910156 C16.163444,14.2910156 6.1784668,24.3089518 6.1784668,33.1455078 C6.1784668,41.9820638 11.6748047,52 25,52 Z" id="Oval" fill="#2E2E2E" fill-rule="nonzero"></path>
+                    <text id="$" font-family="Montserrat-Black, Montserrat" font-size="26" font-weight="700" letter-spacing="-1.1284" fill="#FFFFFF">
+                        <tspan x="16" y="43">$</tspan>
+                    </text>
+                    <path d="M12.9698988,5.01911423 L22.1855469,16.0222168 L27.8088379,16.0222168 L36.7385291,4.84720194 C37.083301,4.41573787 37.0130232,3.78647426 36.5815591,3.44170233 C36.2950464,3.21275732 35.9061973,3.1590157 35.5683275,3.30166673 C32.0962461,4.76760384 29.7153974,5.56752027 28.4257813,5.70141602 C24.3309584,6.12656527 24.521403,4.15429687 20.1374512,4.15429687 C18.155278,4.15429687 16.0978024,3.9040208 13.9650244,3.40346866 L13.9650273,3.40345605 C13.4273452,3.27726478 12.8891694,3.61084407 12.7629781,4.14852623 C12.6910233,4.45511516 12.7676921,4.77768779 12.9698988,5.01911423 Z" id="Path-2" fill="#2E2E2E" fill-rule="nonzero"></path>
+                    <path d="M5.73195184,17.8107323 C6.52290051,19.1842675 8.39488692,19.1842675 11.3479111,17.8107323 C13.7144617,16.7099827 15.9215797,15.1451021 17.5564882,14.5031738 C18.5066172,14.1301164 20.5014172,14.1301164 23.5408882,14.5031738" id="Path-5" stroke="#2E2E2E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
