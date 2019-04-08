@@ -1,7 +1,7 @@
-https://apalion1493.github.io/Infoshell/app/index.html
+https://grsvtl.github.io/Infoshell/app/index.php
 
-https://apalion1493.github.io/Infoshell/app/web-page.html
+https://grsvtl.github.io/Infoshell/app/web-page.php
 
-https://apalion1493.github.io/Infoshell/app/ios-page.html
+https://grsvtl.github.io/Infoshell/app/ios-page.php
 
-https://apalion1493.github.io/Infoshell/app/android-page.html
+https://grsvtl.github.io/Infoshell/app/android-page.php
