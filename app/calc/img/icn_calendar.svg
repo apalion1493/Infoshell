@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34">
+<g fill="none" fill-rule="evenodd">
+	<path class="svg-fill" fill="#fff" d="M12.429 24.367h4v3.967h-4zM12.429 14.167h4v3.967h-4z"/>
+	<path class="svg-stroke" stroke="#fff" d="M12.929 19.767h3v2.967h-3z"/>
+	<path class="svg-fill" fill="#fff" d="M7.286 19.267h4v3.967h-4zM7.286 14.167h4v3.967h-4zM7.286 24.367h4v3.967h-4zM22.714 14.167h4v3.967h-4z"/>
+	<path class="svg-fill" fill="#fff" fill-rule="nonzero" d="M32.429 2.267h-4v-1.7A.569.569 0 0 0 27.857 0h-4a.569.569 0 0 0-.571.567v1.7H10.714v-1.7A.569.569 0 0 0 10.143 0h-4a.569.569 0 0 0-.572.567v1.7h-4A.569.569 0 0 0 1 2.833v30.6c0 .314.255.567.571.567H32.43a.569.569 0 0 0 .571-.567v-30.6a.569.569 0 0 0-.571-.566zm-4.572 15.866v11.334H6.143V13.033h21.714v5.1zm4-9.633H2.143V3.4H5.57v1.7c0 .313.256.567.572.567h4a.569.569 0 0 0 .571-.567V3.4h12.572v1.7c0 .313.255.567.571.567h4a.569.569 0 0 0 .572-.567V3.4h3.428v5.1z"/>
+	<path class="svg-stroke" stroke="#fff" d="M23.214 19.767h3v2.967h-3z"/>
+	<path class="svg-fill" fill="#fff" d="M22.714 24.367h4v3.967h-4zM17.571 24.367h4v3.967h-4z"/>
+	<path class="svg-stroke" stroke="#fff" d="M18.071 19.767h3v2.967h-3z"/>
+	<path class="svg-fill" fill="#fff" d="M17.571 14.167h4v3.967h-4z"/>
+</g>
+</svg>
