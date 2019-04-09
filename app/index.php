@@ -15,6 +15,7 @@
     <script src="js/balloon_autopan.js" type="text/javascript"></script>
     <link rel="stylesheet" href="libs/animate.css/animate.css">
     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+
     <link rel="stylesheet" href="libs/OwlCarousel2/dist/assets/owl.carousel.css">
     <link rel="stylesheet" href="libs/OwlCarousel2/dist/assets/owl.theme.default.css">
     <link rel="stylesheet" href="libs/OwlCarousel2/dist/assets/owl.theme.green.css">
@@ -462,232 +463,26 @@
                 <button class="infoshel-button infoshel-main-reviews__btn wow fadeInUp">Все отзывы и письма</button>
             </div>
         </section>
-        <section class="infoshel-main-calculator">
-            <div class="infoshel-container">
-                <h2 class="infoshel-h2 infoshel-main-calculator__h2">Калькулятор расчета конечной стоимости работ</h2>
-                <p class="infoshel-main-calculator__title">Узнайте стоимость вашего приложения, ответив на несколько простых вопросов!</p>
-                <!--<div class="infoshel-main-calculator__list-steps">-->
-                    <!--<div class="infoshel-main-calculator__list-step active">-->
-                        <!--<span>1</span>-->
-                        <!--<p>Выберите платформу</p>-->
-                    <!--</div>-->
-
-                    <!--<div class="infoshel-main-calculator__list-step">-->
-                        <!--<span>2</span>-->
-                        <!--<p>Выберите устройство</p>-->
-                    <!--</div>-->
-
-                    <!--<div class="infoshel-main-calculator__list-step">-->
-                        <!--<span>3</span>-->
-                        <!--<p>Сложность приложения</p>-->
-                    <!--</div>-->
-
-                    <!--<div class="infoshel-main-calculator__list-step">-->
-                        <!--<span>4</span>-->
-                        <!--<p>Дизайн</p>-->
-                    <!--</div>-->
-
-                    <!--<div class="infoshel-main-calculator__list-step">-->
-                        <!--<span>5</span>-->
-                        <!--<p>Ориентация</p>-->
-                    <!--</div>-->
-
-                    <!--<div class="infoshel-main-calculator__list-step">-->
-                        <!--<span>6</span>-->
-                        <!--<p>Авторизация</p>-->
-                    <!--</div>-->
-                <!--</div>-->
-                <!--<div class="infoshel-main-calculator__platforms">-->
-                    <!--<div class="infoshel-main-calculator__platform infoshel-main-calculator__platform-ios active">&lt;!&ndash;для активного состояния добавить класс active&ndash;&gt;-->
-                        <!--<div class="infoshel-main-calculator__platform-icon infoshel-main-calculator__platform-iconIos"></div>-->
-                        <!--<p>Мобильная платформа iOS</p>-->
-                    <!--</div>-->
-                    <!--<div class="infoshel-main-calculator__platform infoshel-main-calculator__platform-android ">&lt;!&ndash;для активного состояния добавить класс active&ndash;&gt;-->
-                        <!--<div class="infoshel-main-calculator__platform-icon infoshel-main-calculator__platform-iconAndroid"></div>-->
-                        <!--<p>Мобильная платформа Android</p>-->
-                    <!--</div>-->
-                    <!--<div class="infoshel-main-calculator__platform infoshel-main-calculator__platform-web ">&lt;!&ndash;для активного состояния добавить класс active&ndash;&gt;-->
-                        <!--<div class="infoshel-main-calculator__platform-icon infoshel-main-calculator__platform-iconWeb"></div>-->
-                        <!--<p>Веб-сайт</p>-->
-                    <!--</div>-->
-                <!--</div>-->
-                <!--<div class="infoshel-main-calculator__btn-group">-->
-                    <!--<button class="infoshel-button  infoshel-main-calculator__btn-prev">Назад</button>-->
-                    <!--<button class="infoshel-button infoshel-main-calculator__btn-next">Далее</button>-->
-                <!--</div>-->
-
-                <form id="calc_form" action="https://infoshell.ru/wp-content/themes/mark_up/calc/calc_form.php" method="POST" accept-charset="utf-8">
-
-                    <ul class="nav nav-tabs nav-justified" id="calcTab" role="tablist">
-                        <li class="nav-item"><a id="calc_platform-tab" href="#calc_platform" class="nav-link active"  aria-selected="true"aria-controls="calc_platform" data-toggle="tab" role="tab">Выберите платформу</a></li><li class="nav-item"><a id="calc_device-tab" href="#calc_device" class="nav-link " aria-selected="false"aria-controls="calc_device" data-toggle="tab" role="tab">Выберите устройство</a></li><li class="nav-item"><a id="calc_level-tab" href="#calc_level" class="nav-link " aria-selected="false"aria-controls="calc_level" data-toggle="tab" role="tab">Сложность приложения</a></li><li class="nav-item"><a id="calc_design-tab" href="#calc_design" class="nav-link " aria-selected="false"aria-controls="calc_design" data-toggle="tab" role="tab">Дизайн</a></li><li class="nav-item"><a id="calc_rotate-tab" href="#calc_rotate" class="nav-link " aria-selected="false"aria-controls="calc_rotate" data-toggle="tab" role="tab">Ориентация</a></li><li class="nav-item"><a id="calc_auth-tab" href="#calc_auth" class="nav-link " aria-selected="false"aria-controls="calc_auth" data-toggle="tab" role="tab">Авторизация</a></li><li class="nav-item"><a id="calc_content-tab" href="#calc_content" class="nav-link " aria-selected="false"aria-controls="calc_content" data-toggle="tab" role="tab">Наполнение</a></li><li class="nav-item"><a id="calc_society-tab" href="#calc_society" class="nav-link " aria-selected="false"aria-controls="calc_society" data-toggle="tab" role="tab">Социальное взаимодействие</a></li><li class="nav-item"><a id="calc_payment-tab" href="#calc_payment" class="nav-link " aria-selected="false"aria-controls="calc_payment" data-toggle="tab" role="tab">Оплата и прием платежей</a></li><li class="nav-item"><a id="calc_extra-tab" href="#calc_extra" class="nav-link " aria-selected="false"aria-controls="calc_extra" data-toggle="tab" role="tab">Дополнительно</a></li><li class="nav-item"><a id="calc_admin-tab" href="#calc_admin" class="nav-link " aria-selected="false"aria-controls="calc_admin" data-toggle="tab" role="tab">Администрирование</a></li>        <li class="nav-item"><a class="nav-link" id="calc_send-tab" data-toggle="tab" href="#calc_send" role="tab" aria-controls="calc_send" aria-selected="false">Отправить</a></li>
-                    </ul>
-
-                    <div class="tab-content">
-                        <div id="calc_platform" class="tab-pane fade show active" aria-labelledby="calc_platform-tab" role="tabpanel"><div class="btn-group btn-group-toggle" data-toggle="buttons"><label class="btn btn-secondary">
-                            <input type="checkbox" name="platform_apple" id="platform_apple" value="Мобильная платформа iOS" autocomplete="off" />
-                            <i class="icn icn-apple"></i><span>Мобильная платформа iOS</span></label><label class="btn btn-secondary">
-                            <input type="checkbox" name="platform_android" id="platform_android" value="Мобильная платформа Android" autocomplete="off" />
-                            <i class="icn icn-android"></i><span>Мобильная платформа Android</span></label><label class="btn btn-secondary">
-                            <input type="checkbox" name="platform_web" id="platform_web" value="Веб-сайт" autocomplete="off" />
-                            <i class="icn icn-laptop"></i><span>Веб-сайт</span></label></div></div><div id="calc_device" class="tab-pane fade " aria-labelledby="calc_device-tab" role="tabpanel"><div class="btn-group btn-group-toggle" data-toggle="buttons"><label class="btn btn-secondary">
-                        <input type="checkbox" name="device_mobile" id="device_mobile" value="Смартфон" autocomplete="off" />
-                        <i class="icn icn-mobile"></i><span>Смартфон</span></label><label class="btn btn-secondary">
-                        <input type="checkbox" name="device_tablet" id="device_tablet" value="Планшет" autocomplete="off" />
-                        <i class="icn icn-tablet"></i><span>Планшет</span></label><label class="btn btn-secondary">
-                        <input type="checkbox" name="device_watch" id="device_watch" value="Часы" autocomplete="off" />
-                        <i class="icn icn-watch"></i><span>Часы</span></label><label class="btn btn-secondary">
-                        <input type="checkbox" name="device_tv" id="device_tv" value="Телевизор" autocomplete="off" />
-                        <i class="icn icn-tv"></i><span>Телевизор</span></label></div></div><div id="calc_level" class="tab-pane fade " aria-labelledby="calc_level-tab" role="tabpanel"><div class="btn-group btn-group-toggle" data-toggle="buttons"><label class="btn btn-secondary">
-                        <input type="radio" name="level" id="level_S7" value="До 7 экранов" autocomplete="off" />
-                        <i class="icn ">S</i><span>До 7 экранов</span></label><label class="btn btn-secondary">
-                        <input type="radio" name="level" id="level_M15" value="До 15 экранов" autocomplete="off" />
-                        <i class="icn ">M</i><span>До 15 экранов</span></label><label class="btn btn-secondary">
-                        <input type="radio" name="level" id="level_L25" value="До 25 экранов" autocomplete="off" />
-                        <i class="icn ">L</i><span>До 25 экранов</span></label></div></div><div id="calc_design" class="tab-pane fade " aria-labelledby="calc_design-tab" role="tabpanel"><div class="btn-group btn-group-toggle" data-toggle="buttons"><label class="btn btn-secondary">
-                        <input type="radio" name="design" id="design_native" value="Нативные элементы" autocomplete="off" />
-                        <i class="icn icn-layout1"></i><span>Нативные элементы</span></label><label class="btn btn-secondary">
-                        <input type="radio" name="design" id="design_middle" value="Свой дизайн, несложные элементы" autocomplete="off" />
-                        <i class="icn icn-layout2"></i><span>Свой дизайн, несложные элементы</span></label><label class="btn btn-secondary">
-                        <input type="radio" name="design" id="design_top" value="Кастомный крутой дизайн" autocomplete="off" />
-                        <i class="icn icn-layout3"></i><span>Кастомный крутой дизайн</span></label></div></div><div id="calc_rotate" class="tab-pane fade " aria-labelledby="calc_rotate-tab" role="tabpanel"><div class="btn-group btn-group-toggle" data-toggle="buttons"><label class="btn btn-secondary">
-                        <input type="radio" name="rotate" id="rotate_book" value="Книжная" autocomplete="off" />
-                        <i class="icn "><svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34"><rect class="svg-stroke" width="23" height="30" x="5.5" y="1.5" fill="none" fill-rule="evenodd" stroke="#ffffff" stroke-width="3" rx="2"/></svg></i><span>Книжная</span></label><label class="btn btn-secondary">
-                        <input type="radio" name="rotate" id="rotate_album" value="Альбомная" autocomplete="off" />
-                        <i class="icn "><svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34"><rect class="svg-stroke" width="23" height="30" x="6" y="3" fill="none" fill-rule="evenodd" stroke="#ffffff" stroke-width="3" rx="2" transform="rotate(90 17.5 18)"/></svg></i><span>Альбомная</span></label><label class="btn btn-secondary">
-                        <input type="radio" name="rotate" id="rotate_book_album" value="книжная и альбомная" autocomplete="off" />
-                        <i class="icn "><svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34"><g class="svg-stroke" fill="none" fill-rule="evenodd" stroke="#ffffff" stroke-width="3"><rect width="19" height="23" x="1.5" y="1.5" rx="2"/><rect width="17" height="24" x="12" y="12" rx="2" transform="rotate(90 20.5 24)"/></g></svg></i><span>книжная и альбомная</span></label></div></div><div id="calc_auth" class="tab-pane fade " aria-labelledby="calc_auth-tab" role="tabpanel"><div class="btn-group btn-group-toggle" data-toggle="buttons"><label class="btn btn-secondary">
-                        <input type="checkbox" name="auth_email" id="auth_email" value="Email" autocomplete="off" />
-                        <i class="icn icn-at"></i><span>Email</span></label><label class="btn btn-secondary">
-                        <input type="checkbox" name="auth_tel" id="auth_tel" value="Телефон" autocomplete="off" />
-                        <i class="icn icn-tel"></i><span>Телефон</span></label><label class="btn btn-secondary">
-                        <input type="checkbox" name="auth_social" id="auth_social" value="Соц.сети" autocomplete="off" />
-                        <i class="icn icn-people"></i><span>Соц.сети</span></label></div></div><div id="calc_content" class="tab-pane fade " aria-labelledby="calc_content-tab" role="tabpanel"><div class="btn-group btn-group-toggle" data-toggle="buttons"><label class="btn btn-secondary">
-                        <input type="checkbox" name="content_news" id="content_news" value="Лента новостей" autocomplete="off" />
-                        <i class="icn icn-news"></i><span>Лента новостей</span></label><label class="btn btn-secondary">
-                        <input type="checkbox" name="content_profile" id="content_profile" value="Профиль пользователя" autocomplete="off" />
-                        <i class="icn icn-profile"></i><span>Профиль пользователя</span></label><label class="btn btn-secondary">
-                        <input type="checkbox" name="content_search" id="content_search" value="Поиск, фильтрация" autocomplete="off" />
-                        <i class="icn "><svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34"><g fill="none" fill-rule="nonzero"><path class="svg-fill" fill="#ffffff" d="M17.21 23.855v3.442a2 2 0 0 1-2 2h-1.376a2 2 0 0 1-2-2V21.75L1.115 9h13.157A12.45 12.45 0 0 0 13 14.5a12.47 12.47 0 0 0 4.21 9.355zM18.714 4c-1.24.803-2.33 1.82-3.216 3H2.025a1.5 1.5 0 0 1 0-3h16.69z"/><path class="svg-stroke" stroke="#ffffff" stroke-width="4" d="M31.559 22.798l-3.392-3.633 1.204-1.361a6.5 6.5 0 1 0-2.541 1.767l1.259-.484 3.467 3.714.003-.003z"/></g></svg></i><span>Поиск, фильтрация</span></label><label class="btn btn-secondary">
-                        <input type="checkbox" name="content_catalog" id="content_catalog" value="Каталоги, категории" autocomplete="off" />
-                        <i class="icn icn-catalog"></i><span>Каталоги, категории</span></label><label class="btn btn-secondary">
-                        <input type="checkbox" name="content_upload" id="content_upload" value="Загрузка фото, аудио, видео" autocomplete="off" />
-                        <i class="icn "><svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34"><g fill="none" fill-rule="evenodd"><path class="svg-fill" fill="#ffffff" fill-rule="nonzero" d="M10 10.875c-1.326 0-2.4 1.092-2.4 2.438S8.674 15.75 10 15.75c1.325 0 2.4-1.091 2.4-2.438 0-1.345-1.075-2.437-2.4-2.437zm6.4-2.438h-1.92a.713.713 0 0 1-.632-.462l-.496-1.513A.714.714 0 0 0 12.72 6H7.28a.713.713 0 0 0-.632.462l-.496 1.513a.714.714 0 0 1-.632.463H3.6c-.88 0-1.6.73-1.6 1.624v7.313C2 18.269 2.72 19 3.6 19h12.8c.88 0 1.6-.731 1.6-1.625v-7.313c0-.893-.72-1.624-1.6-1.624zM10 17.376c-2.21 0-4-1.819-4-4.063C6 11.07 7.79 9.25 10 9.25c2.209 0 4 1.819 4 4.063 0 2.243-1.791 4.062-4 4.062zm5.84-6.176a.564.564 0 0 1-.56-.569c0-.314.25-.569.56-.569.31 0 .56.255.56.57 0 .313-.25.568-.56.568z"/><g class="svg-fill" fill="#ffffff"><path fill-rule="nonzero" d="M30.63 14.121v-1.784a1 1 0 0 0-1.128-.992l-7.812 1.013a1 1 0 0 0-.871.992V15H19V9.062c0-.893-.72-1.624-1.6-1.624h-1.073c.193-.307.462-.56.78-.736A3.204 3.204 0 0 1 16 4.286c0-1.776 1.427-3.215 3.188-3.215 1.76 0 3.187 1.44 3.187 3.215 0 .827-.318 1.573-.827 2.143h1.948a3.75 3.75 0 0 1-1.121-2.679c0-2.071 1.665-3.75 3.719-3.75s3.718 1.679 3.718 3.75c0 1.364-.729 2.546-1.809 3.202.454.394.747.97.747 1.62l3.188-2.143c.587 0 1.062.479 1.062 1.071v6.429C33 14.52 32.525 15 31.937 15l-1.307-.879zM19.188 6.43c1.173 0 2.125-.96 2.125-2.143a2.134 2.134 0 0 0-2.125-2.143c-1.174 0-2.125.96-2.125 2.143 0 1.183.951 2.143 2.125 2.143zm6.906.005c1.47 0 2.662-1.201 2.662-2.684s-1.192-2.684-2.662-2.684-2.662 1.201-2.662 2.684c0 1.482 1.191 2.684 2.662 2.684zM16.84 10.2a.564.564 0 0 1-.56-.569c0-.314.25-.569.56-.569.31 0 .56.255.56.57 0 .313-.25.568-.56.568z"/><path d="M29.88 12.089a.347.347 0 0 0-.277-.086l-7.73 1.022a.356.356 0 0 0-.305.354v8.593a2.747 2.747 0 0 0-1.933-.775C18.182 21.197 17 22.275 17 23.6S18.182 26 19.635 26c1.453 0 2.635-1.077 2.635-2.401v-7.3l7.027-.929v4.295a2.708 2.708 0 0 0-1.907-.767c-1.44 0-2.61 1.078-2.61 2.402s1.171 2.4 2.61 2.4c1.439 0 2.61-1.076 2.61-2.4v-8.942a.36.36 0 0 0-.12-.269zM11.952 27.236a.454.454 0 0 0-.453-.3h-3.5v-4.432A.483.483 0 0 0 7.5 22H4.5a.484.484 0 0 0-.5.504v4.432H.5c-.208 0-.359.1-.452.3a.51.51 0 0 0 .078.552l5.546 6.055a.51.51 0 0 0 .734 0l5.468-6.055a.51.51 0 0 0 .078-.552z"/></g></g></svg></i><span>Загрузка фото, аудио, видео</span></label><label class="btn btn-secondary">
-                        <input type="checkbox" name="content_editfoto" id="content_editfoto" value="Редактирование фото, видео" autocomplete="off" />
-                        <i class="icn "><svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34"><g fill="none" fill-rule="evenodd"><g class="svg-fill" fill="#ffffff"><path d="M1.212 10.354v-3.74l5.402-5.401h3.74l-9.142 9.141zm0 5.454v-3.74L12.068 1.213h3.74L1.211 15.808zm15.15-2.528v3.082h-3.083l3.082-3.082zm0-5.454v3.74l-4.796 4.796h-3.74l8.535-8.536zm0-5.453v3.74L6.111 16.362h-3.74l13.99-13.99zM1.211 4.9V2.425c.67-.001 1.211-.543 1.212-1.212H4.9L1.212 4.9zM1.212 0H0v1.213h1.212zM33.328 32.723h-.606v1.212h1.212v-1.213h-.604zM32.722 0v1.213h1.212V0z"/><path d="M24.027 9.696l-.03 2.472-2.667-2.714c-.007-.01-.008-.02-.014-.03a.597.597 0 0 1-.043-.063.6.6 0 0 1-.031-.093c-.005-.016-.013-.03-.016-.047a.601.601 0 0 1-.01-.203c.001-.016.007-.03.01-.046a.597.597 0 0 1 .083-.207c.008-.012.012-.026.021-.038l2.666-2.545.03 2.302h8.696v-6.06a1.213 1.213 0 0 1-1.212-1.211H17.573v15.755a.606.606 0 0 1-.606.606H1.212V31.51c.67 0 1.211.543 1.212 1.212H9.09v-6.696H6.429l2.903-2.696c.01-.007.02-.008.03-.014a.596.596 0 0 1 .063-.044.596.596 0 0 1 .093-.031c.016-.005.03-.012.047-.016a.6.6 0 0 1 .203-.01c.016.002.03.007.046.01a.596.596 0 0 1 .207.084c.013.008.026.012.038.02L13 26.028h-2.698v6.696H31.51c0-.67.543-1.211 1.212-1.212V9.696h-8.695zM.606 32.723H0v1.212h1.212v-1.213H.61z"/></g></g></svg></i><span>Редактирование фото, видео</span></label><label class="btn btn-secondary">
-                        <input type="checkbox" name="content_calendar" id="content_calendar" value="Календарь, выбор дат" autocomplete="off" />
-                        <i class="icn "><svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34"><g fill="none" fill-rule="evenodd"><path class="svg-fill" fill="#ffffff" d="M12.429 24.367h4v3.967h-4zM12.429 14.167h4v3.967h-4z"/><path class="svg-stroke" stroke="#ffffff" d="M12.929 19.767h3v2.967h-3z"/><path class="svg-fill" fill="#ffffff" d="M7.286 19.267h4v3.967h-4zM7.286 14.167h4v3.967h-4zM7.286 24.367h4v3.967h-4zM22.714 14.167h4v3.967h-4z"/><path class="svg-fill" fill="#ffffff" fill-rule="nonzero" d="M32.429 2.267h-4v-1.7A.569.569 0 0 0 27.857 0h-4a.569.569 0 0 0-.571.567v1.7H10.714v-1.7A.569.569 0 0 0 10.143 0h-4a.569.569 0 0 0-.572.567v1.7h-4A.569.569 0 0 0 1 2.833v30.6c0 .314.255.567.571.567H32.43a.569.569 0 0 0 .571-.567v-30.6a.569.569 0 0 0-.571-.566zm-4.572 15.866v11.334H6.143V13.033h21.714v5.1zm4-9.633H2.143V3.4H5.57v1.7c0 .313.256.567.572.567h4a.569.569 0 0 0 .571-.567V3.4h12.572v1.7c0 .313.255.567.571.567h4a.569.569 0 0 0 .572-.567V3.4h3.428v5.1z"/><path class="svg-stroke" stroke="#ffffff" d="M23.214 19.767h3v2.967h-3z"/><path class="svg-fill" fill="#ffffff" d="M22.714 24.367h4v3.967h-4zM17.571 24.367h4v3.967h-4z"/><path class="svg-stroke" stroke="#ffffff" d="M18.071 19.767h3v2.967h-3z"/><path  class="svg-fill"fill="#ffffff" d="M17.571 14.167h4v3.967h-4z"/></g></svg></i><span>Календарь, выбор дат</span></label><label class="btn btn-secondary">
-                        <input type="checkbox" name="content_map" id="content_map" value="Карты, геолокация" autocomplete="off" />
-                        <i class="icn "><svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34"><g fill="none" fill-rule="evenodd"><path class="svg-fill" fill="#ffffff" fill-rule="nonzero" d="M21.479 14.452l.091-.303.016-.053c.35-1.179-1.03-2.173-2.003-1.445l-.533.398-1.506-.869 16.269-9.393c.121.383.187.79.187 1.213v12.37l-4.6 2.656-7.921-4.574zm-3.336 11.073l2.447-8.122 5.81 3.355-8.257 4.767zM13.32 28.31l-9.806 5.662A4 4 0 0 1 0 30v-7.69l14.544-8.398 1.89 1.092-5.157 3.855-5.746 4.296c-.968.724-.403 2.308.826 2.315l5.345.03.392.004 1.227 2.805zm1.33 2.697c.653.548 1.735.35 2.01-.561l.218-.726 12.522-7.23L34 25.146V30a4 4 0 0 1-4 4H9.464l5.187-2.994zM34 21.68l-1.6-.923 1.6-.924v1.847zM15.624 0H30c.669 0 1.3.164 1.854.455l-7.721 4.457L15.624 0zm-6 0l11.509 6.644L0 18.845V4a4 4 0 0 1 4-4h5.624zm3.656 23.508l-.981.008-4.206.058 4.586-3.45 6.632-4.985-.012.037-4.111 12.83-1.908-4.498z"/></g></svg></i><span>Карты, геолокация</span></label></div></div><div id="calc_society" class="tab-pane fade " aria-labelledby="calc_society-tab" role="tabpanel"><div class="btn-group btn-group-toggle" data-toggle="buttons"><label class="btn btn-secondary">
-                        <input type="checkbox" name="society_chat" id="society_chat" value="Сообщения,чаты" autocomplete="off" />
-                        <i class="icn icn-sms"></i><span>Сообщения,чаты</span></label><label class="btn btn-secondary">
-                        <input type="checkbox" name="society_comment" id="society_comment" value="Комментарии, форум" autocomplete="off" />
-                        <i class="icn icn-message"></i><span>Комментарии, форум</span></label><label class="btn btn-secondary">
-                        <input type="checkbox" name="society_push" id="society_push" value="Push-уведомления" autocomplete="off" />
-                        <i class="icn "><svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34"><g fill="none" fill-rule="evenodd" transform="translate(0 2)"><path class="svg-stroke" stroke="#ffffff" stroke-width="2" d="M21.138 3.49h-18.1c-.949 0-1.717.77-1.717 1.717v24.076c0 .948.768 1.717 1.717 1.717h24.075c.949 0 1.717-.769 1.717-1.717v-18.8a6.631 6.631 0 0 1-.924.064h-.141c-2.394.002-3.486-.259-4.798-1.593-1.377-1.4-1.835-2.937-1.835-5.18 0-.095.002-.19.006-.283z"/><circle class="svg-stroke" cx="26.906" cy="4.774" r="5.774" stroke="#ffffff" stroke-linecap="round" stroke-width="2"/><circle class="svg-fill" cx="26.906" cy="4.774" r="2.774" fill="#ffffff"/></g></svg></i><span>Push-уведомления</span></label><label class="btn btn-secondary">
-                        <input type="checkbox" name="society_sms" id="society_sms" value="SMS" autocomplete="off" />
-                        <i class="icn icn-talk"></i><span>SMS</span></label><label class="btn btn-secondary">
-                        <input type="checkbox" name="society_email" id="society_email" value="Email рассылка" autocomplete="off" />
-                        <i class="icn icn-letter"></i><span>Email рассылка</span></label><label class="btn btn-secondary">
-                        <input type="checkbox" name="society_social" id="society_social" value="Поделиться в соц сетях" autocomplete="off" />
-                        <i class="icn "><svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34"><g fill="none" fill-rule="evenodd"><path class="svg-fill" fill="#ffffff" d="M25.273 21.186c-1.263 0-2.45.459-3.343 1.291-.248.231-.46.485-.645.753l-8.169-4.622a4.118 4.118 0 0 0 .339-1.627c0-.575-.123-1.124-.338-1.628l8.17-4.587c.84 1.229 2.31 2.048 3.986 2.048 2.606 0 4.727-1.977 4.727-4.407C30 5.977 27.88 4 25.273 4s-4.728 1.977-4.728 4.407c0 .553.115 1.081.316 1.57L12.68 14.57c-.845-1.2-2.3-1.996-3.953-1.996C6.121 12.574 4 14.55 4 16.98c0 2.43 2.12 4.406 4.727 4.406 1.652 0 3.107-.795 3.952-1.995l8.18 4.628a4.139 4.139 0 0 0-.314 1.573c0 1.177.492 2.284 1.385 3.116.893.833 2.08 1.291 3.343 1.291 1.262 0 2.45-.458 3.342-1.29.893-.833 1.385-1.94 1.385-3.117s-.492-2.284-1.385-3.116c-.893-.832-2.08-1.29-3.342-1.29z"/><path class="svg-stroke" fill-rule="nonzero" stroke="#ffffff" stroke-width="2" d="M24.751 25.94L9.418 17l13.209-7.453"/></g></svg></i><span>Поделиться в соц сетях</span></label></div></div><div id="calc_payment" class="tab-pane fade " aria-labelledby="calc_payment-tab" role="tabpanel"><div class="btn-group btn-group-toggle" data-toggle="buttons"><label class="btn btn-secondary">
-                        <input type="checkbox" name="payment_cart" id="payment_cart" value="Корзина покупок" autocomplete="off" />
-                        <i class="icn icn-cart"></i><span>Корзина покупок</span></label><label class="btn btn-secondary">
-                        <input type="checkbox" name="payment_shop" id="payment_shop" value="Встроенные покупки" autocomplete="off" />
-                        <i class="icn icn-bag"></i><span>Встроенные покупки</span></label><label class="btn btn-secondary">
-                        <input type="checkbox" name="payment_map" id="payment_map" value="Покупки по карте" autocomplete="off" />
-                        <i class="icn icn-paycard"></i><span>Покупки по карте</span></label><label class="btn btn-secondary">
-                        <input type="checkbox" name="payment_subscribe" id="payment_subscribe" value="По подписке" autocomplete="off" />
-                        <i class="icn icn-rss"></i><span>По подписке</span></label></div></div><div id="calc_extra" class="tab-pane fade " aria-labelledby="calc_extra-tab" role="tabpanel"><div class="btn-group btn-group-toggle" data-toggle="buttons"><label class="btn btn-secondary">
-                        <input type="checkbox" name="extra_vr" id="extra_vr" value="VR" autocomplete="off" />
-                        <i class="icn icn-vr"></i><span>VR</span></label><label class="btn btn-secondary">
-                        <input type="checkbox" name="extra_ar" id="extra_ar" value="AR" autocomplete="off" />
-                        <i class="icn icn-ar"></i><span>AR</span></label><label class="btn btn-secondary">
-                        <input type="checkbox" name="extra_touch" id="extra_touch" value="Touch ID" autocomplete="off" />
-                        <i class="icn "><svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34"><g class="svg-stroke" fill="none" fill-rule="evenodd" stroke="#fff" stroke-linecap="round" stroke-width="3"><path d="M31.122 14.83C29.494 6.202 21.632.62 13.562 2.358m-2.829 1.34c-6.816 2.647-9.399 9.825-7.922 17.655m28.607-3.896a17.112 17.112 0 0 0-.288-2.628M2.82 21.352c.043.229.09.455.142.68M17.99 30.909c.698-.97 1.311-1.997 1.83-3.067m1.04-2.581a19.727 19.727 0 0 0 .53-10.23c-.431-2.055-2.537-3.384-4.699-2.97m-2.51 1.58a3.629 3.629 0 0 0-.615 2.888 12.497 12.497 0 0 1-.735 7.603m-1.524 2.649a13.543 13.543 0 0 1-1.884 2.056M4.889 26.752c1.966-1.652 3.086-4.272 2.82-7.02m-.268-3.697c.387-4.26 3.388-7.934 7.606-8.823 2.474-.522 4.916.01 6.904 1.298m2.236 2.008a10.11 10.11 0 0 1 2.085 4.492c.478 2.479.626 4.947.475 7.354m-.266 2.498a28.826 28.826 0 0 1-1.432 5.608"/></g></svg></i><span>Touch ID</span></label><label class="btn btn-secondary">
-                        <input type="checkbox" name="extra_giro" id="extra_giro" value="Гироскоп" autocomplete="off" />
-                        <i class="icn "><svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34"><g fill="none" fill-rule="nonzero" transform="translate(4 4)"><circle class="svg-stroke" cx="13" cy="13" r="12" stroke="#ffffff" stroke-width="2"/><ellipse class="svg-stroke" cx="13.354" cy="12.646" stroke="#ffffff" stroke-width="2" rx="3" ry="8.5" transform="rotate(45 13.354 12.646)"/><ellipse class="svg-stroke" cx="13" cy="13" stroke="#ffffff" stroke-width="2" rx="4" ry="8" transform="rotate(136 13 13)"/><circle class="svg-fill" cx="13" cy="13" r="1" fill="#ffffff"/><path class="svg-fill" fill="#ffffff" d="M23.414 3l.707.708-1.414 1.414L22 4.415zM4.121 22l.707.708-1.414 1.414-.707-.707z"/><circle class="svg-fill" cx="2" cy="25" r="2" fill="#ffffff"/><circle class="svg-fill" cx="25" cy="2" r="2" fill="#ffffff"/></g></svg></i><span>Гироскоп</span></label><label class="btn btn-secondary">
-                        <input type="checkbox" name="extra_camera" id="extra_camera" value="Камера/фото" autocomplete="off" />
-                        <i class="icn icn-video"></i><span>Камера/фото</span></label><label class="btn btn-secondary">
-                        <input type="checkbox" name="extra_smartwatch" id="extra_smartwatch" value="Данные с умных часов" autocomplete="off" />
-                        <i class="icn icn-smartwatch"></i><span>Данные с умных часов</span></label><label class="btn btn-secondary">
-                        <input type="checkbox" name="extra_qr" id="extra_qr" value="QR-код" autocomplete="off" />
-                        <i class="icn icn-qrcode"></i><span>QR-код</span></label><label class="btn btn-secondary">
-                        <input type="checkbox" name="extra_cloud" id="extra_cloud" value="Синхронизация с облачными сервисами" autocomplete="off" />
-                        <i class="icn icn-cloud"></i><span>Синхронизация с облачными сервисами</span></label><label class="btn btn-secondary">
-                        <input type="checkbox" name="extra_integration" id="extra_integration" value="Доп интеграции с другими сервисами" autocomplete="off" />
-                        <i class="icn icn-integration"></i><span>Доп интеграции с другими сервисами</span></label><label class="btn btn-secondary">
-                        <input type="checkbox" name="extra_security" id="extra_security" value="Безопасность: шифрование сетевых данных" autocomplete="off" />
-                        <i class="icn icn-security"></i><span>Безопасность: шифрование сетевых данных</span></label></div></div><div id="calc_admin" class="tab-pane fade " aria-labelledby="calc_admin-tab" role="tabpanel"><div class="btn-group btn-group-toggle" data-toggle="buttons"><label class="btn btn-secondary">
-                        <input type="checkbox" name="admin_payment" id="admin_payment" value="Администрирование платежей" autocomplete="off" />
-                        <i class="icn icn-invoice"></i><span>Администрирование платежей</span></label><label class="btn btn-secondary">
-                        <input type="checkbox" name="admin_analityc" id="admin_analityc" value="Аналитика использования приложения" autocomplete="off" />
-                        <i class="icn icn-analytic"></i><span>Аналитика использования приложения</span></label><label class="btn btn-secondary">
-                        <input type="checkbox" name="admin_content" id="admin_content" value="Управление контентом" autocomplete="off" />
-                        <i class="icn icn-manage"></i><span>Управление контентом</span></label><label class="btn btn-secondary">
-                        <input type="checkbox" name="admin_users" id="admin_users" value="Администрирование пользователей" autocomplete="off" />
-                        <i class="icn icn-users"></i><span>Администрирование пользователей</span></label><label class="btn btn-secondary">
-                        <input type="checkbox" name="admin_moderation" id="admin_moderation" value="Модерация" autocomplete="off" />
-                        <i class="icn icn-moderate"></i><span>Модерация</span></label><label class="btn btn-secondary">
-                        <input type="checkbox" name="admin_feedback" id="admin_feedback" value="Обработка обратной связи" autocomplete="off" />
-                        <i class="icn icn-feedback"></i><span>Обработка обратной связи</span></label><label class="btn btn-secondary">
-                        <input type="checkbox" name="admin_crash" id="admin_crash" value="Статистика крашей" autocomplete="off" />
-                        <i class="icn icn-statistic"></i><span>Статистика крашей</span></label></div></div>
-                        <div id="calc_send" class="tab-pane fade calc-send" aria-labelledby="calc_send-tab" role="tabpanel">
-                            <div class="container">
-                                <h3>Предварительная стоимость вашего проекта:</h3>
-                                <h4 class="h3"><b id="sum"></b> руб</h4>
-                                <div id="calcRequest" class="clearfix"></div><br/>
-                                <a id="btnModal" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#calcSend"><b>Отправить заявку</b></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="clearfix"><br/></div>
-                    <a class="btn btn-warning btn-lg btnPrev visible-xs-inline">Назад</a>
-                    <a class="btn btn-warning btn-lg btnNext"><b>Далее</b></a>
-                    <label for="tel"><a class="btn btn-warning btnSend"><b>Узнать стоимость</b></a></label>
 
 
+        <!-- Code to include calc -->
+        <section id="calc">
+            <div class="container">
 
-                    <!-- Modal -->
-                    <div class="modal fade" id="calcSend" tabindex="-1" role="dialog" aria-labelledby="calcSendLabel" aria-hidden="true">
-                        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title h3" id="calcSendLabel"><b>Контакты:</b></h5>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">&times;</button>
-                                </div>
-                                <div class="modal-body text-left">
-                                    <div class="container">
-                                        <div class="row">
-                                            <div class="col-sm">
-                                                <label for="calc_name"><b>ФИО</b></label>
-                                                <input type="text" class="form-control" id="calc_name" name="calc_name" title="Пожалуйста! Правильно заполните поле ФИО" placeholder="Введите ваше имя, фамилию" value="" required="required">
-                                                <b class="form-text"></b>
-                                                <label for="calc_email"><b>E-MAIL</b></label>
-                                                <input type="text" class="form-control email" id="calc_email" name="calc_email" title="Пожалуйста! Правильно заполните поле E-mail" placeholder="Введите ваш E-mail" value="" required="required" >
-                                                <b class="form-text"></b>
-                                                <label for="calc_tel"><b>ТЕЛЕФОН</b></label>
-                                                <input type="text" class="form-control tel" id="calc_tel" name="calc_tel" title="Пожалуйста! Правильно заполните поле Телефон" placeholder="Введите ваш Телефон" value="" required="required">
-                                            </div>
-                                            <div class="col-sm">
-                                                <label for="calc_text"><b>Комментарий</b></label>
-                                                <textarea class="form-control" id="calc_text" name="calc_text" rows="5" cols="100" placeholder="Оставьте ваш комментарий" ></textarea>
-                                                <input type="text" class="calc_address" id="calc_address" name="calc_address" title="" placeholder="" value="" required="required">
-                                                <br/>
-                                                <button type="submit" class="btn btn-warning btn-lg btn-block" onClick="ga('send','event','calculator','calculator'); return true;"> Получить расчет </button>
-                                                <input type="hidden" name="calc_price" id="calc_price" value="" />
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <header>
+                    <h3 class="h3">Калькулятор расчета цены за разработку приложения</h3>
+                    <p>Узнайте стоимость создания приложения, ответив на несколько простых вопросов!</p>
+                    <h4 class="h3"><b id="price">0</b> руб</h4>
+                </header>
 
-                </form>
+                <?php require 'calc/calc.inc.config.php'; ?>
+                <?php require 'calc/calc.inc.php'; ?>
+
             </div>
         </section>
+        <!-- /Code to include calc -->
+        
+        
         <section class="infoshel-main-blog">
             <div class="infoshel-main-blog__container">
                 <h2 class="infoshel-h2 infoshel-main-blog__h2 wow fadeInDownMin2">Блог</h2>
@@ -920,18 +715,6 @@
 <script src="https://infoshell.ru/wp-content/themes/mark_up/js/home.js"></script>
 <script src="https://infoshell.ru/wp-content/themes/mark_up/js1/ajaxForms.js?v=1.1"></script>
 
-<!--<link rel="stylesheet" href="https://infoshell.ru/wp-content/themes/mark_up/calc/css/bootstrap.calc-icons.css?v=20190208" />-->
-<!--<link rel="stylesheet" href="https://infoshell.ru/wp-content/themes/mark_up/calc/css/styles.css?v=20190208" />-->
-
-<!--link rel="stylesheet" href="https://infoshell.ru/wp-content/themes/mark_up/calc/css/infoshell-calc.all.min.css?20190208" /-->
-
-<!--<script src="https://infoshell.ru/wp-content/themes/mark_up/calc/js/html5shiv.respond.min.js"></script>-->
-<!--<link rel="stylesheet" href="https://infoshell.ru/wp-content/themes/mark_up/calc/css/ie7.css">-->
-<!--<script src="https://infoshell.ru/wp-content/themes/mark_up/calc/js/ie7.js"></script>-->
-
-<!--<script type="text/javascript" src="https://infoshell.ru/wp-content/themes/mark_up/calc/js/bootstrap.js"></script>-->
-<!--<script type="text/javascript" src="https://infoshell.ru/wp-content/themes/mark_up/calc/js/calc.js?v=20190208"></script>-->
-
 <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&amp;subset=cyrillic" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&amp;subset=cyrillic" rel="stylesheet">
 
@@ -939,6 +722,10 @@
 <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<!-- Code to include calc -->
+    <?php require 'calc/calc.inc.script.php'; ?>
+<!-- /Code to include calc -->
 
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <script src="libs/OwlCarousel2/dist/owl.carousel.js"></script>
