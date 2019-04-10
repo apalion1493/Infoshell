@@ -1,6 +1,16 @@
 
+
 .infoshel-article-page__firstSlide {
   background-color: #f9f9f9;
+}
+
+.infoshel-article-page__firstSlide-usabilityBg {
+  background: #ffffff;
+  position: relative;
+
+  .container {
+    position: relative;
+  }
 }
 
 .infoshel-article-page__firstSlide-text {
@@ -421,6 +431,381 @@
   margin-top: 28px;
 }
 
+.infoshel-article-page__design {
+  padding-top: 70px;
+
+  h2 {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+}
+
+.infoshel-article-page__design-animation {
+  height: 62.5vw;
+  position: relative;
+
+  img {
+    width: 100%;
+    position: absolute;
+    bottom: -61px;
+  }
+}
+
+.infoshel-article-page__design-block {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 45px;
+}
+
+.infoshel-article-page__design-blockHeader {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+
+  p {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.11;
+    letter-spacing: -0.2px;
+    margin-bottom: 0;
+    max-width: 250px;
+  }
+}
+
+.infoshel-article-page__design-blockHeader-img {
+  min-width: 54px;
+  display: flex;
+  justify-content: center;
+  margin-right: 23px;
+}
+
+.orange-phone {
+  background: url("../img/usability-analytics/orange-phone.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 54px;
+  height: 54px;
+  display: block;
+}
+
+.web-design {
+  background: url("../img/usability-analytics/web-design.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 54px;
+  height: 54px;
+  display: block;
+}
+
+.watch-icon {
+  background: url("../img/usability-analytics/watch-icon.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 54px;
+  height: 54px;
+  display: block;
+}
+
+.interface-icon {
+  background: url("../img/usability-analytics/interface-icon.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 54px;
+  height: 54px;
+  display: block;
+}
+
+.usability-audit {
+  background: url("../img/usability-analytics/usability-audit.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 54px;
+  height: 54px;
+  display: block;
+}
+
+.infoshel-article-page__firstSlide-usabilityAnalytics-img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: url("../img/usability-analytics/header-uiu-x.png") no-repeat bottom right;
+  background-size: cover;
+  width: 100%;
+  max-width: 1440px;
+  height: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.infoshel-article-page__design-blockMain {
+  p {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.33;
+    letter-spacing: -0.2px;
+    margin-bottom: 0;
+  }
+}
+
+.infoshel-article-page__process {
+  padding-top: 140px;
+  padding-bottom: 80px;
+
+  h2 {
+    text-align: center;
+  }
+}
+
+.infoshel-article-page__process-circle {
+  width: 160px;
+  height: 160px;
+}
+
+.infoshel-article-page__process-circleRed {
+  background: url("../../img/usability-analytics/workprocess-01.svg") no-repeat center;
+  background-size: 100% auto;
+}
+
+.infoshel-article-page__process-circlePurple {
+  background: url("../../img/usability-analytics/workprocess-02.svg") no-repeat center;
+  background-size: 100% auto;
+}
+
+.infoshel-article-page__process-circleGreen {
+  background: url("../../img/usability-analytics/workprocess-03.svg") no-repeat center;
+  background-size: 100% auto;
+}
+
+.infoshel-article-page__process-circleBlue {
+  background: url("../../img/usability-analytics/workprocess-04.svg") no-repeat center;
+  background-size: 100% auto;
+}
+
+.infoshel-article-page__process-circleYellow {
+  background: url("../../img/usability-analytics/workprocess-05.svg") no-repeat center;
+  background-size: 100% auto;
+}
+
+.infoshel-article-page__process-container {
+  display: flex;
+  justify-content: space-between;
+  height: 450px;
+  margin-top: 63px;
+}
+
+.infoshel-article-page__process-block  {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+  p {
+    max-width: 241px;
+    text-align: center;
+    margin-top: 13px;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.33;
+    letter-spacing: -0.2px;
+    color: #2e2e2e;
+  }
+}
+
+.infoshel-article-page__process-block:nth-child(odd) {
+  align-self: flex-start;
+}
+
+.infoshel-article-page__process-block:nth-child(even) {
+  align-self: flex-end;
+}
+
+.ui-widget.ui-widget-content {
+  box-shadow: 0 2px 40px 0 rgba(0, 0, 0, 0.13);
+  max-width: 316px;
+}
+
+.infoshel-article-page__process-block img {
+  position: absolute;
+  right: 10px;
+}
+
+.infoshel-article-page__design-sites {
+  position: relative;
+
+  h2 {
+    text-align: center;
+    margin-bottom: 42px;
+  }
+}
+
+.infoshel-article-page__design-sites-container {
+  padding-top: 70px;
+  padding-bottom: 45px;
+  position: relative;
+}
+
+.infoshel-article-page__design-sites-container:before {
+  content: '';
+  position: absolute;
+  background: url("../../img/usability-analytics/green.png") no-repeat center;
+  background-size: 100% auto;
+  width: 130px;
+  height: 34px;
+  top: 0;
+  right: 50px;
+}
+
+.infoshel-article-page__design-sites-img {
+  max-width: 100%;
+  width: 100%;
+}
+
+.infoshel-article-page__design-sites-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.infoshel-article-page__design-sites-block-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+
+  p {
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1;
+    letter-spacing: -0.4px;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    max-width: 170px;
+  }
+}
+
+.orange-web-attachment {
+  background: url("../../img/usability-analytics/orange-web-attachment.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 54px;
+  height: 54px;
+  display: block;
+}
+
+.orange-landing {
+  background: url("../../img/usability-analytics/orange-landing.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 54px;
+  height: 54px;
+  display: block;
+}
+
+.orange-icon-server {
+  background: url("../../img/usability-analytics/orange-icon-server.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 54px;
+  height: 54px;
+  display: block;
+}
+
+.infoshel-article-page__design-sites-block-header-img {
+  margin-right: 17px;
+}
+
+.infoshel-article-page__design-sites-block-main {
+  p {
+    font-family: 'Open Sans', sans-serif;
+  }
+}
+
+.infoshel-article-page__leadership {
+  padding-top: 70px;
+  padding-bottom: 80px;
+  background-color: #f9f9f9;
+
+  h2 {
+    text-align: center;
+    max-width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+}
+
+.infoshel-article-page__leadership-block {
+  padding: 45px 72px 42px 30px;
+  display: flex;
+  background: #ffffff;
+  border-radius: 8px;
+  margin-top: 60px;
+}
+
+.infoshel-article-page__leadership-block-img {
+  max-width: 170px;
+  margin-right: 33px;
+  width: 100%;
+
+  img {
+    width: 100%;
+  }
+}
+
+.infoshel-article-page__leadership-block-text {
+  p:nth-child(1) {
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 1;
+    letter-spacing: -0.3px;
+    color: #2e2e2e;
+  }
+
+  p:nth-child(2) {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.31;
+    letter-spacing: -0.1px;
+    color: #2e2e2e;
+    margin-bottom: 22px;
+  }
+
+  p:nth-child(3),
+  p:nth-child(4) {
+    font-size: 16px;
+    line-height: 1.38;
+    letter-spacing: -0.1px;
+    color: #2e2e2e;
+    margin-bottom: 6px;
+  }
+}
+
+.infoshel-article-page__community {
+  padding-top: 70px;
+  padding-bottom: 80px;
+
+  h2 {
+    max-width: 620px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 57px;
+  }
+}
+
+.infoshel-article-page__community-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  p {
+    margin-top: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.33;
+    letter-spacing: -0.2px;
+    color: #f9f9f9;
+  }
+}
+
+.infoshel-article-page__community-container {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 272px;
+  justify-content: space-between;
+}
+
 @media (min-width: 768px) and (max-width: 1199.98px) {
   .infoshel-article-page__firstSlide-andr-img {
     margin-top: 150px;
@@ -510,4 +895,53 @@
     padding-left: 15px;
     padding-right: 15px;
   }
+}
+
+.ui-tooltip, .arrow:after {
+  border-radius: 4px;
+  box-shadow: 0 2px 40px 0 rgba(0, 0, 0, 0.13);
+  background-color: #ffffff;
+  border: none !important;
+}
+.ui-tooltip {
+  padding: 10px 20px;
+  color: #2e2e2e;
+  font-size: 14px;
+  border-radius: 4px;
+  border: none !important;
+}
+.arrow {
+  width: 70px;
+  height: 16px;
+  overflow: hidden;
+  position: absolute;
+  left: 50%;
+  margin-left: -35px;
+  bottom: -16px;
+}
+.arrow.top {
+  top: 5px;
+  bottom: auto;
+  transform: rotate(270deg);
+  z-index: 999999;
+}
+.arrow.left {
+  left: -10px;
+  z-index: 999999;
+}
+.arrow:after {
+  content: "";
+  position: absolute;
+  left: 20px;
+  top: -20px;
+  width: 25px;
+  height: 25px;
+  box-shadow: 6px 5px 9px -9px black;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.arrow.top:after {
+  bottom: -20px;
+  top: auto;
 }

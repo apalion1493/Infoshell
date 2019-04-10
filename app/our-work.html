@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Разработка мобильных приложений на заказ. Калькулятор расчета цены: создание приложений для iPhone, iPad, iOS, Android - Infoshell</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Студии Infoshell – создание приложений для мобильных устройств Android и iOS, Windows на заказ. Профессиональные разработчики, портфолио, калькулятор расчета стоимости. Контакты в Москве и Санкт-Петербурге"/>
+    <meta name="keywords" content="создание мобильного приложения на заказ, калькулятор стоимости"/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900&amp;subset=latin,cyrillic" rel="stylesheet">
+    <link href="https://infoshell.ru/wp-content/themes/mark_up/css1/formCorrections.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=<ecb25afb-cfce-4ea7-80df-ed4fc56c4af8>" type="text/javascript"></script>
+    <script src="js/balloon_autopan.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="libs/animate.css/animate.css">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<div class="page-surround infoshel-page our-work-page">
+    <main class="infoshel-main">
+        <section>
+            <div class="infoshel-container container">
+                <h2 class="infoshel-h2 text-center">Наши работы</h2>
+                <p class="text-center">Мы превращаем идеи в отличные результаты</p>
+                <div class="row">
+                    <div class="col-4">
+                        <div class="infoshel-main-ourWork__slider-img">
+                            <div class="infoshel-main-ourWork__slider-img-block">
+                                <img src="img/ourWork/easy-style.jpg" alt="">
+                                <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-ios infoshel-main-ourWork__icon-surfprise-ios"></span>
+                                <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-android infoshel-main-ourWork__icon-surfprise-android"></span>
+                            </div>
+                            <div class="infoshel-main-ourWork__slider-img-text">
+                                <h4>Easy Style</h4>
+                                <p>Создаем дизайн и занимаемся разработкой системы. Каждые две недели предоставляем продукт с новыми функциями. Обсуждаем, что будет сделано за следующие две недели.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-4">
+                        <div class="infoshel-main-ourWork__slider-img">
+                            <div class="infoshel-main-ourWork__slider-img-block">
+                                <img src="img/ourWork/kinoxod.jpg" alt="">
+                                <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-ios infoshel-main-ourWork__icon-kino-ios"></span>
+                                <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-android infoshel-main-ourWork__icon-kino-android"></span>
+                            </div>
+                            <div class="infoshel-main-ourWork__slider-img-text">
+                                <h4>Киноход</h4>
+                                <p>Создаем дизайн и занимаемся разработкой системы. Каждые две недели предоставляем продукт с новыми функциями. Обсуждаем, что будет сделано за следующие две недели.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-4">
+                        <div class="infoshel-main-ourWork__slider-img">
+                            <div class="infoshel-main-ourWork__slider-img-block">
+                                <img src="img/ourWork/kinoxod.jpg" alt="">
+                                <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-ios infoshel-main-ourWork__icon-kino-ios"></span>
+                            </div>
+                            <div class="infoshel-main-ourWork__slider-img-text">
+                                <h4>Киноход</h4>
+                                <p>Создаем дизайн и занимаемся разработкой системы. Каждые две недели предоставляем продукт с новыми функциями. Обсуждаем, что будет сделано за следующие две недели.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-4">
+                        <div class="infoshel-main-ourWork__slider-img">
+                            <div class="infoshel-main-ourWork__slider-img-block">
+                                <img src="img/ourWork/surfprise.jpg" alt="">
+                                <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-ios infoshel-main-ourWork__icon-surfprise-ios"></span>
+                                <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-android infoshel-main-ourWork__icon-surfprise-android"></span>
+                            </div>
+                            <div class="infoshel-main-ourWork__slider-img-text">
+                                <h4>Surfprise</h4>
+                                <p>Создаем дизайн и занимаемся разработкой системы. Каждые две недели предоставляем продукт с новыми функциями. Обсуждаем, что будет сделано за следующие две недели.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-4">
+                        <div class="infoshel-main-ourWork__slider-img">
+                            <div class="infoshel-main-ourWork__slider-img-block">
+                                <img src="img/ourWork/foodclube.jpg" alt="">
+                                <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-ios infoshel-main-ourWork__icon-surfprise-ios"></span>
+                                <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-android infoshel-main-ourWork__icon-surfprise-android"></span>
+                            </div>
+                            <div class="infoshel-main-ourWork__slider-img-text">
+                                <h4>Foodclub</h4>
+                                <p>Создаем дизайн и занимаемся разработкой системы. Каждые две недели предоставляем продукт с новыми функциями. Обсуждаем, что будет сделано за следующие две недели.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-4">
+                        <div class="infoshel-main-ourWork__slider-img">
+                            <div class="infoshel-main-ourWork__slider-img-block">
+                                <img src="img/ourWork/dostaevsky.jpg" alt="">
+                                <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-ios infoshel-main-ourWork__icon-surfprise-ios"></span>
+                                <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-android infoshel-main-ourWork__icon-surfprise-android"></span>
+                            </div>
+                            <div class="infoshel-main-ourWork__slider-img-text">
+                                <h4>Dostaevsky</h4>
+                                <p>Создаем дизайн и занимаемся разработкой системы. Каждые две недели предоставляем продукт с новыми функциями. Обсуждаем, что будет сделано за следующие две недели.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-4">
+                        <div class="infoshel-main-ourWork__slider-img">
+                            <div class="infoshel-main-ourWork__slider-img-block">
+                                <img src="img/ourWork/dostaevsky1.jpg" alt="">
+                                <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-ios infoshel-main-ourWork__icon-surfprise-ios"></span>
+                            </div>
+                            <div class="infoshel-main-ourWork__slider-img-text">
+                                <h4>Dostaevsky</h4>
+                                <p>Создаем дизайн и занимаемся разработкой системы. Каждые две недели предоставляем продукт с новыми функциями. Обсуждаем, что будет сделано за следующие две недели.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-4">
+                        <div class="infoshel-main-ourWork__slider-img">
+                            <div class="infoshel-main-ourWork__slider-img-block">
+                                <img src="img/ourWork/fsx.jpg" alt="">
+                                <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-web infoshel-main-ourWork__icon-surfprise-ios"></span>
+                            </div>
+                            <div class="infoshel-main-ourWork__slider-img-text">
+                                <h4>FSX</h4>
+                                <p>Создаем дизайн и занимаемся разработкой системы. Каждые две недели предоставляем продукт с новыми функциями. Обсуждаем, что будет сделано за следующие две недели.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-4">
+                        <div class="infoshel-main-ourWork__slider-img">
+                            <div class="infoshel-main-ourWork__slider-img-block">
+                                <img src="img/ourWork/nevedro.jpg" alt="">
+                                <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-web infoshel-main-ourWork__icon-surfprise-ios"></span>
+                            </div>
+                            <div class="infoshel-main-ourWork__slider-img-text">
+                                <h4>Ne vedro</h4>
+                                <p>Создаем дизайн и занимаемся разработкой системы. Каждые две недели предоставляем продукт с новыми функциями. Обсуждаем, что будет сделано за следующие две недели.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-4">
+                        <div class="infoshel-main-ourWork__slider-img">
+                            <div class="infoshel-main-ourWork__slider-img-block">
+                                <img src="img/ourWork/parklook.jpg" alt="">
+                                <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-ios infoshel-main-ourWork__icon-surfprise-ios"></span>
+                            </div>
+                            <div class="infoshel-main-ourWork__slider-img-text">
+                                <h4>Park look</h4>
+                                <p>Создаем дизайн и занимаемся разработкой системы. Каждые две недели предоставляем продукт с новыми функциями. Обсуждаем, что будет сделано за следующие две недели.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-4">
+                        <div class="infoshel-main-ourWork__slider-img">
+                            <div class="infoshel-main-ourWork__slider-img-block">
+                                <img src="img/ourWork/rubike.jpg" alt="">
+                                <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-ios infoshel-main-ourWork__icon-surfprise-ios"></span>
+                                <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-android infoshel-main-ourWork__icon-surfprise-android"></span>
+                            </div>
+                            <div class="infoshel-main-ourWork__slider-img-text">
+                                <h4>Rubike</h4>
+                                <p>Создаем дизайн и занимаемся разработкой системы. Каждые две недели предоставляем продукт с новыми функциями. Обсуждаем, что будет сделано за следующие две недели.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-4">
+                        <div class="infoshel-main-ourWork__slider-img">
+                            <div class="infoshel-main-ourWork__slider-img-block">
+                                <img src="img/ourWork/universe.jpg" alt="">
+                                <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-web infoshel-main-ourWork__icon-surfprise-ios"></span>
+                            </div>
+                            <div class="infoshel-main-ourWork__slider-img-text">
+                                <h4>Foodclub</h4>
+                                <p>Создаем дизайн и занимаемся разработкой системы. Каждые две недели предоставляем продукт с новыми функциями. Обсуждаем, что будет сделано за следующие две недели.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-4">
+                        <div class="infoshel-main-ourWork__slider-img">
+                            <div class="infoshel-main-ourWork__slider-img-block">
+                                <img src="img/ourWork/spotymoon.jpg" alt="">
+                                <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-web infoshel-main-ourWork__icon-surfprise-ios"></span>
+                            </div>
+                            <div class="infoshel-main-ourWork__slider-img-text">
+                                <h4>SpotyMoon</h4>
+                                <p>Создаем дизайн и занимаемся разработкой системы. Каждые две недели предоставляем продукт с новыми функциями. Обсуждаем, что будет сделано за следующие две недели.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-4">
+                        <div class="infoshel-main-ourWork__slider-img">
+                            <div class="infoshel-main-ourWork__slider-img-block">
+                                <img src="img/ourWork/word-opera.jpg" alt="">
+                                <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-ios infoshel-main-ourWork__icon-surfprise-ios"></span>
+                            </div>
+                            <div class="infoshel-main-ourWork__slider-img-text">
+                                <h4>Word Opera</h4>
+                                <p>Создаем дизайн и занимаемся разработкой системы. Каждые две недели предоставляем продукт с новыми функциями. Обсуждаем, что будет сделано за следующие две недели.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-4">
+                        <div class="infoshel-main-ourWork__slider-img">
+                            <div class="infoshel-main-ourWork__slider-img-block">
+                                <img src="img/ourWork/malisharii.jpg" alt="">
+                                <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-ios infoshel-main-ourWork__icon-surfprise-ios"></span>
+                                <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-android infoshel-main-ourWork__icon-surfprise-android"></span>
+                            </div>
+                            <div class="infoshel-main-ourWork__slider-img-text">
+                                <h4>Малышарий</h4>
+                                <p>Создаем дизайн и занимаемся разработкой системы. Каждые две недели предоставляем продукт с новыми функциями. Обсуждаем, что будет сделано за следующие две недели.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-4">
+                        <div class="infoshel-main-ourWork__slider-img">
+                            <div class="infoshel-main-ourWork__slider-img-block">
+                                <img src="img/ourWork/street-challenge.jpg" alt="">
+                                <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-ios infoshel-main-ourWork__icon-surfprise-ios"></span>
+                                <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-android infoshel-main-ourWork__icon-surfprise-android"></span>
+                            </div>
+                            <div class="infoshel-main-ourWork__slider-img-text">
+                                <h4>Street Challenge</h4>
+                                <p>Создаем дизайн и занимаемся разработкой системы. Каждые две недели предоставляем продукт с новыми функциями. Обсуждаем, что будет сделано за следующие две недели.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-4">
+                        <div class="infoshel-main-ourWork__slider-img">
+                            <div class="infoshel-main-ourWork__slider-img-block">
+                                <img src="img/ourWork/vodolazi.jpg" alt="">
+                                <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-ios infoshel-main-ourWork__icon-surfprise-ios"></span>
+                                <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-android infoshel-main-ourWork__icon-surfprise-android"></span>
+                            </div>
+                            <div class="infoshel-main-ourWork__slider-img-text">
+                                <h4>Водолазы</h4>
+                                <p>Создаем дизайн и занимаемся разработкой системы. Каждые две недели предоставляем продукт с новыми функциями. Обсуждаем, что будет сделано за следующие две недели.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-4">
+                        <div class="infoshel-main-ourWork__slider-img">
+                            <div class="infoshel-main-ourWork__slider-img-block">
+                                <img src="img/ourWork/coleso.jpg" alt="">
+                                <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-ios infoshel-main-ourWork__icon-surfprise-ios"></span>
+                            </div>
+                            <div class="infoshel-main-ourWork__slider-img-text">
+                                <h4>Колесо</h4>
+                                <p>Создаем дизайн и занимаемся разработкой системы. Каждые две недели предоставляем продукт с новыми функциями. Обсуждаем, что будет сделано за следующие две недели.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-4">
+                        <div class="infoshel-main-ourWork__slider-img">
+                            <div class="infoshel-main-ourWork__slider-img-block">
+                                <img src="img/ourWork/muz.jpg" alt="">
+                                <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-web infoshel-main-ourWork__icon-surfprise-ios"></span>
+                            </div>
+                            <div class="infoshel-main-ourWork__slider-img-text">
+                                <h4>Музыкальное приключение</h4>
+                                <p>Создаем дизайн и занимаемся разработкой системы. Каждые две недели предоставляем продукт с новыми функциями. Обсуждаем, что будет сделано за следующие две недели.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-4">
+                        <div class="infoshel-main-ourWork__slider-img">
+                            <div class="infoshel-main-ourWork__slider-img-block">
+                                <img src="img/ourWork/finance.jpg" alt="">
+                                <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-ios infoshel-main-ourWork__icon-surfprise-ios"></span>
+                                <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-android infoshel-main-ourWork__icon-surfprise-android"></span>
+                            </div>
+                            <div class="infoshel-main-ourWork__slider-img-text">
+                                <h4>Финансовая газета</h4>
+                                <p>Создаем дизайн и занимаемся разработкой системы. Каждые две недели предоставляем продукт с новыми функциями. Обсуждаем, что будет сделано за следующие две недели.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-4">
+                        <div class="infoshel-main-ourWork__slider-img">
+                            <div class="infoshel-main-ourWork__slider-img-block">
+                                <img src="img/ourWork/art-design.jpg" alt="">
+                                <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-web infoshel-main-ourWork__icon-surfprise-ios"></span>
+                            </div>
+                            <div class="infoshel-main-ourWork__slider-img-text">
+                                <h4>Art дизайн</h4>
+                                <p>Создаем дизайн и занимаемся разработкой системы. Каждые две недели предоставляем продукт с новыми функциями. Обсуждаем, что будет сделано за следующие две недели.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-4">
+                        <div class="infoshel-main-ourWork__slider-img">
+                            <div class="infoshel-main-ourWork__slider-img-block">
+                                <img src="img/ourWork/au-books.jpg" alt="">
+                                <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-ios infoshel-main-ourWork__icon-surfprise-ios"></span>
+                            </div>
+                            <div class="infoshel-main-ourWork__slider-img-text">
+                                <h4>Au books</h4>
+                                <p>Создаем дизайн и занимаемся разработкой системы. Каждые две недели предоставляем продукт с новыми функциями. Обсуждаем, что будет сделано за следующие две недели.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-4">
+                        <div class="infoshel-main-ourWork__slider-img">
+                            <div class="infoshel-main-ourWork__slider-img-block">
+                                <img src="img/ourWork/bohemian-live.jpg" alt="">
+                                <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-web infoshel-main-ourWork__icon-surfprise-ios"></span>
+                            </div>
+                            <div class="infoshel-main-ourWork__slider-img-text">
+                                <h4>Bohemian Live</h4>
+                                <p>Создаем дизайн и занимаемся разработкой системы. Каждые две недели предоставляем продукт с новыми функциями. Обсуждаем, что будет сделано за следующие две недели.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-4">
+                        <div class="infoshel-main-ourWork__slider-img">
+                            <div class="infoshel-main-ourWork__slider-img-block">
+                                <img src="img/ourWork/capitan-morgan.jpg" alt="">
+                                <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-ios infoshel-main-ourWork__icon-surfprise-ios"></span>
+                                <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-android infoshel-main-ourWork__icon-surfprise-android"></span>
+                            </div>
+                            <div class="infoshel-main-ourWork__slider-img-text">
+                                <h4>Capitan Morgan</h4>
+                                <p>Создаем дизайн и занимаемся разработкой системы. Каждые две недели предоставляем продукт с новыми функциями. Обсуждаем, что будет сделано за следующие две недели.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-4">
+                        <div class="infoshel-main-ourWork__slider-img">
+                            <div class="infoshel-main-ourWork__slider-img-block">
+                                <img src="img/ourWork/facutet.jpg" alt="">
+                                <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-web infoshel-main-ourWork__icon-surfprise-ios"></span>
+                            </div>
+                            <div class="infoshel-main-ourWork__slider-img-text">
+                                <h4>Факультет психологии</h4>
+                                <p>Создаем дизайн и занимаемся разработкой системы. Каждые две недели предоставляем продукт с новыми функциями. Обсуждаем, что будет сделано за следующие две недели.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-4">
+                        <div class="infoshel-main-ourWork__slider-img">
+                            <div class="infoshel-main-ourWork__slider-img-block">
+                                <img src="img/ourWork/paybeer.jpg" alt="">
+                                <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-ios infoshel-main-ourWork__icon-surfprise-ios"></span>
+                                <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-android infoshel-main-ourWork__icon-surfprise-android"></span>
+                            </div>
+                            <div class="infoshel-main-ourWork__slider-img-text">
+                                <h4>Paybeer</h4>
+                                <p>Создаем дизайн и занимаемся разработкой системы. Каждые две недели предоставляем продукт с новыми функциями. Обсуждаем, что будет сделано за следующие две недели.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-4">
+                        <div class="infoshel-main-ourWork__slider-img">
+                            <div class="infoshel-main-ourWork__slider-img-block">
+                                <img src="img/ourWork/radio-clasical-music.jpg" alt="">
+                                <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-ios infoshel-main-ourWork__icon-surfprise-ios"></span>
+                            </div>
+                            <div class="infoshel-main-ourWork__slider-img-text">
+                                <h4>Radio Clasical Music</h4>
+                                <p>Создаем дизайн и занимаемся разработкой системы. Каждые две недели предоставляем продукт с новыми функциями. Обсуждаем, что будет сделано за следующие две недели.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-4">
+                        <div class="infoshel-main-ourWork__slider-img">
+                            <div class="infoshel-main-ourWork__slider-img-block">
+                                <img src="img/ourWork/pasport-coji.jpg" alt="">
+                                <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-ios infoshel-main-ourWork__icon-surfprise-ios"></span>
+                                <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-android infoshel-main-ourWork__icon-surfprise-android"></span>
+                            </div>
+                            <div class="infoshel-main-ourWork__slider-img-text">
+                                <h4>Паспорт Кожи</h4>
+                                <p>Создаем дизайн и занимаемся разработкой системы. Каждые две недели предоставляем продукт с новыми функциями. Обсуждаем, что будет сделано за следующие две недели.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-4">
+                        <div class="infoshel-main-ourWork__slider-img">
+                            <div class="infoshel-main-ourWork__slider-img-block">
+                                <img src="img/ourWork/philarmonic.jpg" alt="">
+                                <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-ios infoshel-main-ourWork__icon-surfprise-ios"></span>
+                                <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-android infoshel-main-ourWork__icon-surfprise-android"></span>
+                            </div>
+                            <div class="infoshel-main-ourWork__slider-img-text">
+                                <h4>Philarmonic</h4>
+                                <p>Создаем дизайн и занимаемся разработкой системы. Каждые две недели предоставляем продукт с новыми функциями. Обсуждаем, что будет сделано за следующие две недели.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-4">
+                        <div class="infoshel-main-ourWork__slider-img">
+                            <div class="infoshel-main-ourWork__slider-img-block">
+                                <img src="img/ourWork/a.jpg" alt="">
+                                <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-ios infoshel-main-ourWork__icon-surfprise-ios"></span>
+                            </div>
+                            <div class="infoshel-main-ourWork__slider-img-text">
+                                <h4>Aэс</h4>
+                                <p>Создаем дизайн и занимаемся разработкой системы. Каждые две недели предоставляем продукт с новыми функциями. Обсуждаем, что будет сделано за следующие две недели.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-4">
+                        <div class="infoshel-main-ourWork__slider-img">
+                            <div class="infoshel-main-ourWork__slider-img-block">
+                                <img src="img/ourWork/female-academia.jpg" alt="">
+                                <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-web infoshel-main-ourWork__icon-surfprise-ios"></span>
+                            </div>
+                            <div class="infoshel-main-ourWork__slider-img-text">
+                                <h4>Женская Академия</h4>
+                                <p>Создаем дизайн и занимаемся разработкой системы. Каждые две недели предоставляем продукт с новыми функциями. Обсуждаем, что будет сделано за следующие две недели.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-4">
+                        <div class="infoshel-main-ourWork__slider-img">
+                            <div class="infoshel-main-ourWork__slider-img-block">
+                                <img src="img/ourWork/medical-helper.jpg" alt="">
+                                <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-ios infoshel-main-ourWork__icon-surfprise-ios"></span>
+                                <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-android infoshel-main-ourWork__icon-surfprise-android"></span>
+                            </div>
+                            <div class="infoshel-main-ourWork__slider-img-text">
+                                <h4>Медицинский помощник</h4>
+                                <p>Создаем дизайн и занимаемся разработкой системы. Каждые две недели предоставляем продукт с новыми функциями. Обсуждаем, что будет сделано за следующие две недели.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-4">
+                        <div class="infoshel-main-ourWork__slider-img">
+                            <div class="infoshel-main-ourWork__slider-img-block">
+                                <img src="img/ourWork/aurora.jpg" alt="">
+                                <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-web infoshel-main-ourWork__icon-surfprise-ios"></span>
+                            </div>
+                            <div class="infoshel-main-ourWork__slider-img-text">
+                                <h4>Aurora</h4>
+                                <p>Создаем дизайн и занимаемся разработкой системы. Каждые две недели предоставляем продукт с новыми функциями. Обсуждаем, что будет сделано за следующие две недели.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-4">
+                        <div class="infoshel-main-ourWork__slider-img">
+                            <div class="infoshel-main-ourWork__slider-img-block">
+                                <img src="img/ourWork/fotask.jpg" alt="">
+                                <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-ios infoshel-main-ourWork__icon-surfprise-ios"></span>
+                            </div>
+                            <div class="infoshel-main-ourWork__slider-img-text">
+                                <h4>Fotask</h4>
+                                <p>Создаем дизайн и занимаемся разработкой системы. Каждые две недели предоставляем продукт с новыми функциями. Обсуждаем, что будет сделано за следующие две недели.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-4">
+                        <div class="infoshel-main-ourWork__slider-img">
+                            <div class="infoshel-main-ourWork__slider-img-block">
+                                <img src="img/ourWork/spartakiada-web.jpg" alt="">
+                                <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-web infoshel-main-ourWork__icon-surfprise-ios"></span>
+                            </div>
+                            <div class="infoshel-main-ourWork__slider-img-text">
+                                <h4>Spartakiada</h4>
+                                <p>Создаем дизайн и занимаемся разработкой системы. Каждые две недели предоставляем продукт с новыми функциями. Обсуждаем, что будет сделано за следующие две недели.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-4">
+                        <div class="infoshel-main-ourWork__slider-img">
+                            <div class="infoshel-main-ourWork__slider-img-block">
+                                <img src="img/ourWork/gamefication.jpg" alt="">
+                                <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-ios infoshel-main-ourWork__icon-surfprise-ios"></span>
+                                <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-android infoshel-main-ourWork__icon-surfprise-android"></span>
+                            </div>
+                            <div class="infoshel-main-ourWork__slider-img-text">
+                                <h4>Gamefication</h4>
+                                <p>Создаем дизайн и занимаемся разработкой системы. Каждые две недели предоставляем продукт с новыми функциями. Обсуждаем, что будет сделано за следующие две недели.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-4">
+                        <div class="infoshel-main-ourWork__slider-img">
+                            <div class="infoshel-main-ourWork__slider-img-block">
+                                <img src="img/ourWork/spotymoon.jpg" alt="">
+                                <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-web infoshel-main-ourWork__icon-surfprise-ios"></span>
+                            </div>
+                            <div class="infoshel-main-ourWork__slider-img-text">
+                                <h4>Мобильный секретарь</h4>
+                                <p>Создаем дизайн и занимаемся разработкой системы. Каждые две недели предоставляем продукт с новыми функциями. Обсуждаем, что будет сделано за следующие две недели.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-4">
+                        <div class="infoshel-main-ourWork__slider-img">
+                            <div class="infoshel-main-ourWork__slider-img-block">
+                                <img src="img/ourWork/faberlic.jpg" alt="">
+                                <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-ios infoshel-main-ourWork__icon-surfprise-ios"></span>
+                                <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-android infoshel-main-ourWork__icon-surfprise-android"></span>
+                            </div>
+                            <div class="infoshel-main-ourWork__slider-img-text">
+                                <h4>Faberlic</h4>
+                                <p>Создаем дизайн и занимаемся разработкой системы. Каждые две недели предоставляем продукт с новыми функциями. Обсуждаем, что будет сделано за следующие две недели.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-4">
+                        <div class="infoshel-main-ourWork__slider-img">
+                            <div class="infoshel-main-ourWork__slider-img-block">
+                                <img src="img/ourWork/zenit.jpg" alt="">
+                                <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-ios infoshel-main-ourWork__icon-surfprise-ios"></span>
+                            </div>
+                            <div class="infoshel-main-ourWork__slider-img-text">
+                                <h4>Зенит</h4>
+                                <p>Создаем дизайн и занимаемся разработкой системы. Каждые две недели предоставляем продукт с новыми функциями. Обсуждаем, что будет сделано за следующие две недели.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-4">
+                        <div class="infoshel-main-ourWork__slider-img">
+                            <div class="infoshel-main-ourWork__slider-img-block">
+                                <img src="img/ourWork/tet-a-tet.jpg" alt="">
+                                <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-ios infoshel-main-ourWork__icon-surfprise-ios"></span>
+                                <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-android infoshel-main-ourWork__icon-surfprise-android"></span>
+                            </div>
+                            <div class="infoshel-main-ourWork__slider-img-text">
+                                <h4>Tet A Tet</h4>
+                                <p>Создаем дизайн и занимаемся разработкой системы. Каждые две недели предоставляем продукт с новыми функциями. Обсуждаем, что будет сделано за следующие две недели.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-4">
+                        <div class="infoshel-main-ourWork__slider-img">
+                            <div class="infoshel-main-ourWork__slider-img-block">
+                                <img src="img/ourWork/v-longe.jpg" alt="">
+                                <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-ios infoshel-main-ourWork__icon-surfprise-ios"></span>
+                                <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-android infoshel-main-ourWork__icon-surfprise-android"></span>
+                            </div>
+                            <div class="infoshel-main-ourWork__slider-img-text">
+                                <h4>V-lounge</h4>
+                                <p>Создаем дизайн и занимаемся разработкой системы. Каждые две недели предоставляем продукт с новыми функциями. Обсуждаем, что будет сделано за следующие две недели.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-4">
+                        <div class="infoshel-main-ourWork__slider-img">
+                            <div class="infoshel-main-ourWork__slider-img-block">
+                                <img src="img/ourWork/fish-app.jpg" alt="">
+                                <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-ios infoshel-main-ourWork__icon-surfprise-ios"></span>
+                            </div>
+                            <div class="infoshel-main-ourWork__slider-img-text">
+                                <h4>Fish app</h4>
+                                <p>Создаем дизайн и занимаемся разработкой системы. Каждые две недели предоставляем продукт с новыми функциями. Обсуждаем, что будет сделано за следующие две недели.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-4">
+                        <div class="infoshel-main-ourWork__slider-img">
+                            <div class="infoshel-main-ourWork__slider-img-block">
+                                <img src="img/ourWork/fsx.jpg" alt="">
+                                <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-web infoshel-main-ourWork__icon-surfprise-ios"></span>
+                            </div>
+                            <div class="infoshel-main-ourWork__slider-img-text">
+                                <h4>FSX</h4>
+                                <p>Создаем дизайн и занимаемся разработкой системы. Каждые две недели предоставляем продукт с новыми функциями. Обсуждаем, что будет сделано за следующие две недели.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-4">
+                        <div class="infoshel-main-ourWork__slider-img">
+                            <div class="infoshel-main-ourWork__slider-img-block">
+                                <img src="img/ourWork/fresh-office.jpg" alt="">
+                                <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-ios infoshel-main-ourWork__icon-surfprise-ios"></span>
+                                <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-android infoshel-main-ourWork__icon-surfprise-android"></span>
+                            </div>
+                            <div class="infoshel-main-ourWork__slider-img-text">
+                                <h4>Fresh Office</h4>
+                                <p>Создаем дизайн и занимаемся разработкой системы. Каждые две недели предоставляем продукт с новыми функциями. Обсуждаем, что будет сделано за следующие две недели.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-4">
+                        <div class="infoshel-main-ourWork__slider-img">
+                            <div class="infoshel-main-ourWork__slider-img-block">
+                                <img src="img/ourWork/azbo-audit-tour.jpg" alt="">
+                                <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-web infoshel-main-ourWork__icon-surfprise-ios"></span>
+                            </div>
+                            <div class="infoshel-main-ourWork__slider-img-text">
+                                <h4>Azbo Audit Tour</h4>
+                                <p>Создаем дизайн и занимаемся разработкой системы. Каждые две недели предоставляем продукт с новыми функциями. Обсуждаем, что будет сделано за следующие две недели.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-4">
+                        <div class="infoshel-main-ourWork__slider-img">
+                            <div class="infoshel-main-ourWork__slider-img-block">
+                                <img src="img/ourWork/trussardi.jpg" alt="">
+                                <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-android infoshel-main-ourWork__icon-surfprise-ios"></span>
+                            </div>
+                            <div class="infoshel-main-ourWork__slider-img-text">
+                                <h4>Trussardi</h4>
+                                <p>Создаем дизайн и занимаемся разработкой системы. Каждые две недели предоставляем продукт с новыми функциями. Обсуждаем, что будет сделано за следующие две недели.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-4">
+                        <div class="infoshel-main-ourWork__slider-img">
+                            <div class="infoshel-main-ourWork__slider-img-block">
+                                <img src="img/ourWork/mobile-agent.jpg" alt="">
+                                <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-web infoshel-main-ourWork__icon-surfprise-ios"></span>
+                            </div>
+                            <div class="infoshel-main-ourWork__slider-img-text">
+                                <h4>Mobile Agent</h4>
+                                <p>Создаем дизайн и занимаемся разработкой системы. Каждые две недели предоставляем продукт с новыми функциями. Обсуждаем, что будет сделано за следующие две недели.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-4">
+                        <div class="infoshel-main-ourWork__slider-img">
+                            <div class="infoshel-main-ourWork__slider-img-block">
+                                <img src="img/ourWork/iulmart-fashion.jpg" alt="">
+                                <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-ios infoshel-main-ourWork__icon-surfprise-ios"></span>
+                                <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-android infoshel-main-ourWork__icon-surfprise-android"></span>
+                            </div>
+                            <div class="infoshel-main-ourWork__slider-img-text">
+                                <h4>Юлмарт Fashion</h4>
+                                <p>Создаем дизайн и занимаемся разработкой системы. Каждые две недели предоставляем продукт с новыми функциями. Обсуждаем, что будет сделано за следующие две недели.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-4">
+                        <div class="infoshel-main-ourWork__slider-img">
+                            <div class="infoshel-main-ourWork__slider-img-block">
+                                <img src="img/ourWork/kindium.jpg" alt="">
+                                <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-web infoshel-main-ourWork__icon-surfprise-ios"></span>
+                            </div>
+                            <div class="infoshel-main-ourWork__slider-img-text">
+                                <h4>Kindium</h4>
+                                <p>Создаем дизайн и занимаемся разработкой системы. Каждые две недели предоставляем продукт с новыми функциями. Обсуждаем, что будет сделано за следующие две недели.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-4">
+                        <div class="infoshel-main-ourWork__slider-img">
+                            <div class="infoshel-main-ourWork__slider-img-block">
+                                <img src="img/ourWork/fruit-hunster.jpg" alt="">
+                                <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-ios infoshel-main-ourWork__icon-surfprise-ios"></span>
+                                <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-android infoshel-main-ourWork__icon-surfprise-android"></span>
+                            </div>
+                            <div class="infoshel-main-ourWork__slider-img-text">
+                                <h4>Fruit Hunster</h4>
+                                <p>Создаем дизайн и занимаемся разработкой системы. Каждые две недели предоставляем продукт с новыми функциями. Обсуждаем, что будет сделано за следующие две недели.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-4">
+                        <div class="infoshel-main-ourWork__slider-img">
+                            <div class="infoshel-main-ourWork__slider-img-block">
+                                <img src="img/ourWork/gemsland.jpg" alt="">
+                                <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-ios infoshel-main-ourWork__icon-surfprise-ios"></span>
+                            </div>
+                            <div class="infoshel-main-ourWork__slider-img-text">
+                                <h4>Gemsland</h4>
+                                <p>Создаем дизайн и занимаемся разработкой системы. Каждые две недели предоставляем продукт с новыми функциями. Обсуждаем, что будет сделано за следующие две недели.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-4">
+                        <div class="infoshel-main-ourWork__slider-img">
+                            <div class="infoshel-main-ourWork__slider-img-block">
+                                <img src="img/ourWork/gold-rush.jpg" alt="">
+                                <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-ios infoshel-main-ourWork__icon-surfprise-ios"></span>
+                                <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-android infoshel-main-ourWork__icon-surfprise-android"></span>
+                            </div>
+                            <div class="infoshel-main-ourWork__slider-img-text">
+                                <h4>Gold Rush</h4>
+                                <p>Создаем дизайн и занимаемся разработкой системы. Каждые две недели предоставляем продукт с новыми функциями. Обсуждаем, что будет сделано за следующие две недели.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-4">
+                        <div class="infoshel-main-ourWork__slider-img">
+                            <div class="infoshel-main-ourWork__slider-img-block">
+                                <img src="img/ourWork/nova.jpg" alt="">
+                                <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-ios infoshel-main-ourWork__icon-surfprise-ios"></span>
+                                <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-android infoshel-main-ourWork__icon-surfprise-android"></span>
+                            </div>
+                            <div class="infoshel-main-ourWork__slider-img-text">
+                                <h4>Mmorpg nova: inception</h4>
+                                <p>Создаем дизайн и занимаемся разработкой системы. Каждые две недели предоставляем продукт с новыми функциями. Обсуждаем, что будет сделано за следующие две недели.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</div>
+
+<script src="https://infoshell.ru/wp-content/themes/mark_up/js1/main2.js?v=1.1"></script>
+<script src="https://infoshell.ru/wp-content/themes/mark_up/js/home.js"></script>
+<script src="https://infoshell.ru/wp-content/themes/mark_up/js1/ajaxForms.js?v=1.1"></script>
+
+<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&amp;subset=cyrillic" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&amp;subset=cyrillic" rel="stylesheet">
+
+<!--Мои js-->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+<script src="js/main.js"></script>
+<script type="text/javascript">
+    $('[data-toggle="popover"]').popover();
+    $('[data-toggle="tooltip"]').tooltip();
+</script>
+
+</body>
+</html>

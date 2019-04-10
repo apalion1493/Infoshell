@@ -1,3 +1,5 @@
+
+
 html, body {
   overflow-x: hidden;
 }
@@ -610,10 +612,13 @@ body {
 }
 
 .infoshel-main-services__main-block {
-  //width: 23%;
   display: flex;
   align-items: center;
   flex-direction: column;
+
+  &:hover {
+    text-decoration: none;
+  }
 }
 
 .infoshel-main-services__main-block-color {
@@ -1671,12 +1676,16 @@ body {
   z-index: 2;
 }
 
-.ui-widget-content {
-  border: none;
-  border-radius: 0;
-  border-bottom: 1px solid rgba(86, 86, 87, 0.1);
-  padding-left: 30px !important;
+#accordion {
+  .ui-widget-content {
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid rgba(86, 86, 87, 0.1);
+    padding-left: 30px !important;
+  }
 }
+
+
 
 .ui-state-default,
 .ui-widget-content .ui-state-default,
@@ -2456,7 +2465,7 @@ html .ui-button.ui-state-disabled:active {
   vertical-align: middle;
   background-image: url(../img/svg/sprite.svg);
   background-repeat: no-repeat;
-  background-size: 9.7098em 221.6em;
+  background-size: 9.7098em 220.6em;
   position: relative;
 }
 
@@ -2484,11 +2493,22 @@ html .ui-button.ui-state-disabled:active {
   }
 }
 
-
-
 @media (min-width: 576px) {
   .modal-dialog.modal-infoshel-form {
     max-width: 1040px;
     margin: 1.75rem auto;
+  }
+}
+
+.our-work-page {
+  img {
+    width: 100%;
+  }
+
+  .infoshel-main-ourWork__slider-img {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    margin-bottom: 70px;
   }
 }

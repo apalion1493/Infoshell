@@ -1,0 +1,1321 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Разработка мобильных приложений на заказ. Калькулятор расчета цены: создание приложений для iPhone, iPad, iOS, Android - Infoshell</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Студии Infoshell – создание приложений для мобильных устройств Android и iOS, Windows на заказ. Профессиональные разработчики, портфолио, калькулятор расчета стоимости. Контакты в Москве и Санкт-Петербурге"/>
+    <meta name="keywords" content="создание мобильного приложения на заказ, калькулятор стоимости"/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900&amp;subset=latin,cyrillic" rel="stylesheet">
+    <link href="https://infoshell.ru/wp-content/themes/mark_up/css1/formCorrections.css" rel="stylesheet">
+    <!--<link href="https://yandex.st/bootstrap/2.3.2/css/bootstrap.min.css" rel="stylesheet">-->
+    <!--<script src="https://yandex.st/jquery/2.2.3/jquery.min.js" type="text/javascript"></script>-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=<ecb25afb-cfce-4ea7-80df-ed4fc56c4af8>" type="text/javascript"></script>
+    <script src="js/balloon_autopan.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="libs/animate.css/animate.css">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+
+    <link rel="stylesheet" href="libs/OwlCarousel2/dist/assets/owl.carousel.css">
+    <link rel="stylesheet" href="libs/OwlCarousel2/dist/assets/owl.theme.default.css">
+    <link rel="stylesheet" href="libs/OwlCarousel2/dist/assets/owl.theme.green.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<div class="page-surround infoshel-page infoshel-article-page">
+    <header class="infoshel-header container-fluid">
+        <div class="infoshel-header__container row">
+            <div class="infoshel-header__container-burger">
+                <div class="infoshel-header__container-burger-line"></div>
+            </div>
+            <div class="infoshel-header__container-logo wow fadeInDown">
+                <a href="index.html"></a>
+            </div>
+            <div class="infoshel-header__container-menu">
+                <nav class="infoshel-header__container-nav">
+                    <ul class="infoshel-header__container-nav-menu">
+                        <li>
+                            <!-- add "active" class to <a> if necessary--><a href="/portfolio/" class="">Портфолио</a>
+                        </li>
+                        <li>
+                            <!-- add "active" class to <a> if necessary--><a href="/services/" class="">Услуги</a>
+                        </li>
+                        <li>
+                            <!-- add "active" class to <a> if necessary--><a href="/company/" class="">Компания</a>
+                        </li>
+                        <li>
+                            <!-- add "active" class to <a> if necessary--><a href="/blog/" class="">Блог</a>
+                        </li>
+                        <li>
+                            <!-- add "active" class to <a> if necessary--><a href="/contact/" class="">Контакты</a>
+                        </li>
+                    </ul>
+                    <!-- /ul.menu-->
+                </nav>
+            </div>
+            <div class="infoshel-header__container-content">
+                <div class="infoshel-header__container-socialNetworks">
+                    <ul>
+                        <li>
+                            <a class="infoshel-header__container-socialNetworks-vk infoshel-header__container-socialNetworks-icon" href=""></a>
+                        </li>
+
+                        <li>
+                            <a class="infoshel-header__container-socialNetworks-fb infoshel-header__container-socialNetworks-icon" href=""></a>
+                        </li>
+
+                        <li>
+                            <a class="infoshel-header__container-socialNetworks-dr infoshel-header__container-socialNetworks-icon" href=""></a>
+                        </li>
+
+                        <li>
+                            <a class="infoshel-header__container-socialNetworks-bh infoshel-header__container-socialNetworks-icon" href=""></a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="infoshel-header__container-phones">
+                    <p>Мск:+7 (495) 215 51 82</p>
+                    <p>СПб:+7 (812) 242 80 58</p>
+                </div>
+
+                <div class="infoshel-header__container-requestCall">
+                    <a data-toggle="modal" data-target="#exampleModalCenter" class="infoshel-header__container-requestCall-link" href="">
+                        <span>Заказать<br>звонок</span>
+                        <i class="infoshel-header__container-requestCall-icon"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="infoshel-main">
+        <section class="infoshel-article-page__firstSlide infoshel-article-page__firstSlide-usabilityBg">
+            <div class="infoshel-article-page__firstSlide-usabilityAnalytics-img"></div>
+            <div class="infoshel-container container">
+                <div class="row">
+                    <div class="col-sm-7">
+                        <div class="infoshel-article-page__firstSlide-text">
+                            <h2 class="infoshel-h2">Проектирование, юзабилити-аналитика, дизайн</h2>
+                            <p>Стильные и понятные интерфейсы уменьшают отток клиентов, повышают конверсию, укрепляют лояльность и делают опыт взаимодействия пользователя с продуктом максимально приятным.</p>
+                            <p><b>Команда InfoShell</b> тщательно проектирует и отрисовывает каждый экран. Как результат – красивый и функциональный интерфейс вашего продукта.</p>
+                            <button class="infoshel-button mt-4" data-toggle="modal" data-target="#exampleModalCenter">Оставить заявку</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="infoshel-article-page__design color-grey">
+            <div class="infoshel-container container">
+                <h2 class="infoshel-h2">UX & UI-дизайн</h2>
+                <div class="row">
+                    <div class="col-4">
+                        <div class="infoshel-article-page__design-block">
+                            <div class="infoshel-article-page__design-blockHeader">
+                                <div class="infoshel-article-page__design-blockHeader-img">
+                                    <i class="orange-phone"></i>
+                                </div>
+                                <p>Дизайн приложений</p>
+                            </div>
+                            <div class="infoshel-article-page__design-blockMain">
+                                <p>Создаем интерфейсы, которые повышают вовлеченность пользователей и подчеркивают ценность вашего бренда. Вашим приложением захотят пользоваться снова и снова как на iOS, так и на Android. </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-4">
+                        <div class="infoshel-article-page__design-block">
+                            <div class="infoshel-article-page__design-blockHeader">
+                                <div class="infoshel-article-page__design-blockHeader-img">
+                                    <i class="web-design"></i>
+                                </div>
+                                <p>Web-дизайн</p>
+                            </div>
+                            <div class="infoshel-article-page__design-blockMain">
+                                <p>Запоминающийся, функциональный, простой и красивый. Именно такой дизайн делает наша команда для корпоративных порталов, CRM-систем, промосайтов и лендинов. </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-4">
+                        <div class="infoshel-article-page__design-block">
+                            <div class="infoshel-article-page__design-blockHeader">
+                                <div class="infoshel-article-page__design-blockHeader-img">
+                                    <i class="watch-icon"></i>
+                                </div>
+                                <p>Дизайн для гаджетов</p>
+                            </div>
+                            <div class="infoshel-article-page__design-blockMain">
+                                <p>Практичность, минимализм, ключевые функции продукта – три главных критерия, которых мы придерживаемся в создании интерфейсов для "умных" гаджетов. </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-4">
+                        <div class="infoshel-article-page__design-block">
+                            <div class="infoshel-article-page__design-blockHeader">
+                                <div class="infoshel-article-page__design-blockHeader-img">
+                                    <i class="interface-icon"></i>
+                                </div>
+                                <p>Проектирование интерфейсов</p>
+                            </div>
+                            <div class="infoshel-article-page__design-blockMain">
+                                <p>Мы понимаем ожидания и предпочтения потребителя и создаем user-friendly интерфейсы с учетом специфики конкретного бизнеса.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-4">
+                        <div class="infoshel-article-page__design-block">
+                            <div class="infoshel-article-page__design-blockHeader">
+                                <div class="infoshel-article-page__design-blockHeader-img">
+                                    <i class="usability-audit"></i>
+                                </div>
+                                <p>Юзабилити аудит</p>
+                            </div>
+                            <div class="infoshel-article-page__design-blockMain">
+                                <p>Наши специалисты проводят экспертный анализ, прорабатывают сценарии использования продукта пользователем и формируют документ с рекомендациями по улучшению интерфейса.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="infoshel-article-page__design-animation">
+                <img src="img/usability-analytics/animation.png" alt="">
+            </div>
+        </section>
+        <section class="infoshel-article-page__process">
+            <div class="infoshel-container container">
+                <h2 class="infoshel-h2">Процесс работы</h2>
+                <div class="infoshel-article-page__process-container">
+                    <div class="infoshel-article-page__process-block">
+                        <div class="infoshel-article-page__process-circle infoshel-article-page__process-circleRed"></div>
+                        <p>1. Исследование и аналитика</p>
+                        <img class="" src="img/usability-analytics/help.svg" title="В основе качественного дизайна лежит понимание, для кого он создается. Сначала мы изучаем предметную область вашего бизнеса, собираем информацию о рынке и конкурентах, выделяем ключевые преимущества, отмечаем недостатки. Затем анализируем ваших клиентов, их ожидания и потребности и в итоге находим подходящее и удобное решение поставленной задачи" alt="">
+                    </div>
+
+                    <div class="infoshel-article-page__process-block">
+                        <div class="infoshel-article-page__process-circle infoshel-article-page__process-circlePurple"></div>
+                        <p>2. Разработка сценариев взаимодействия с продуктом</p>
+                        <img class="" src="img/usability-analytics/help.svg" title="Разрабатывая сценарии, мы ставим себя на место людей в тех ситуациях, когда им требуется воспользоваться приложением или сайтом и выявляем наиболее важные особенности взаимодействия с будущим продуктом. " alt="">
+                    </div>
+
+                    <div class="infoshel-article-page__process-block">
+                        <div class="infoshel-article-page__process-circle infoshel-article-page__process-circleGreen"></div>
+                        <p>3. Создание прототипа интерфейса</p>
+                        <img class="" src="img/usability-analytics/help.svg" title="На этом этапе, используя полученные артефакты и элементы интерфейса (тексты, кнопки, блоки и многое другое), мы создаем прототип - визуальное представление интерфейса, наглядно демонстрирующее структуру и функционал приложения. Прототип будет работать почти как готовое приложение или web-сервис, позволит оценить и протестировать, как сервис будет взаимодействовать с будущими пользователями. Прототип не включает в себя дизайн." alt="">
+                    </div>
+
+                    <div class="infoshel-article-page__process-block">
+                        <div class="infoshel-article-page__process-circle infoshel-article-page__process-circleBlue"></div>
+                        <p>4. Концепция дизайна и тестирование</p>
+                        <img class="" src="img/usability-analytics/help.svg" title="Отдел дизайна предоставляет заказчику свое видение визуальной части проекта. После внесения правок клиент утверждает фирменный стиль продукта, цвета, шрифты. Мы обязательно тестируем дизайн интерфейса на восприятие пользователем, а также на грамотность цветовой схемы, правильность расстановки цветовых акцентов, читаемость шрифтов и размеры кликабельных элементов." alt="">
+                    </div>
+
+                    <div class="infoshel-article-page__process-block">
+                        <div class="infoshel-article-page__process-circle infoshel-article-page__process-circleYellow"></div>
+                        <p>5. Отрисовка дизайна продукта по утвержденной концепции</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="infoshel-article-page__design-sites color-grey">
+            <div class="infoshel-container container infoshel-article-page__design-sites-container">
+                <h2 class="infoshel-h2">UX и UI-Дизайн сайтов</h2>
+                <div class="infoshel-container container">
+                    <div class="row">
+                        <div class="col-4">
+                            <div class="infoshel-article-page__design-sites-block">
+                                <div class="infoshel-article-page__design-sites-block-header">
+                                    <div class="infoshel-article-page__design-sites-block-header-img">
+                                        <i class="orange-web-attachment"></i>
+                                    </div>
+                                    <p>Веб-сайты и приложения</p>
+                                </div>
+                                <div class="infoshel-article-page__design-sites-block-main">
+                                    <p>Наша главная цель – создание уникального пользовательского опыта для посетителей. Именно он определяет, останется клиент на вашем ресурсе или уйдет к конкуренту.
+                                        Мы индивидуально подходим к каждому проекту и делаем веб-сервисы максимально удобными для пользователей, уделяя внимание мельчайшим деталям интерфейса и дизайна.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-4">
+                            <div class="infoshel-article-page__design-sites-block">
+                                <div class="infoshel-article-page__design-sites-block-header">
+                                    <div class="infoshel-article-page__design-sites-block-header-img">
+                                        <i class="orange-landing"></i>
+                                    </div>
+                                    <p>Лэндинг и промо-сайты</p>
+                                </div>
+                                <div class="infoshel-article-page__design-sites-block-main">
+                                    <p>Запускаете ли вы новый продукт или хотите привлечь больше пользователей на существующий сервис и увеличить продажи, команда InfoShell разработает именно то, что вам нужно. Мы создаем страницы в поддержку запуска продукта, промо-сайты, лидогенерирующие страницы, которые стимулируют рост конверсии.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-4">
+                            <div class="infoshel-article-page__design-sites-block">
+                                <div class="infoshel-article-page__design-sites-block-header">
+                                    <div class="infoshel-article-page__design-sites-block-header-img">
+                                        <i class="orange-icon-server"></i>
+                                    </div>
+                                    <p>Сервера, админки</p>
+                                </div>
+                                <div class="infoshel-article-page__design-sites-block-main">
+                                    <p>Разрабатывая решения для управления информацией, мы ставим на первое место легкость и простоту их использования. Мы проектируем удобные и функциональные административные панели сайтов и мобильных приложений, CRM и ERP-системы с интуитивно понятной навигацией и наглядными интерфейсами.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img class="infoshel-article-page__design-sites-img" src="img/usability-analytics/animation-2.png" alt="">
+        </section>
+        <section class="infoshel-article-page__leadership">
+            <div class="infoshel-container container">
+                <h2 class="infoshel-h2">Наши руководители UX и UI-отделов</h2>
+                <div class="row">
+                    <div class="col-6">
+                        <div class="infoshel-article-page__leadership-block">
+                            <div class="infoshel-article-page__leadership-block-img">
+                                <img src="img/usability-analytics/pavel@3x.jpg" alt="">
+                            </div>
+                            <div class="infoshel-article-page__leadership-block-text">
+                                <p>Павел Макаров</p>
+                                <p>Руководитель отдела аналитики<br>
+                                    <b>стаж: 6 лет</b></p>
+                                <p>Справедливый судья конкурсов мобильных приложений</p>
+                                <p>Автор аналитических обзоров приложений для <b>banki.ru</b></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-6">
+                        <div class="infoshel-article-page__leadership-block">
+                            <div class="infoshel-article-page__leadership-block-img">
+                                <img src="img/usability-analytics/maria@3x.jpg" alt="">
+                            </div>
+                            <div class="infoshel-article-page__leadership-block-text">
+                                <p>Мария Терешкова</p>
+                                <p>Арт-Директор<br>
+                                    <b>стаж: 8 лет</b></p>
+                                <p>Лектор в школе программирования и дизайна</p>
+                                <p>Автор советов и рекомендаций дизайнеров на проф. ресурсах</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="infoshel-main-calculator">
+            <div class="infoshel-container">
+                <h2 class="infoshel-h2 infoshel-main-calculator__h2">Калькулятор расчета конечной стоимости работ</h2>
+                <p class="infoshel-main-calculator__title">Узнайте стоимость вашего приложения, ответив на несколько простых вопросов!</p>
+                <!--<div class="infoshel-main-calculator__list-steps">-->
+                <!--<div class="infoshel-main-calculator__list-step active">-->
+                <!--<span>1</span>-->
+                <!--<p>Выберите платформу</p>-->
+                <!--</div>-->
+
+                <!--<div class="infoshel-main-calculator__list-step">-->
+                <!--<span>2</span>-->
+                <!--<p>Выберите устройство</p>-->
+                <!--</div>-->
+
+                <!--<div class="infoshel-main-calculator__list-step">-->
+                <!--<span>3</span>-->
+                <!--<p>Сложность приложения</p>-->
+                <!--</div>-->
+
+                <!--<div class="infoshel-main-calculator__list-step">-->
+                <!--<span>4</span>-->
+                <!--<p>Дизайн</p>-->
+                <!--</div>-->
+
+                <!--<div class="infoshel-main-calculator__list-step">-->
+                <!--<span>5</span>-->
+                <!--<p>Ориентация</p>-->
+                <!--</div>-->
+
+                <!--<div class="infoshel-main-calculator__list-step">-->
+                <!--<span>6</span>-->
+                <!--<p>Авторизация</p>-->
+                <!--</div>-->
+                <!--</div>-->
+                <!--<div class="infoshel-main-calculator__platforms">-->
+                <!--<div class="infoshel-main-calculator__platform infoshel-main-calculator__platform-ios active">&lt;!&ndash;для активного состояния добавить класс active&ndash;&gt;-->
+                <!--<div class="infoshel-main-calculator__platform-icon infoshel-main-calculator__platform-iconIos"></div>-->
+                <!--<p>Мобильная платформа iOS</p>-->
+                <!--</div>-->
+                <!--<div class="infoshel-main-calculator__platform infoshel-main-calculator__platform-android ">&lt;!&ndash;для активного состояния добавить класс active&ndash;&gt;-->
+                <!--<div class="infoshel-main-calculator__platform-icon infoshel-main-calculator__platform-iconAndroid"></div>-->
+                <!--<p>Мобильная платформа Android</p>-->
+                <!--</div>-->
+                <!--<div class="infoshel-main-calculator__platform infoshel-main-calculator__platform-web ">&lt;!&ndash;для активного состояния добавить класс active&ndash;&gt;-->
+                <!--<div class="infoshel-main-calculator__platform-icon infoshel-main-calculator__platform-iconWeb"></div>-->
+                <!--<p>Веб-сайт</p>-->
+                <!--</div>-->
+                <!--</div>-->
+                <!--<div class="infoshel-main-calculator__btn-group">-->
+                <!--<button class="infoshel-button  infoshel-main-calculator__btn-prev">Назад</button>-->
+                <!--<button class="infoshel-button infoshel-main-calculator__btn-next">Далее</button>-->
+                <!--</div>-->
+
+                <form id="calc_form" action="https://infoshell.ru/wp-content/themes/mark_up/calc/calc_form.php" method="POST" accept-charset="utf-8">
+
+                    <ul class="nav nav-tabs nav-justified" role="tablist">
+                        <li role="presentation" class="active"><b>1</b><a href="#calc_platform" aria-controls="calc_platform" role="tab" data-toggle="tab"><b></b>Выберите платформу</a></li>
+                        <li role="presentation"><b>2</b><a href="#calc_device" aria-controls="calc_device" role="tab" data-toggle="tab">Выберите устройство</a></li>
+                        <li role="presentation"><b>3</b><a href="#calc_level" aria-controls="calc_level" role="tab" data-toggle="tab">Сложность приложения</a></li>
+                        <li role="presentation"><b>4</b><a href="#calc_design" aria-controls="calc_design" role="tab" data-toggle="tab">Дизайн</a></li>
+                        <li role="presentation"><b>5</b><a href="#calc_rotate" aria-controls="calc_rotate" role="tab" data-toggle="tab">Ориентация</a></li>
+                        <li role="presentation" style="display: none;"><b>6</b><a href="#calc_auth" aria-controls="calc_auth" role="tab" data-toggle="tab">Авторизация</a></li>
+                        <li role="presentation" style="display: none;"><b>7</b><a href="#calc_content" aria-controls="calc_content" role="tab" data-toggle="tab">Наполнение</a></li>
+                        <li role="presentation" style="display: none;"><b>8</b><a href="#calc_society" aria-controls="calc_society" role="tab" data-toggle="tab">Социальное взаимодействие</a></li>
+                        <li role="presentation" style="display: none;"><b>9</b><a href="#calc_payment" aria-controls="calc_payment" role="tab" data-toggle="tab">Оплата и прием платежей</a></li>
+                        <li role="presentation" style="display: none;"><b>10</b><a href="#calc_extra" aria-controls="calc_extra" role="tab" data-toggle="tab">Дополнительно</a></li>
+                        <li role="presentation" style="display: none;"><b>11</b><a href="#calc_admin" aria-controls="calc_admin" role="tab" data-toggle="tab">Администрирование</a></li>
+                        <li role="presentation" style="display: none;"><b>12</b><a href="#calc_send" aria-controls="calc_send" role="tab" data-toggle="tab">Отправить</a></li>
+                    </ul>
+
+                    <div class="tab-content">
+                        <!-- Выберите платформу -->
+                        <div role="tabpanel" class="tab-pane fade in active" id="calc_platform">
+                            <div class="btn-group" data-toggle="buttons">
+                                <label class="btn btn-default">
+                                    <input type="checkbox" id="platform_apple" name="platform_apple" value="Мобильная платформа iOS">
+                                    <i class="icn icn-apple"></i>
+                                    <span>Мобильная платформа iOS</span>
+                                </label>
+                                <label class="btn btn-default">
+                                    <input type="checkbox" id="platform_android" name="platform_android" value="Мобильная платформа Android">
+                                    <i class="icn icn-android"></i>
+                                    <span>Мобильная платформа Android</span>
+                                </label>
+                                <label class="btn btn-default">
+                                    <input type="checkbox" id="platform_web" name="platform_web" value="Веб-сайт">
+                                    <i class="icn icn-laptop"></i>
+                                    <span>Веб-сайт</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <!-- Выберите устройство -->
+                        <div role="tabpanel" class="tab-pane fade" id="calc_device">
+                            <div class="btn-group" data-toggle="buttons">
+                                <label class="btn btn-default">
+                                    <input type="checkbox" id="device_mobile" name="device_mobile" value="Смартфон">
+                                    <i class="icn icn-mobile"></i>
+                                    <span>Смартфон</span>
+                                </label>
+                                <label class="btn btn-default">
+                                    <input type="checkbox" id="device_tablet" name="device_tablet" value="Планшет">
+                                    <i class="icn icn-tablet"></i>
+                                    <span>Планшет</span>
+                                </label>
+                                <label class="btn btn-default">
+                                    <input type="checkbox" id="device_watch" name="device_watch" value="Часы">
+                                    <i class="icn icn-watch"></i>
+                                    <span>Часы</span>
+                                </label>
+                                <label class="btn btn-default">
+                                    <input type="checkbox" id="device_tv" name="device_tv" value="Телевизор">
+                                    <i class="icn icn-tv"></i>
+                                    <span>Телевизор</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <!-- Сложность приложения -->
+                        <div role="tabpanel" class="tab-pane fade" id="calc_level">
+                            <div class="btn-group" data-toggle="buttons">
+                                <label class="btn btn-default">
+                                    <input type="radio" id="level_S7" name="level" value="До 7 экранов">
+                                    <i class="icn">S</i>
+                                    <span>До 7 экранов</span>
+                                </label>
+                                <label class="btn btn-default">
+                                    <input type="radio" id="level_M15" name="level" value="До 15 экранов">
+                                    <i class="icn">M</i>
+                                    <span>До 15 экранов</span>
+                                </label>
+                                <label class="btn btn-default">
+                                    <input type="radio" id="level_L25" name="level" value="До 25 экранов">
+                                    <i class="icn">L</i>
+                                    <span>До 25 экранов</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <!-- Дизайн -->
+                        <div role="tabpanel" class="tab-pane fade" id="calc_design">
+                            <div class="btn-group" data-toggle="buttons">
+                                <label class="btn btn-default">
+                                    <input type="radio" id="design_native" name="design" value="Нативные элементы">
+                                    <i class="icn icn-layout1"></i>
+                                    <span>Нативные элементы</span>
+                                </label>
+                                <label class="btn btn-default">
+                                    <input type="radio" id="design_middle" name="design" value="Свой дизайн, несложные элементы">
+                                    <i class="icn icn-layout2"></i>
+                                    <span>Свой дизайн, несложные элементы</span>
+                                </label>
+                                <label class="btn btn-default">
+                                    <input type="radio" id="design_top" name="design" value="Кастомный крутой дизайн">
+                                    <i class="icn icn-layout3"></i>
+                                    <span>Кастомный крутой дизайн</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <!-- Ориентация -->
+                        <div role="tabpanel" class="tab-pane fade" id="calc_rotate">
+                            <div class="btn-group" data-toggle="buttons">
+                                <label class="btn btn-default">
+                                    <input type="radio" id="rotate_book" name="rotate" value="Книжная">
+                                    <i class="icn"><svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34"><rect class="svg-stroke" width="23" height="30" x="5.5" y="1.5" fill="none" fill-rule="evenodd" stroke="#ffffff" stroke-width="3" rx="2"></rect></svg></i>
+                                    <span>книжная</span>
+                                </label>
+                                <label class="btn btn-default">
+                                    <input type="radio" id="rotate_album" name="rotate" value="Альбомная">
+                                    <i class="icn"><svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34"><rect class="svg-stroke" width="23" height="30" x="6" y="3" fill="none" fill-rule="evenodd" stroke="#ffffff" stroke-width="3" rx="2" transform="rotate(90 17.5 18)"></rect></svg></i>
+                                    <span>альбомная</span>
+                                </label>
+                                <label class="btn btn-default">
+                                    <input type="radio" id="rotate_book_album" name="rotate" value="Книжная и альбомная">
+                                    <i class="icn"><svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34"><g class="svg-stroke" fill="none" fill-rule="evenodd" stroke="#ffffff" stroke-width="3"><rect width="19" height="23" x="1.5" y="1.5" rx="2"></rect><rect width="17" height="24" x="12" y="12" rx="2" transform="rotate(90 20.5 24)"></rect></g></svg></i>
+                                    <span>книжная и альбомная</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <!-- Авторизация -->
+                        <div role="tabpanel" class="tab-pane fade" id="calc_auth">
+                            <div class="btn-group" data-toggle="buttons">
+                                <label class="btn btn-default">
+                                    <input type="checkbox" id="auth_email" name="auth_email" value="Email">
+                                    <i class="icn icn-at"></i>
+                                    <span>email</span>
+                                </label>
+                                <label class="btn btn-default">
+                                    <input type="checkbox" id="auth_tel" name="auth_tel" value="Телефон">
+                                    <i class="icn icn-tel"></i>
+                                    <span>телефон</span>
+                                </label>
+                                <label class="btn btn-default">
+                                    <input type="checkbox" id="auth_social" name="auth_social" value="Соц сети">
+                                    <i class="icn icn-people"></i>
+                                    <span>соц сети</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <!-- Наполнение -->
+                        <div role="tabpanel" class="tab-pane fade" id="calc_content">
+                            <div class="btn-group" data-toggle="buttons">
+                                <label class="btn btn-default">
+                                    <input type="checkbox" id="content_news" name="content_news" value="Лента новостей">
+                                    <i class="icn icn-news"></i>
+                                    <span>лента новостей</span>
+                                </label>
+                                <label class="btn btn-default">
+                                    <input type="checkbox" id="content_profile" name="content_profile" value="Профиль пользователя">
+                                    <i class="icn icn-profile"></i>
+                                    <span>профиль пользователя</span>
+                                </label>
+                                <label class="btn btn-default">
+                                    <input type="checkbox" id="content_search" name="content_search" value="Поиск, фильтрация">
+                                    <i class="icn">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34">
+                                            <g fill="none" fill-rule="nonzero">
+                                                <path class="svg-fill" fill="#ffffff" d="M17.21 23.855v3.442a2 2 0 0 1-2 2h-1.376a2 2 0 0 1-2-2V21.75L1.115 9h13.157A12.45 12.45 0 0 0 13 14.5a12.47 12.47 0 0 0 4.21 9.355zM18.714 4c-1.24.803-2.33 1.82-3.216 3H2.025a1.5 1.5 0 0 1 0-3h16.69z"></path>
+                                                <path class="svg-stroke" stroke="#ffffff" stroke-width="4" d="M31.559 22.798l-3.392-3.633 1.204-1.361a6.5 6.5 0 1 0-2.541 1.767l1.259-.484 3.467 3.714.003-.003z"></path>
+                                            </g>
+                                        </svg>
+                                    </i>
+                                    <span>поиск, фильтрация</span>
+                                </label>
+                                <label class="btn btn-default">
+                                    <input type="checkbox" id="content_catalog" name="content_catalog" value="Каталоги, категории">
+                                    <i class="icn icn-catalog"></i>
+                                    <span>каталоги, категории</span>
+                                </label>
+
+                                <label class="btn btn-default">
+                                    <input type="checkbox" id="content_upload" name="content_upload" value="Загрузка фото, аудио, видео">
+                                    <i class="icn">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34">
+                                            <g fill="none" fill-rule="evenodd">
+                                                <path class="svg-fill" fill="#ffffff" fill-rule="nonzero" d="M10 10.875c-1.326 0-2.4 1.092-2.4 2.438S8.674 15.75 10 15.75c1.325 0 2.4-1.091 2.4-2.438 0-1.345-1.075-2.437-2.4-2.437zm6.4-2.438h-1.92a.713.713 0 0 1-.632-.462l-.496-1.513A.714.714 0 0 0 12.72 6H7.28a.713.713 0 0 0-.632.462l-.496 1.513a.714.714 0 0 1-.632.463H3.6c-.88 0-1.6.73-1.6 1.624v7.313C2 18.269 2.72 19 3.6 19h12.8c.88 0 1.6-.731 1.6-1.625v-7.313c0-.893-.72-1.624-1.6-1.624zM10 17.376c-2.21 0-4-1.819-4-4.063C6 11.07 7.79 9.25 10 9.25c2.209 0 4 1.819 4 4.063 0 2.243-1.791 4.062-4 4.062zm5.84-6.176a.564.564 0 0 1-.56-.569c0-.314.25-.569.56-.569.31 0 .56.255.56.57 0 .313-.25.568-.56.568z"></path>
+                                                <g class="svg-fill" fill="#ffffff">
+                                                    <path fill-rule="nonzero" d="M30.63 14.121v-1.784a1 1 0 0 0-1.128-.992l-7.812 1.013a1 1 0 0 0-.871.992V15H19V9.062c0-.893-.72-1.624-1.6-1.624h-1.073c.193-.307.462-.56.78-.736A3.204 3.204 0 0 1 16 4.286c0-1.776 1.427-3.215 3.188-3.215 1.76 0 3.187 1.44 3.187 3.215 0 .827-.318 1.573-.827 2.143h1.948a3.75 3.75 0 0 1-1.121-2.679c0-2.071 1.665-3.75 3.719-3.75s3.718 1.679 3.718 3.75c0 1.364-.729 2.546-1.809 3.202.454.394.747.97.747 1.62l3.188-2.143c.587 0 1.062.479 1.062 1.071v6.429C33 14.52 32.525 15 31.937 15l-1.307-.879zM19.188 6.43c1.173 0 2.125-.96 2.125-2.143a2.134 2.134 0 0 0-2.125-2.143c-1.174 0-2.125.96-2.125 2.143 0 1.183.951 2.143 2.125 2.143zm6.906.005c1.47 0 2.662-1.201 2.662-2.684s-1.192-2.684-2.662-2.684-2.662 1.201-2.662 2.684c0 1.482 1.191 2.684 2.662 2.684zM16.84 10.2a.564.564 0 0 1-.56-.569c0-.314.25-.569.56-.569.31 0 .56.255.56.57 0 .313-.25.568-.56.568z"></path>
+                                                    <path d="M29.88 12.089a.347.347 0 0 0-.277-.086l-7.73 1.022a.356.356 0 0 0-.305.354v8.593a2.747 2.747 0 0 0-1.933-.775C18.182 21.197 17 22.275 17 23.6S18.182 26 19.635 26c1.453 0 2.635-1.077 2.635-2.401v-7.3l7.027-.929v4.295a2.708 2.708 0 0 0-1.907-.767c-1.44 0-2.61 1.078-2.61 2.402s1.171 2.4 2.61 2.4c1.439 0 2.61-1.076 2.61-2.4v-8.942a.36.36 0 0 0-.12-.269zM11.952 27.236a.454.454 0 0 0-.453-.3h-3.5v-4.432A.483.483 0 0 0 7.5 22H4.5a.484.484 0 0 0-.5.504v4.432H.5c-.208 0-.359.1-.452.3a.51.51 0 0 0 .078.552l5.546 6.055a.51.51 0 0 0 .734 0l5.468-6.055a.51.51 0 0 0 .078-.552z"></path>
+                                                </g>
+                                            </g>
+                                        </svg>
+                                    </i>
+                                    <span>загрузка фото, аудио, видео</span>
+                                </label>
+                                <label class="btn btn-default">
+                                    <input type="checkbox" id="content_editfoto" name="content_editfoto" value="Редактирование фото, видео">
+                                    <i class="icn"><svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34"><g fill="none" fill-rule="evenodd"><g class="svg-fill" fill="#ffffff"><path d="M1.212 10.354v-3.74l5.402-5.401h3.74l-9.142 9.141zm0 5.454v-3.74L12.068 1.213h3.74L1.211 15.808zm15.15-2.528v3.082h-3.083l3.082-3.082zm0-5.454v3.74l-4.796 4.796h-3.74l8.535-8.536zm0-5.453v3.74L6.111 16.362h-3.74l13.99-13.99zM1.211 4.9V2.425c.67-.001 1.211-.543 1.212-1.212H4.9L1.212 4.9zM1.212 0H0v1.213h1.212zM33.328 32.723h-.606v1.212h1.212v-1.213h-.604zM32.722 0v1.213h1.212V0z"></path><path d="M24.027 9.696l-.03 2.472-2.667-2.714c-.007-.01-.008-.02-.014-.03a.597.597 0 0 1-.043-.063.6.6 0 0 1-.031-.093c-.005-.016-.013-.03-.016-.047a.601.601 0 0 1-.01-.203c.001-.016.007-.03.01-.046a.597.597 0 0 1 .083-.207c.008-.012.012-.026.021-.038l2.666-2.545.03 2.302h8.696v-6.06a1.213 1.213 0 0 1-1.212-1.211H17.573v15.755a.606.606 0 0 1-.606.606H1.212V31.51c.67 0 1.211.543 1.212 1.212H9.09v-6.696H6.429l2.903-2.696c.01-.007.02-.008.03-.014a.596.596 0 0 1 .063-.044.596.596 0 0 1 .093-.031c.016-.005.03-.012.047-.016a.6.6 0 0 1 .203-.01c.016.002.03.007.046.01a.596.596 0 0 1 .207.084c.013.008.026.012.038.02L13 26.028h-2.698v6.696H31.51c0-.67.543-1.211 1.212-1.212V9.696h-8.695zM.606 32.723H0v1.212h1.212v-1.213H.61z"></path></g></g></svg></i>
+                                    <span>редактирование фото, видео</span>
+                                </label>
+                                <label class="btn btn-default">
+                                    <input type="checkbox" id="content_calendar" name="content_calendar" value="Календарь, выбор дат">
+                                    <i class="icn">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34">
+                                            <g fill="none" fill-rule="evenodd">
+                                                <path class="svg-fill" fill="#ffffff" d="M12.429 24.367h4v3.967h-4zM12.429 14.167h4v3.967h-4z"></path>
+                                                <path class="svg-stroke" stroke="#ffffff" d="M12.929 19.767h3v2.967h-3z"></path>
+                                                <path class="svg-fill" fill="#ffffff" d="M7.286 19.267h4v3.967h-4zM7.286 14.167h4v3.967h-4zM7.286 24.367h4v3.967h-4zM22.714 14.167h4v3.967h-4z"></path>
+                                                <path class="svg-fill" fill="#ffffff" fill-rule="nonzero" d="M32.429 2.267h-4v-1.7A.569.569 0 0 0 27.857 0h-4a.569.569 0 0 0-.571.567v1.7H10.714v-1.7A.569.569 0 0 0 10.143 0h-4a.569.569 0 0 0-.572.567v1.7h-4A.569.569 0 0 0 1 2.833v30.6c0 .314.255.567.571.567H32.43a.569.569 0 0 0 .571-.567v-30.6a.569.569 0 0 0-.571-.566zm-4.572 15.866v11.334H6.143V13.033h21.714v5.1zm4-9.633H2.143V3.4H5.57v1.7c0 .313.256.567.572.567h4a.569.569 0 0 0 .571-.567V3.4h12.572v1.7c0 .313.255.567.571.567h4a.569.569 0 0 0 .572-.567V3.4h3.428v5.1z"></path>
+                                                <path class="svg-stroke" stroke="#ffffff" d="M23.214 19.767h3v2.967h-3z"></path>
+                                                <path class="svg-fill" fill="#ffffff" d="M22.714 24.367h4v3.967h-4zM17.571 24.367h4v3.967h-4z"></path>
+                                                <path class="svg-stroke" stroke="#ffffff" d="M18.071 19.767h3v2.967h-3z"></path>
+                                                <path class="svg-fill" fill="#ffffff" d="M17.571 14.167h4v3.967h-4z"></path>
+                                            </g>
+                                        </svg>
+                                    </i>
+                                    <span>календарь, выбор дат</span>
+                                </label>
+                                <label class="btn btn-default">
+                                    <input type="checkbox" id="content_map" name="content_map" value="Карты, геолокация">
+                                    <i class="icn"><svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34"><g fill="none" fill-rule="evenodd"><path class="svg-fill" fill="#ffffff" fill-rule="nonzero" d="M21.479 14.452l.091-.303.016-.053c.35-1.179-1.03-2.173-2.003-1.445l-.533.398-1.506-.869 16.269-9.393c.121.383.187.79.187 1.213v12.37l-4.6 2.656-7.921-4.574zm-3.336 11.073l2.447-8.122 5.81 3.355-8.257 4.767zM13.32 28.31l-9.806 5.662A4 4 0 0 1 0 30v-7.69l14.544-8.398 1.89 1.092-5.157 3.855-5.746 4.296c-.968.724-.403 2.308.826 2.315l5.345.03.392.004 1.227 2.805zm1.33 2.697c.653.548 1.735.35 2.01-.561l.218-.726 12.522-7.23L34 25.146V30a4 4 0 0 1-4 4H9.464l5.187-2.994zM34 21.68l-1.6-.923 1.6-.924v1.847zM15.624 0H30c.669 0 1.3.164 1.854.455l-7.721 4.457L15.624 0zm-6 0l11.509 6.644L0 18.845V4a4 4 0 0 1 4-4h5.624zm3.656 23.508l-.981.008-4.206.058 4.586-3.45 6.632-4.985-.012.037-4.111 12.83-1.908-4.498z"></path></g></svg></i>
+                                    <span>карты, геолокация</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <!-- Социальное взаимодействие  -->
+                        <div role="tabpanel" class="tab-pane fade" id="calc_society">
+                            <div class="btn-group" data-toggle="buttons">
+                                <label class="btn btn-default">
+                                    <input type="checkbox" id="society_chat" name="society_chat" value="Сообщения,чаты">
+                                    <i class="icn icn-sms"></i>
+                                    <span>сообщения, чаты</span>
+                                </label>
+                                <label class="btn btn-default">
+                                    <input type="checkbox" id="society_comment" name="society_comment" value="Комментарии, форум">
+                                    <i class="icn icn-message"></i>
+                                    <span>Комментарии, форум</span>
+                                </label>
+                                <label class="btn btn-default">
+                                    <input type="checkbox" id="society_push" name="society_push" value="Push-уведомления">
+                                    <i class="icn">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34">
+                                            <g fill="none" fill-rule="evenodd" transform="translate(0 2)">
+                                                <path class="svg-stroke" stroke="#ffffff" stroke-width="2" d="M21.138 3.49h-18.1c-.949 0-1.717.77-1.717 1.717v24.076c0 .948.768 1.717 1.717 1.717h24.075c.949 0 1.717-.769 1.717-1.717v-18.8a6.631 6.631 0 0 1-.924.064h-.141c-2.394.002-3.486-.259-4.798-1.593-1.377-1.4-1.835-2.937-1.835-5.18 0-.095.002-.19.006-.283z"></path>
+                                                <circle class="svg-stroke" cx="26.906" cy="4.774" r="5.774" stroke="#ffffff" stroke-linecap="round" stroke-width="2"></circle>
+                                                <circle class="svg-fill" cx="26.906" cy="4.774" r="2.774" fill="#ffffff"></circle>
+                                            </g>
+                                        </svg>
+                                    </i>
+                                    <span>push-уведомления</span>
+                                </label>
+
+
+                                <label class="btn btn-default">
+                                    <input type="checkbox" id="society_sms" name="society_sms" value="SMS">
+                                    <i class="icn icn-talk"></i>
+                                    <span>sms</span>
+                                </label>
+                                <label class="btn btn-default">
+                                    <input type="checkbox" id="society_email" name="society_email" value="Email рассылка">
+                                    <i class="icn icn-letter"></i>
+                                    <span>email рассылка</span>
+                                </label>
+                                <label class="btn btn-default">
+                                    <input type="checkbox" id="society_social" name="society_social" value="Поделиться в соц сетях">
+                                    <i class="icn">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34">
+                                            <g fill="none" fill-rule="evenodd">
+                                                <path class="svg-fill" fill="#ffffff" d="M25.273 21.186c-1.263 0-2.45.459-3.343 1.291-.248.231-.46.485-.645.753l-8.169-4.622a4.118 4.118 0 0 0 .339-1.627c0-.575-.123-1.124-.338-1.628l8.17-4.587c.84 1.229 2.31 2.048 3.986 2.048 2.606 0 4.727-1.977 4.727-4.407C30 5.977 27.88 4 25.273 4s-4.728 1.977-4.728 4.407c0 .553.115 1.081.316 1.57L12.68 14.57c-.845-1.2-2.3-1.996-3.953-1.996C6.121 12.574 4 14.55 4 16.98c0 2.43 2.12 4.406 4.727 4.406 1.652 0 3.107-.795 3.952-1.995l8.18 4.628a4.139 4.139 0 0 0-.314 1.573c0 1.177.492 2.284 1.385 3.116.893.833 2.08 1.291 3.343 1.291 1.262 0 2.45-.458 3.342-1.29.893-.833 1.385-1.94 1.385-3.117s-.492-2.284-1.385-3.116c-.893-.832-2.08-1.29-3.342-1.29z"></path>
+                                                <path class="svg-stroke" fill-rule="nonzero" stroke="#ffffff" stroke-width="2" d="M24.751 25.94L9.418 17l13.209-7.453"></path>
+                                            </g>
+                                        </svg>
+                                    </i>
+                                    <span>поделиться в соц сетях</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <!-- Оплата и прием платежей  -->
+                        <div role="tabpanel" class="tab-pane fade" id="calc_payment">
+                            <div class="btn-group" data-toggle="buttons">
+                                <label class="btn btn-default">
+                                    <input type="checkbox" id="payment_cart" name="payment_cart" value="Корзина покупок">
+                                    <i class="icn icn-cart"></i>
+                                    <span>корзина покупок</span>
+                                </label>
+                                <label class="btn btn-default">
+                                    <input type="checkbox" id="payment_shop" name="payment_shop" value="Встроенные покупки">
+                                    <i class="icn icn-bag"></i>
+                                    <span>встроенные покупки</span>
+                                </label>
+                                <label class="btn btn-default">
+                                    <input type="checkbox" id="payment_map" name="payment_map" value="Покупки по карте">
+                                    <i class="icn icn-paycard"></i>
+                                    <span>покупки по карте (платежный шлюз)</span>
+                                </label>
+                                <label class="btn btn-default">
+                                    <input type="checkbox" id="payment_subscribe" name="payment_subscribe" value="По подписке">
+                                    <i class="icn icn-rss"></i>
+                                    <span>по подписке</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <!-- Дополнительно  -->
+                        <div role="tabpanel" class="tab-pane fade" id="calc_extra">
+                            <div class="btn-group" data-toggle="buttons">
+                                <label class="btn btn-default">
+                                    <input type="checkbox" id="extra_vr" name="extra_vr" value="VR">
+                                    <i class="icn icn-vr"></i>
+                                    <span>VR</span>
+                                </label>
+                                <label class="btn btn-default">
+                                    <input type="checkbox" id="extra_ar" name="extra_ar" value="AR">
+                                    <i class="icn icn-ar"></i>
+                                    <span>AR</span>
+                                </label>
+                                <label class="btn btn-default">
+                                    <input type="checkbox" id="extra_touch" name="extra_touch" value="Touch ID">
+                                    <i class="icn">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34"><g class="svg-stroke" fill="none" fill-rule="evenodd" stroke="#fff" stroke-linecap="round" stroke-width="3"><path d="M31.122 14.83C29.494 6.202 21.632.62 13.562 2.358m-2.829 1.34c-6.816 2.647-9.399 9.825-7.922 17.655m28.607-3.896a17.112 17.112 0 0 0-.288-2.628M2.82 21.352c.043.229.09.455.142.68M17.99 30.909c.698-.97 1.311-1.997 1.83-3.067m1.04-2.581a19.727 19.727 0 0 0 .53-10.23c-.431-2.055-2.537-3.384-4.699-2.97m-2.51 1.58a3.629 3.629 0 0 0-.615 2.888 12.497 12.497 0 0 1-.735 7.603m-1.524 2.649a13.543 13.543 0 0 1-1.884 2.056M4.889 26.752c1.966-1.652 3.086-4.272 2.82-7.02m-.268-3.697c.387-4.26 3.388-7.934 7.606-8.823 2.474-.522 4.916.01 6.904 1.298m2.236 2.008a10.11 10.11 0 0 1 2.085 4.492c.478 2.479.626 4.947.475 7.354m-.266 2.498a28.826 28.826 0 0 1-1.432 5.608"></path></g></svg>
+                                    </i>
+                                    <span>Touch ID</span>
+                                </label>
+                                <label class="btn btn-default">
+                                    <input type="checkbox" id="extra_giro" name="extra_giro" value="Гироскоп">
+                                    <i class="icn">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34">
+                                            <g fill="none" fill-rule="nonzero" transform="translate(4 4)">
+                                                <circle class="svg-stroke" cx="13" cy="13" r="12" stroke="#ffffff" stroke-width="2"></circle>
+                                                <ellipse class="svg-stroke" cx="13.354" cy="12.646" stroke="#ffffff" stroke-width="2" rx="3" ry="8.5" transform="rotate(45 13.354 12.646)"></ellipse>
+                                                <ellipse class="svg-stroke" cx="13" cy="13" stroke="#ffffff" stroke-width="2" rx="4" ry="8" transform="rotate(136 13 13)"></ellipse>
+                                                <circle class="svg-fill" cx="13" cy="13" r="1" fill="#ffffff"></circle>
+                                                <path class="svg-fill" fill="#ffffff" d="M23.414 3l.707.708-1.414 1.414L22 4.415zM4.121 22l.707.708-1.414 1.414-.707-.707z"></path>
+                                                <circle class="svg-fill" cx="2" cy="25" r="2" fill="#ffffff"></circle>
+                                                <circle class="svg-fill" cx="25" cy="2" r="2" fill="#ffffff"></circle>
+                                            </g>
+                                        </svg>
+                                    </i>
+                                    <span>Гироскоп</span>
+                                </label>
+                                <label class="btn btn-default">
+                                    <input type="checkbox" id="extra_camera" name="extra_camera" value="Камера/фото">
+                                    <i class="icn icn-video"></i>
+                                    <span>камера/фото</span>
+                                </label>
+
+                                <label class="btn btn-default">
+                                    <input type="checkbox" id="extra_smartwatch" name="extra_smartwatch" value="Данные с умных часов">
+                                    <i class="icn icn-smartwatch"></i>
+                                    <span>данные с умных часов</span>
+                                </label>
+                                <label class="btn btn-default">
+                                    <input type="checkbox" id="extra_qr" name="extra_qr" value="QR-код">
+                                    <i class="icn icn-qrcode"></i>
+                                    <span>QR-код</span>
+                                </label>
+                                <label class="btn btn-default">
+                                    <input type="checkbox" id="extra_cloud" name="extra_cloud" value="Синхронизация с облачными сервисами">
+                                    <i class="icn icn-cloud"></i>
+                                    <span>Синхронизация с облачными сервисами</span>
+                                </label>
+                                <label class="btn btn-default">
+                                    <input type="checkbox" id="extra_integration" name="extra_integration" value="Доп интеграции с другими сервисами">
+                                    <i class="icn icn-integration"></i>
+                                    <span>доп интеграции с другими сервисами</span>
+                                </label>
+                                <label class="btn btn-default">
+                                    <input type="checkbox" id="extra_security" name="extra_security" value="Безопасность: шифрование сетевых данных">
+                                    <i class="icn icn-secure"></i>
+                                    <span>безопасность: шифрование сетевых данных</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <!-- Администрирование  -->
+                        <div role="tabpanel" class="tab-pane fade" id="calc_admin">
+                            <div class="btn-group" data-toggle="buttons">
+                                <label class="btn btn-default">
+                                    <input type="checkbox" id="admin_payment" name="admin_payment" value="Администрирование платежей">
+                                    <i class="icn icn-invoice"></i>
+                                    <span>администрирование платежей</span>
+                                </label>
+                                <label class="btn btn-default">
+                                    <input type="checkbox" id="admin_analityc" name="admin_analityc" value="Аналитика использования приложения">
+                                    <i class="icn icn-analytic"></i>
+                                    <span>аналитика использования приложения</span>
+                                </label>
+                                <label class="btn btn-default">
+                                    <input type="checkbox" id="admin_content" name="admin_content" value="Управление контентом">
+                                    <i class="icn icn-manage"></i>
+                                    <span>управление контентом</span>
+                                </label>
+                                <label class="btn btn-default">
+                                    <input type="checkbox" id="admin_users" name="admin_users" value="Администрирование пользователей">
+                                    <i class="icn icn-users"></i>
+                                    <span>администрирование пользователей</span>
+                                </label>
+
+                                <label class="btn btn-default">
+                                    <input type="checkbox" id="admin_moderation" name="admin_moderation" value="Модерация">
+                                    <i class="icn icn-moderate"></i>
+                                    <span>модерация</span>
+                                </label>
+                                <label class="btn btn-default">
+                                    <input type="checkbox" id="admin_feedback" name="admin_feedback" value="Обработка обратной связи">
+                                    <i class="icn icn-feedback"></i>
+                                    <span>обработка обратной связи</span>
+                                </label>
+                                <label class="btn btn-default">
+                                    <input type="checkbox" id="admin_crash" name="admin_crash" value="Статистика крашей">
+                                    <i class="icn icn-statistic"></i>
+                                    <span>статистика крашей</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div role="tabpanel" class="tab-pane fade calc-send" id="calc_send">
+                            <div class="container">
+                                <h3>Предварительная стоимость вашего проекта:</h3>
+                                <h2><b id="sum"></b> руб</h2>
+                                <br>
+                                <div id="calcRequest" class="clearfix"></div>
+                                <a id="btnModal" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#calcSend"><b>Отправить заявку</b></a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="clearfix"><br></div>
+                    <a class="btn btn-primary btn-lg btnPrev visible-xs-inline">Назад</a>
+                    <a class="btn btn-primary btn-lg btnNext"><b>Далее</b></a>
+                    <label for="tel"><a class="btn btn-primary btnSend" style="display: none;"><b>Узнать стоимость</b></a></label>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="calcSend" tabindex="-1" role="dialog" aria-labelledby="calcSendLabel">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-body text-left">
+                                    <!--button type="button" class="close" data-dismiss="modal" aria-label="Close"><b aria-hidden="true">&times;</b></button-->
+
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <div class="col-sm-12">
+                                                <h4 class="h3" id="calcSendLabel"><b>Контакты:</b></h4>
+                                            </div>
+
+                                            <div class="col-sm-6">
+                                                <label for="calc_name"><b>ФИО</b></label>
+                                                <input type="text" class="form-control" id="calc_name" name="calc_name" title="Пожалуйста! Правильно заполните поле ФИО" placeholder="Введите ваше имя, фамилию" value="" required="required">
+                                                <b class="help-block"></b>
+                                                <label for="calc_email"><b>E-MAIL</b></label>
+                                                <input type="text" class="form-control email" id="calc_email" name="calc_email" title="Пожалуйста! Правильно заполните поле E-mail" placeholder="Введите ваш E-mail" value="" required="required">
+                                                <b class="help-block"></b>
+                                                <label for="calc_tel"><b>ТЕЛЕФОН</b></label>
+                                                <input type="text" class="form-control tel" id="calc_tel" name="calc_tel" title="Пожалуйста! Правильно заполните поле Телефон" placeholder="Введите ваш Телефон" value="" required="required">
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <label for="calc_text"><b>Комментарий</b></label>
+                                                <textarea class="form-control" id="calc_text" name="calc_text" rows="10" cols="100" placeholder="Оставьте ваш комментарий"></textarea>
+                                                <input type="text" class="calc_address" id="calc_address" name="calc_address" title="" placeholder="" value="" required="required">
+                                                <br>
+                                                <button type="submit" class="btn btn-primary btn-lg btn-block" onclick="ga('send','event','calculator','calculator'); return true;"> Получить расчет </button>
+                                            </div>
+
+                                            <input type="hidden" name="calc_price" id="calc_price" value="">
+                                            <!--div class="row"-->
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+        </section>
+        <section class="infoshel-main-ourWork">
+            <h2 class="infoshel-h2 infoshel-main-ourWork__h2">Лучшие разработанные дизайны приложений</h2>
+            <span class="infoshel-main-ourWork__title-span">Мы превращаем идеи в отличные результаты</span>
+            <div class="infoshel-main-ourWork__slider owl-theme owl-carousel">
+                <div class="infoshel-main-ourWork__slider-img">
+                    <div class="infoshel-main-ourWork__slider-img-block">
+                        <img src="img/ourWork/easy-style.jpg" alt="">
+                        <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-ios infoshel-main-ourWork__icon-surfprise-ios"></span>
+                        <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-android infoshel-main-ourWork__icon-surfprise-android"></span>
+                    </div>
+                    <div class="infoshel-main-ourWork__slider-img-text">
+                        <h4>Easy Style</h4>
+                        <p>Создаем дизайн и занимаемся разработкой системы. Каждые две недели предоставляем продукт с новыми функциями. Обсуждаем, что будет сделано за следующие две недели.</p>
+                    </div>
+                </div>
+                <div class="infoshel-main-ourWork__slider-img">
+                    <div class="infoshel-main-ourWork__slider-img-block">
+                        <img src="img/ourWork/kinoxod.jpg" alt="">
+                        <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-ios infoshel-main-ourWork__icon-kino-ios"></span>
+                        <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-android infoshel-main-ourWork__icon-kino-android"></span>
+                    </div>
+                    <div class="infoshel-main-ourWork__slider-img-text">
+                        <h4>Киноход</h4>
+                        <p>Создаем дизайн и занимаемся разработкой системы. Каждые две недели предоставляем продукт с новыми функциями. Обсуждаем, что будет сделано за следующие две недели.</p>
+                    </div>
+                </div>
+
+                <div class="infoshel-main-ourWork__slider-img">
+                    <div class="infoshel-main-ourWork__slider-img-block">
+                        <img src="img/ourWork/kinoxod.jpg" alt="">
+                        <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-ios infoshel-main-ourWork__icon-kino-ios"></span>
+                    </div>
+                    <div class="infoshel-main-ourWork__slider-img-text">
+                        <h4>Киноход</h4>
+                        <p>Создаем дизайн и занимаемся разработкой системы. Каждые две недели предоставляем продукт с новыми функциями. Обсуждаем, что будет сделано за следующие две недели.</p>
+                    </div>
+                </div>
+
+                <div class="infoshel-main-ourWork__slider-img">
+                    <div class="infoshel-main-ourWork__slider-img-block">
+                        <img src="img/ourWork/surfprise.jpg" alt="">
+                        <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-ios infoshel-main-ourWork__icon-surfprise-ios"></span>
+                        <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-android infoshel-main-ourWork__icon-surfprise-android"></span>
+                    </div>
+                    <div class="infoshel-main-ourWork__slider-img-text">
+                        <h4>Surfprise</h4>
+                        <p>Создаем дизайн и занимаемся разработкой системы. Каждые две недели предоставляем продукт с новыми функциями. Обсуждаем, что будет сделано за следующие две недели.</p>
+                    </div>
+                </div>
+
+                <div class="infoshel-main-ourWork__slider-img">
+                    <div class="infoshel-main-ourWork__slider-img-block">
+                        <img src="img/ourWork/foodclube.jpg" alt="">
+                        <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-ios infoshel-main-ourWork__icon-surfprise-ios"></span>
+                        <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-android infoshel-main-ourWork__icon-surfprise-android"></span>
+                    </div>
+                    <div class="infoshel-main-ourWork__slider-img-text">
+                        <h4>Foodclub</h4>
+                        <p>Создаем дизайн и занимаемся разработкой системы. Каждые две недели предоставляем продукт с новыми функциями. Обсуждаем, что будет сделано за следующие две недели.</p>
+                    </div>
+                </div>
+
+                <div class="infoshel-main-ourWork__slider-img">
+                    <div class="infoshel-main-ourWork__slider-img-block">
+                        <img src="img/ourWork/dostaevsky.jpg" alt="">
+                        <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-ios infoshel-main-ourWork__icon-surfprise-ios"></span>
+                        <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-android infoshel-main-ourWork__icon-surfprise-android"></span>
+                    </div>
+                    <div class="infoshel-main-ourWork__slider-img-text">
+                        <h4>Dostaevsky</h4>
+                        <p>Создаем дизайн и занимаемся разработкой системы. Каждые две недели предоставляем продукт с новыми функциями. Обсуждаем, что будет сделано за следующие две недели.</p>
+                    </div>
+                </div>
+
+                <div class="infoshel-main-ourWork__slider-img">
+                    <div class="infoshel-main-ourWork__slider-img-block">
+                        <img src="img/ourWork/dostaevsky1.jpg" alt="">
+                        <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-ios infoshel-main-ourWork__icon-surfprise-ios"></span>
+                    </div>
+                    <div class="infoshel-main-ourWork__slider-img-text">
+                        <h4>Dostaevsky</h4>
+                        <p>Создаем дизайн и занимаемся разработкой системы. Каждые две недели предоставляем продукт с новыми функциями. Обсуждаем, что будет сделано за следующие две недели.</p>
+                    </div>
+                </div>
+
+                <div class="infoshel-main-ourWork__slider-img">
+                    <div class="infoshel-main-ourWork__slider-img-block">
+                        <img src="img/ourWork/fsx.jpg" alt="">
+                        <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-web infoshel-main-ourWork__icon-surfprise-ios"></span>
+                    </div>
+                    <div class="infoshel-main-ourWork__slider-img-text">
+                        <h4>FSX</h4>
+                        <p>Создаем дизайн и занимаемся разработкой системы. Каждые две недели предоставляем продукт с новыми функциями. Обсуждаем, что будет сделано за следующие две недели.</p>
+                    </div>
+                </div>
+
+                <div class="infoshel-main-ourWork__slider-img">
+                    <div class="infoshel-main-ourWork__slider-img-block">
+                        <img src="img/ourWork/nevedro.jpg" alt="">
+                        <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-web infoshel-main-ourWork__icon-surfprise-ios"></span>
+                    </div>
+                    <div class="infoshel-main-ourWork__slider-img-text">
+                        <h4>Ne vedro</h4>
+                        <p>Создаем дизайн и занимаемся разработкой системы. Каждые две недели предоставляем продукт с новыми функциями. Обсуждаем, что будет сделано за следующие две недели.</p>
+                    </div>
+                </div>
+
+                <div class="infoshel-main-ourWork__slider-img">
+                    <div class="infoshel-main-ourWork__slider-img-block">
+                        <img src="img/ourWork/parklook.jpg" alt="">
+                        <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-ios infoshel-main-ourWork__icon-surfprise-ios"></span>
+                    </div>
+                    <div class="infoshel-main-ourWork__slider-img-text">
+                        <h4>Park look</h4>
+                        <p>Создаем дизайн и занимаемся разработкой системы. Каждые две недели предоставляем продукт с новыми функциями. Обсуждаем, что будет сделано за следующие две недели.</p>
+                    </div>
+                </div>
+
+                <div class="infoshel-main-ourWork__slider-img">
+                    <div class="infoshel-main-ourWork__slider-img-block">
+                        <img src="img/ourWork/rubike.jpg" alt="">
+                        <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-ios infoshel-main-ourWork__icon-surfprise-ios"></span>
+                        <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-android infoshel-main-ourWork__icon-surfprise-android"></span>
+                    </div>
+                    <div class="infoshel-main-ourWork__slider-img-text">
+                        <h4>Rubike</h4>
+                        <p>Создаем дизайн и занимаемся разработкой системы. Каждые две недели предоставляем продукт с новыми функциями. Обсуждаем, что будет сделано за следующие две недели.</p>
+                    </div>
+                </div>
+
+                <div class="infoshel-main-ourWork__slider-img">
+                    <div class="infoshel-main-ourWork__slider-img-block">
+                        <img src="img/ourWork/universe.jpg" alt="">
+                        <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-web infoshel-main-ourWork__icon-surfprise-ios"></span>
+                    </div>
+                    <div class="infoshel-main-ourWork__slider-img-text">
+                        <h4>Foodclub</h4>
+                        <p>Создаем дизайн и занимаемся разработкой системы. Каждые две недели предоставляем продукт с новыми функциями. Обсуждаем, что будет сделано за следующие две недели.</p>
+                    </div>
+                </div>
+
+                <div class="infoshel-main-ourWork__slider-img">
+                    <div class="infoshel-main-ourWork__slider-img-block">
+                        <img src="img/ourWork/spotymoon.jpg" alt="">
+                        <span class="infoshel-main-ourWork__slider-img-icon infoshel-main-ourWork__icon-web infoshel-main-ourWork__icon-surfprise-ios"></span>
+                    </div>
+                    <div class="infoshel-main-ourWork__slider-img-text">
+                        <h4>SpotyMoon</h4>
+                        <p>Создаем дизайн и занимаемся разработкой системы. Каждые две недели предоставляем продукт с новыми функциями. Обсуждаем, что будет сделано за следующие две недели.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="infoshel-article-page__community color-grey">
+            <div class="infoshel-container container">
+                <h2 class="infoshel-h2 text-center">Infoshell в дизайнерских сообществах</h2>
+                <div class="infoshel-article-page__community-container">
+                    <div class="infoshel-article-page__community-block infoshel-article-page__community-block-left">
+                        <img src="img/usability-analytics/behance.svg" alt="">
+                        <p>Behance</p>
+                    </div>
+                    <div class="infoshel-article-page__community-block infoshel-article-page__community-block-right">
+                        <img src="img/usability-analytics/dribble.svg" alt="">
+                        <p>Dribbble</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="infoshel-main-blog">
+            <div class="infoshel-main-blog__container">
+                <h2 class="infoshel-h2 infoshel-main-blog__h2 wow fadeInDownMin2">Полезные метериалы о дизайне и юзабилити</h2>
+                <div class="infoshel-main-blog__slider owl-theme owl-carousel">
+                    <div class="infoshel-main-blog__slider-block wow zoomInMin" data-wow-delay="0.3s">
+                        <div class="infoshel-main-blog__slider-block-img">
+                            <img src="img/blog/bitmap-1.jpg" alt="1">
+                        </div>
+                        <div class="infoshel-main-blog__slider-text">
+                            <span>Разработка web-приложений</span>
+                            <p>Последние годы Web-приложения стремительно развиваются, постепенно вытесняя настольные решения и становясь важнейшим компонентом бизнеса в современном мире…</p>
+                        </div>
+                    </div>
+
+                    <div class="infoshel-main-blog__slider-block wow zoomInMin" data-wow-delay="0.5s">
+                        <div class="infoshel-main-blog__slider-block-img">
+                            <img src="img/blog/bitmap-2.jpg" alt="2">
+                        </div>
+                        <div class="infoshel-main-blog__slider-text">
+                            <span>Вводный курс по разработке приложений для iOS</span>
+                            <p>Экскурс в IOS разработку Давайте, для начала, разберемся с актуальностью разработки под Apple устройства в целом. Ведь на сегодняшний день…</p>
+                        </div>
+                    </div>
+
+                    <div class="infoshel-main-blog__slider-block wow zoomInMin" data-wow-delay="0.7s">
+                        <div class="infoshel-main-blog__slider-block-img">
+                            <img src="img/blog/bitmap-3.jpg" alt="3">
+                        </div>
+                        <div class="infoshel-main-blog__slider-text">
+                            <span>Дополненная реальность (augmented reality, AR)</span>
+                            <p>Дополненная реальность (augmented reality, AR) Дополненная реальность (augmented reality, AR) — многообещающая мобильная технология, которая активно…</p>
+                        </div>
+                    </div>
+
+                    <div class="infoshel-main-blog__slider-block wow zoomInMin" data-wow-delay="0.3s">
+                        <div class="infoshel-main-blog__slider-block-img">
+                            <img src="img/blog/bitmap-1.jpg" alt="1">
+                        </div>
+                        <div class="infoshel-main-blog__slider-text">
+                            <span>Разработка web-приложений</span>
+                            <p>Последние годы Web-приложения стремительно развиваются, постепенно вытесняя настольные решения и становясь важнейшим компонентом бизнеса в современном мире…</p>
+                        </div>
+                    </div>
+
+                    <div class="infoshel-main-blog__slider-block wow zoomInMin" data-wow-delay="0.5s">
+                        <div class="infoshel-main-blog__slider-block-img">
+                            <img src="img/blog/bitmap-2.jpg" alt="2">
+                        </div>
+                        <div class="infoshel-main-blog__slider-text">
+                            <span>Вводный курс по разработке приложений для iOS</span>
+                            <p>Экскурс в IOS разработку Давайте, для начала, разберемся с актуальностью разработки под Apple устройства в целом. Ведь на сегодняшний день…</p>
+                        </div>
+                    </div>
+
+                    <div class="infoshel-main-blog__slider-block wow zoomInMin" data-wow-delay="0.7s">
+                        <div class="infoshel-main-blog__slider-block-img">
+                            <img src="img/blog/bitmap-3.jpg" alt="3">
+                        </div>
+                        <div class="infoshel-main-blog__slider-text">
+                            <span>Дополненная реальность (augmented reality, AR)</span>
+                            <p>Дополненная реальность (augmented reality, AR) Дополненная реальность (augmented reality, AR) — многообещающая мобильная технология, которая активно…</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="infoshel-footer wow fadeInUp">
+        <div class="infoshel-container infoshel-footer__container">
+            <div class="infoshel-footer__container-logo">
+                <a href="#"></a>
+            </div>
+            <div class="infoshel-footer__container-download">
+                <a href="#">Скачать презентацию о компании <span></span></a>
+            </div>
+            <div class="infoshel-footer__container-phone">
+                <p>Мск: +7 (495) 215 51 82</p>
+                <p>СПб: +7 (812) 242 80 58</p>
+                <a href="" data-toggle="modal" data-target="#exampleModalCenter"><span></span>Заказать звонок</a>
+            </div>
+            <div class="infoshel-footer__container-link">
+                <a href="#"></a>
+            </div>
+        </div>
+    </footer>
+</div>
+<div class="side-menu">
+    <div class="side-menu__header">
+        <a class="side-menu__header-logo" href="index.html">
+            <img src="img/main.svg" alt="">
+        </a>
+        <span class="side-menu__header-close"></span>
+    </div>
+    <div class="side-menu__menu">
+        <ul>
+            <li class="side-menu__menu-link active"><a href="#">Услуги</a></li>
+            <li class="side-menu__menu-link"><a href="#">Портфолио</a></li>
+            <li class="side-menu__menu-link"><a href="#">Компания</a></li>
+            <li class="side-menu__menu-link"><a href="#">Блог</a></li>
+            <li class="side-menu__menu-link"><a href="#">Контакты</a></li>
+        </ul>
+    </div>
+    <div class="side-menu__menu-btn">
+        <button class="infoshel-button side-menu__menu-button" data-toggle="modal" data-target="#exampleModalCenter">Оставить заявку</button>
+        <button class="infoshel-button side-menu__menu-button side-menu__menu-button-white" data-toggle="modal" data-target="#exampleModalCenter">Заказать звонок</button>
+    </div>
+    <div class="side-menu__social-links">
+        <a class="side-menu__social-link side-menu__social-link-vk" href="#"></a>
+        <a class="side-menu__social-link side-menu__social-link-fb" href="#"></a>
+        <a class="side-menu__social-link side-menu__social-link-dr" href="#"></a>
+        <a class="side-menu__social-link side-menu__social-link-bh" href="#"></a>
+    </div>
+</div>
+<div class="modal fade modal-infoshel" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-infoshel-form" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"></span>
+                </button>
+                <section class="infoshel-main-form">
+                    <div class="infoshel-main-form__container infoshel-container">
+                        <h1>Стоимость разработки</h1>
+                        <p class="infoshel-main-form__title-text">Стоимость разработки рассчитывается индивидуально в зависимости от сложности, объема и сроков выполнения работ. Разработчик мобильных приложений оценивает все сложности разработки и временные затраты проекта. Затем аналитики определяют стоимость продукта с нуля.</p>
+
+                        <div class="infoshel-main-form__form">
+                            <div class="infoshel-main-form__form-column infoshel-main-form__form-left">
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Ваше Имя</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Введите ваше имя">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="exampleInputEmail2"># телефона</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail2" aria-describedby="emailHelp" placeholder="Введите ваш номер телефона *">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="exampleInputEmail3">Ваш e-mail</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail3" aria-describedby="emailHelp" placeholder="Введите ваш e-mail адрес">
+                                </div>
+                            </div>
+
+                            <div class="infoshel-main-form__form-column infoshel-main-form__form-right">
+                                <div class="form-group">
+                                    <label for="exampleFormControlTextarea1">Сообщение</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Опишите ваш проект, пожалуйста"></textarea>
+                                </div>
+                                <div class="infoshel-main-form__block-btn">
+                                    <div class="infoshel-main-form__block-btn-download">
+                                        <span></span>
+                                        <div class="infoshel-main-form__block-btn-download-text">
+                                            <p><b>Прикрепить файл</b> </p>
+                                            <p class="infoshel-main-form__block-btn-download-text-bottom">не больше  2 MB (xls, doc, pdf, jpg)</p>
+                                        </div>
+                                    </div>
+                                    <button class="infoshel-button infoshel-main-form__form-btn">Отправить</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--<div role="tooltip" id="ui-id-16" class="ui-tooltip ui-corner-all ui-widget-shadow ui-widget ui-widget-content" style="top: 2954.88px; left: 884.25px; display: block; opacity: 0.0442984;">-->
+    <!--<div class="ui-tooltip-content">Tooltip on right</div>-->
+<!--</div>-->
+
+<script src="https://infoshell.ru/wp-content/themes/mark_up/js1/main2.js?v=1.1"></script>
+<script src="https://infoshell.ru/wp-content/themes/mark_up/js/home.js"></script>
+<script src="https://infoshell.ru/wp-content/themes/mark_up/js1/ajaxForms.js?v=1.1"></script>
+
+<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&amp;subset=cyrillic" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&amp;subset=cyrillic" rel="stylesheet">
+
+<!--Мои js-->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script src="libs/OwlCarousel2/dist/owl.carousel.js"></script>
+<script src="libs/WOW/dist/wow.min.js"></script>
+
+<script src="libs/Responsive-Scroller-jQuery-Floating-Carousel/floatingcarousel.min.js"></script>
+
+<script src="js/main.js"></script>
+<script type="text/javascript">
+
+    $(document).ready(function() {
+        $(".infoshel-main-slider__container").owlCarousel({
+            nav:true,
+            loop:true,
+            items:1,
+            responsive:{
+                0:{
+                    nav:false,
+                },
+                1200:{
+                    nav:true,
+                },
+            }
+
+        });
+
+        $(".infoshel-main-ourWork__slider").owlCarousel({
+            nav:true,
+            items:1,
+            margin:1,
+            loop:true,
+            autoWidth:true,
+            center:true,
+            dots: false,
+            responsive:{
+                0:{
+                    nav:false,
+                },
+                1200:{
+                    nav:true,
+                },
+            }
+        });
+
+        $(".infoshel-main-blog__slider").owlCarousel({
+            nav:true,
+            loop:true,
+            dots: false,
+            items:3,
+            responsive:{
+                0:{
+                    items:1,
+                    nav:true,
+                    autoWidth:true,
+                    center:true
+                },
+                576:{
+                    items:1,
+                },
+                650:{
+                    items:2,
+                    nav:false
+                },
+                1000:{
+                    nav:true,
+                }
+            }
+        });
+    });
+
+</script>
+<script type="text/javascript">
+    $( function() {
+        $( "#accordion" ).accordion({
+            heightStyle: "content",
+            icons: false,
+            collapsible: true
+        });
+    } );
+
+    $( function() {
+        $( "#accordion-1" ).accordion({
+            heightStyle: "content",
+            icons: false,
+            collapsible: true
+        });
+    } );
+</script>
+<script type="text/javascript">
+    $('#carousel-default').floatingCarousel({
+        autoScroll : true,
+        autoScrollDirection : 'left',
+        autoScrollSpeed : 60000,
+        scrollSpeed : 'slow',
+    });
+</script>
+<script type="text/javascript">
+    $('[data-toggle="popover"]').popover();
+    $('[data-toggle="tooltip"]').tooltip();
+</script>
+<script type="text/javascript">
+    new WOW().init();
+</script>
+
+<script>
+    $( function() {
+        $( document ).tooltip({
+            position: {
+                // my: "center bottom-20",
+                // at: "center top",
+                my: "left top",
+                at: "right+5 top-5",
+                using: function( position, feedback ) {
+                    $( this ).css( position );
+                    $( "<div>" )
+                        .addClass( "arrow" )
+                        .addClass( feedback.vertical )
+                        .addClass( feedback.horizontal )
+                        .appendTo( this );
+                }
+            }
+        });
+    } );
+</script>
+</body>
+</html>

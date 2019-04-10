@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="160px" height="160px" viewBox="0 0 160 160" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 53.2 (72643) - https://sketchapp.com -->
+    <title>94D7BB49-1E6B-46DF-8ED0-0435C9524F1A</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="Design-2.0" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Infoshell-UI-UX-Design-1.0" transform="translate(-621.000000, -2361.000000)">
+            <g id="Group-32" transform="translate(0.000000, 2112.000000)">
+                <g id="process" transform="translate(122.000000, 249.000000)">
+                    <g id="icons/Workprocess03" transform="translate(499.000000, 0.000000)">
+                        <circle id="Oval-Copy-3" fill="#0EBC79" cx="80" cy="80" r="80"></circle>
+                        <g id="Group-8" transform="translate(61.000000, 60.000000)">
+                            <path d="M18.3631436,19.9790211 L18.3631436,19.9790211 C19.6321605,19.9790211 20.6609019,21.0077625 20.6609019,22.2767793 L20.6609019,54.2485618 C20.6609019,55.5175786 19.6321605,56.5463201 18.3631436,56.5463201 L18.3631436,56.5463201 C17.0941268,56.5463201 16.0653853,55.5175786 16.0653853,54.2485618 L16.0653853,22.2767793 C16.0653853,21.0077625 17.0941268,19.9790211 18.3631436,19.9790211 Z" id="Rectangle-Copy-2" fill="#FFFFFF" transform="translate(18.363144, 38.262671) rotate(-270.000000) translate(-18.363144, -38.262671) "></path>
+                            <path d="M26.5907859,18.0965269 L26.5907859,18.0965269 C27.8598028,18.0965269 28.8885442,19.1252683 28.8885442,20.3942852 L28.8885442,35.9107831 C28.8885442,37.1797999 27.8598028,38.2085413 26.5907859,38.2085413 L26.5907859,38.2085413 C25.321769,38.2085413 24.2930276,37.1797999 24.2930276,35.9107831 L24.2930276,20.3942852 C24.2930276,19.1252683 25.321769,18.0965269 26.5907859,18.0965269 Z" id="Rectangle-Copy-4" fill="#FFFFFF" transform="translate(26.590786, 28.152534) rotate(-270.000000) translate(-26.590786, -28.152534) "></path>
+                            <rect id="Rectangle" stroke="#FFFFFF" stroke-width="3" x="1.57949413" y="1.61988304" width="9.79855465" height="8.94834308" rx="2"></rect>
+                            <rect id="Rectangle-Copy-5" fill="#FFFFFF" x="0.0794941283" y="18.5019493" width="12.7985547" height="11.9483431" rx="2"></rect>
+                            <path d="M22.9313902,4.64468714 L26.4262783,-0.826597146 L29.9211664,4.64468714 L29.9211664,20.9143632 C29.9211664,22.8445366 28.3564517,24.4092513 26.4262783,24.4092513 C24.4961049,24.4092513 22.9313902,22.8445366 22.9313902,20.9143632 L22.9313902,4.64468714 Z" id="Combined-Shape" fill="#FFFFFF" transform="translate(26.426278, 11.791327) rotate(-135.000000) translate(-26.426278, -11.791327) "></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
