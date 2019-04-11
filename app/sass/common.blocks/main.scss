@@ -2176,10 +2176,12 @@ html .ui-button.ui-state-disabled:active {
 
   .infoshel-main-scrum__briefly {
     font-size: 15px;
+    line-height: 1.07;
+    letter-spacing: -0.3px;
   }
 
   .infoshel-main-scrum {
-    padding-top: 10px;
+    padding-top: 30px;
     padding-bottom: 0;
   }
 
@@ -2219,6 +2221,8 @@ html .ui-button.ui-state-disabled:active {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    line-height: 1.07;
+    letter-spacing: -0.3px;
   }
 
   .infoshel-main-ourWork__h2 {

@@ -23,7 +23,7 @@
 </head>
 <body>
 
-<div class="page-surround infoshel-page infoshel-article-page">
+<div class="page-surround infoshel-page infoshel-article-page infoshel-article-page__android">
     <header class="infoshel-header container-fluid">
         <div class="infoshel-header__container row">
             <div class="infoshel-header__container-burger">
@@ -112,7 +112,70 @@
             <div class="infoshel-container container">
                 <h2 class="infoshel-h2">Какие android приложения мы делаем?</h2>
                 <div class="row infoshel-article-page__webService-row">
-                    <div class="col-xl-3 col-md-6 col-sm-12">
+                    <!--<div class="col-xl-3 col-md-6 col-sm-12">-->
+                        <!--<div class="infoshel-article-page__webService-block">-->
+                            <!--<div class="infoshel-article-page__webService-block-bg"></div>-->
+                            <!--<span>для бизнеса</span>-->
+                            <!--<h4>Корпоративные продукты для бизнеса</h4>-->
+                            <!--<ul>-->
+                                <!--<li>- Pитейл</li>-->
+                                <!--<li>- HoReCa</li>-->
+                                <!--<li>- Cпортивные клубы</li>-->
+                                <!--<li>- И др</li>-->
+                            <!--</ul>-->
+                            <!--<div class="infoshel-article-page__webService-block-bottom">-->
+                                <!--<button class="infoshel-button" data-toggle="modal" data-target="#exampleModalCenter">Оставить заявку</button>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                    <!--</div>-->
+
+                    <!--<div class="col-xl-3 col-md-6 col-sm-12">-->
+                        <!--<div class="infoshel-article-page__webService-block">-->
+                            <!--<div class="infoshel-article-page__webService-block-bg"></div>-->
+                            <!--<span>Органайзеры и утилиты</span>-->
+                            <!--<h4>Прикладные программы </h4>-->
+                            <!--<ul>-->
+                                <!--<li>- Для работы с документами </li>-->
+                                <!--<li>- Органайзеры</li>-->
+                                <!--<li>- Утилиты</li>-->
+                            <!--</ul>-->
+                            <!--<div class="infoshel-article-page__webService-block-bottom">-->
+                                <!--<button class="infoshel-button" data-toggle="modal" data-target="#exampleModalCenter">Оставить заявку</button>-->
+                            <!--</div>-->
+
+                        <!--</div>-->
+                    <!--</div>-->
+
+                    <!--<div class="col-xl-3 col-md-6 col-sm-12">-->
+                        <!--<div class="infoshel-article-page__webService-block">-->
+                            <!--<div class="infoshel-article-page__webService-block-bg"></div>-->
+                            <!--<span>Промо</span>-->
+                            <!--<h4>Промо продукты</h4>-->
+                            <!--<ul>-->
+                                <!--<li></li>-->
+                            <!--</ul>-->
+                            <!--<div class="infoshel-article-page__webService-block-bottom">-->
+                                <!--<button class="infoshel-button" data-toggle="modal" data-target="#exampleModalCenter">Оставить заявку</button>-->
+                            <!--</div>-->
+
+                        <!--</div>-->
+                    <!--</div>-->
+
+                    <!--<div class="col-xl-3 col-md-6 col-sm-12">-->
+                        <!--<div class="infoshel-article-page__webService-block">-->
+                            <!--<div class="infoshel-article-page__webService-block-bg"></div>-->
+                            <!--<span>Игры</span>-->
+                            <!--<h4>Создание современных и развлекательных игр</h4>-->
+                            <!--<ul>-->
+                                <!--<li></li>-->
+                            <!--</ul>-->
+                            <!--<div class="infoshel-article-page__webService-block-bottom">-->
+                                <!--<button class="infoshel-button" data-toggle="modal" data-target="#exampleModalCenter">Оставить заявку</button>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                    <!--</div>-->
+
+                    <div class="infoshel-article-page__webService-carousel owl-theme owl-carousel">
                         <div class="infoshel-article-page__webService-block">
                             <div class="infoshel-article-page__webService-block-bg"></div>
                             <span>для бизнеса</span>
@@ -127,9 +190,6 @@
                                 <button class="infoshel-button" data-toggle="modal" data-target="#exampleModalCenter">Оставить заявку</button>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="col-xl-3 col-md-6 col-sm-12">
                         <div class="infoshel-article-page__webService-block">
                             <div class="infoshel-article-page__webService-block-bg"></div>
                             <span>Органайзеры и утилиты</span>
@@ -144,9 +204,6 @@
                             </div>
 
                         </div>
-                    </div>
-
-                    <div class="col-xl-3 col-md-6 col-sm-12">
                         <div class="infoshel-article-page__webService-block">
                             <div class="infoshel-article-page__webService-block-bg"></div>
                             <span>Промо</span>
@@ -159,9 +216,6 @@
                             </div>
 
                         </div>
-                    </div>
-
-                    <div class="col-xl-3 col-md-6 col-sm-12">
                         <div class="infoshel-article-page__webService-block">
                             <div class="infoshel-article-page__webService-block-bg"></div>
                             <span>Игры</span>
@@ -1118,6 +1172,30 @@
                 }
             }
         });
+
+        $(".infoshel-article-page__webService-carousel").owlCarousel({
+            nav:false,
+            loop: false,
+            dots: true,
+            items:4,
+            responsive:{
+                0:{
+                    items:1,
+                },
+                600:{
+                    items:2,
+                },
+
+                950:{
+                    items:3,
+                },
+                1200:{
+                    items:4,
+                    dots: false,
+                }
+            }
+        });
+
     });
 
 </script>
