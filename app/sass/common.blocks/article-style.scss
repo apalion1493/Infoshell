@@ -379,17 +379,25 @@
   height: 62.5vw;
   position: relative;
 
-  img {
+  video {
     width: 100%;
     position: absolute;
-    bottom: -61px;
+    bottom: -1px;
   }
+
+  //img {
+  //  width: 100%;
+  //  position: absolute;
+  //  bottom: -61px;
+  //}
 }
 
 .infoshel-article-page__design-block {
   display: flex;
   flex-direction: column;
   margin-bottom: 45px;
+  position: relative;
+  z-index: 1;
 }
 
 .infoshel-article-page__design-blockHeader {
@@ -458,13 +466,19 @@
   position: absolute;
   top: 0;
   right: 0;
-  background: url("../img/usability-analytics/header-uiu-x.png") no-repeat bottom right;
-  background-size: cover;
+  //background: url("../img/usability-analytics/header-uiu-x.png") no-repeat bottom right;
+  //background-size: cover;
   width: 100%;
   max-width: 1440px;
   height: 100%;
   margin-left: 0;
   margin-right: 0;
+
+  video {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
 }
 
 .infoshel-article-page__design-blockMain {
