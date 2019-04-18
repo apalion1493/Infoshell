@@ -19,7 +19,7 @@ function init () {
     });
 
     MyBalloonLayout = ymaps.templateLayoutFactory.createClass(
-        '<div class="popover top wow heartBeat">' +
+        '<div class="popover top wow pulse">' +
         '<div class="popover-marker"><img src="img/card/point.svg"></div>' +
         '<div class="arrow"></div>' +
         '<div class="popover-inner">' +
@@ -116,7 +116,7 @@ function init () {
 
         // Создание метки с пользовательским макетом балуна.
         myPlacemark = window.myPlacemark = new ymaps.Placemark([59.962552, 30.314054], {
-            balloonContent: '<img src="img/main.svg" width="72" height="76">' + '<span><b>Saint-Petersburg:</b> Kamennoostrovskiy Avenue, 26-28</span>'
+            balloonContent: '<img src="img/main.svg" width="80" height="76">' + '<span><b>Saint-Petersburg:</b> Kamennoostrovskiy Avenue, 26-28</span>'
         }, {
             balloonShadow: false,
             balloonLayout: MyBalloonLayout,
@@ -144,7 +144,7 @@ function Map_Width(myMap){
 
 
     if (_window_w < 768) {
-        myMap.panTo([59.940552, 30.314054]);
+        myMap.panTo([59.944552, 30.314054]);
     } else {
         myMap.panTo([59.962552, 30.294054]);
     }
