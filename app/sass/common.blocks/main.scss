@@ -2852,25 +2852,25 @@ html .ui-button.ui-state-disabled:active {
 
 //стили для калькулятора
 
-//#calc .nav-tabs li b {
-//  font-size: 60px;
-//  position: absolute;
-//  top: -15px;
-//  left: -30px;
-//}
-//
-//#calc .nav-tabs > li > a {
-//  font-size: 21px;
-//  text-align: left;
-//  line-height: 1;
-//  min-width: 200px;
-//  letter-spacing: -0.9px;
-//  height: 100%;
-//  display: flex;
-//  /* width: 220px; */
-//  align-items: center;
-//}
-//
-//#calc .btn-warning:hover {
-//  background: #ffffff;
-//}
+#calc .nav-tabs li b {
+  font-size: 60px;
+  position: absolute;
+  top: -15px;
+  left: -30px;
+}
+
+#calc .nav-tabs > li > a {
+  font-size: 21px;
+  text-align: left;
+  line-height: 1;
+  min-width: 200px;
+  letter-spacing: -0.9px;
+  height: 100%;
+  display: flex;
+  /* width: 220px; */
+  align-items: center;
+}
+
+#calc .btn-warning:hover {
+  background: #ffffff;
+}
