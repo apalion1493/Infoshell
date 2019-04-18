@@ -1259,17 +1259,6 @@
 <script src="js/main.js"></script>
 
 <script type="text/javascript">
-    $(document).ready(function(){
-        $('.infoshel-article-page__firstSlide-usabilityAnalytics-img').viewportChecker({
-            callbackFunction:function(){
-                $(".infoshel-article-page__firstSlide-usabilityAnalytics-img video").get(0).play();
-            },
-
-        });
-    });
-</script>
-
-<script type="text/javascript">
     $(document).ready(function() {
         $(".infoshel-main-slider__container").owlCarousel({
             nav:true,
@@ -1414,6 +1403,16 @@
         });
     });
 </script><!--отключение на станице ux и ui карусели owl-->
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('.infoshel-article-page__firstSlide-usabilityAnalytics-img').viewportChecker({
+            callbackFunction:function(){
+                $(".infoshel-article-page__firstSlide-usabilityAnalytics-img video").get(0).play();
+            },
+
+        });
+    });
+</script>
 <script type="text/javascript">
     $( function() {
         $( "#accordion" ).accordion({
