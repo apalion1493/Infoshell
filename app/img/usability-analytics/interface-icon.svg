@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="54px" height="54px" viewBox="0 0 54 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: sketchtool 53.2 (72643) - https://sketchapp.com -->
+    <!-- Generator: sketchtool 54 (76480) - https://sketchapp.com -->
     <title>7F1D55CD-40C0-4054-A254-F3AB916A59ED</title>
     <desc>Created with sketchtool.</desc>
     <g id="Design-2.0" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -9,12 +9,12 @@
                 <g id="Group-35" transform="translate(2.000000, 329.000000)">
                     <g id="icons/uiux04">
                         <g>
-                            <rect id="Rectangle" fill="#FFC225" x="0" y="0" width="5" height="54" rx="2.5"></rect>
-                            <path d="M33,27.5 L33,27.5 C34.3807119,27.5 35.5,28.6192881 35.5,30 L35.5,65 C35.5,66.3807119 34.3807119,67.5 33,67.5 L33,67.5 C31.6192881,67.5 30.5,66.3807119 30.5,65 L30.5,30 C30.5,28.6192881 31.6192881,27.5 33,27.5 Z" id="Rectangle-Copy-2" fill="#FFC225" transform="translate(33.000000, 47.500000) rotate(-270.000000) translate(-33.000000, -47.500000) "></path>
-                            <path d="M42,25.5 L42,25.5 C43.3807119,25.5 44.5,26.6192881 44.5,28 L44.5,45 C44.5,46.3807119 43.3807119,47.5 42,47.5 L42,47.5 C40.6192881,47.5 39.5,46.3807119 39.5,45 L39.5,28 C39.5,26.6192881 40.6192881,25.5 42,25.5 Z" id="Rectangle-Copy-4" fill="#FFC225" transform="translate(42.000000, 36.500000) rotate(-270.000000) translate(-42.000000, -36.500000) "></path>
-                            <rect id="Rectangle" stroke="#FFC225" stroke-width="3" x="14.5" y="7.5" width="11" height="10" rx="2"></rect>
-                            <rect id="Rectangle-Copy-5" fill="#FFC225" x="13" y="26" width="14" height="13" rx="2"></rect>
-                            <path d="M37.9970839,10.9230636 L41.8200495,4.9702135 L45.643015,10.9230636 L45.643015,28.6042792 C45.643015,30.7156448 43.931415,32.4272447 41.8200495,32.4272447 C39.7086839,32.4272447 37.9970839,30.7156448 37.9970839,28.6042792 L37.9970839,10.9230636 Z" id="Combined-Shape" fill="#FFC225" transform="translate(41.820049, 18.698729) rotate(-135.000000) translate(-41.820049, -18.698729) "></path>
+                            <rect id="Rectangle" fill="#FFD94F" x="0" y="0" width="5" height="54" rx="2.5"></rect>
+                            <path d="M33,27.5 L33,27.5 C34.3807119,27.5 35.5,28.6192881 35.5,30 L35.5,65 C35.5,66.3807119 34.3807119,67.5 33,67.5 L33,67.5 C31.6192881,67.5 30.5,66.3807119 30.5,65 L30.5,30 C30.5,28.6192881 31.6192881,27.5 33,27.5 Z" id="Rectangle-Copy-2" fill="#FFD94F" transform="translate(33.000000, 47.500000) rotate(-270.000000) translate(-33.000000, -47.500000) "></path>
+                            <path d="M42,25.5 L42,25.5 C43.3807119,25.5 44.5,26.6192881 44.5,28 L44.5,45 C44.5,46.3807119 43.3807119,47.5 42,47.5 L42,47.5 C40.6192881,47.5 39.5,46.3807119 39.5,45 L39.5,28 C39.5,26.6192881 40.6192881,25.5 42,25.5 Z" id="Rectangle-Copy-4" fill="#FFD94F" transform="translate(42.000000, 36.500000) rotate(-270.000000) translate(-42.000000, -36.500000) "></path>
+                            <rect id="Rectangle" stroke="#FFD94F" stroke-width="3" x="14.5" y="7.5" width="11" height="10" rx="2"></rect>
+                            <rect id="Rectangle-Copy-5" fill="#FFD94F" x="13" y="26" width="14" height="13" rx="2"></rect>
+                            <path d="M37.9970839,10.9230636 L41.8200495,4.9702135 L45.643015,10.9230636 L45.643015,28.6042792 C45.643015,30.7156448 43.931415,32.4272447 41.8200495,32.4272447 C39.7086839,32.4272447 37.9970839,30.7156448 37.9970839,28.6042792 L37.9970839,10.9230636 Z" id="Combined-Shape" fill="#FFD94F" transform="translate(41.820049, 18.698729) rotate(-135.000000) translate(-41.820049, -18.698729) "></path>
                         </g>
                     </g>
                 </g>

@@ -310,6 +310,26 @@ body {
   background-size: 100% auto;
 }
 
+.infoshel-header__container-socialNetworks-vk:hover {
+  background: url("../img/vk-orange.svg") no-repeat center;
+  background-size: 100% auto;
+}
+
+.infoshel-header__container-socialNetworks-fb:hover  {
+  background: url("../img/fb-orange.svg") no-repeat center;
+  background-size: 100% auto;
+}
+
+.infoshel-header__container-socialNetworks-dr:hover  {
+  background: url("../img/dr-orange.svg") no-repeat center;
+  background-size: 100% auto;
+}
+
+.infoshel-header__container-socialNetworks-bh:hover  {
+  background: url("../img/bh-orange.svg") no-repeat center;
+  background-size: 100% auto;
+}
+
 .infoshel-header__container-phones {
   display: flex;
   flex-direction: column;
@@ -674,6 +694,7 @@ body {
   flex-direction: column;
   align-items: center;
   padding-bottom: 80px;
+  padding-top: 40px;
 }
 
 .infoshel-main-services__main-container {
@@ -736,22 +757,22 @@ body {
 }
 
 .infoshel-main-services__main-icon-ios {
-  background: url("../img/services/ios.svg") no-repeat center;
+  background: url("../img/services/ios@3x.png") no-repeat center;
   background-size: 100% auto;
 }
 
 .infoshel-main-services__main-icon-android {
-  background: url("../img/services/android.svg") no-repeat center;
+  background: url("../img/services/android@3x.png") no-repeat center;
   background-size: 100% auto;
 }
 
 .infoshel-main-services__main-icon-web {
-  background: url("../img/services/computer.svg") no-repeat center;
+  background: url("../img/services/computer@3x.png") no-repeat center;
   background-size: 100% auto;
 }
 
 .infoshel-main-services__main-icon-mob {
-  background: url("../img/services/game.svg") no-repeat center;
+  background: url("../img/services/game@3x.png") no-repeat center;
   background-size: 100% auto;
 }
 
@@ -865,6 +886,12 @@ body {
     p {
       font-size: 18px;
       color: #2e2e2e;
+      display: -webkit-box;
+      -webkit-line-clamp: 3; /* number of lines to show */
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-height: 85px;
     }
   }
 }
@@ -1018,6 +1045,7 @@ body {
   color: #ffd94f;
   margin-bottom: 12px;
   display: block;
+  line-height: 22px;
 }
 
 .infoshel-main-scrum__text {
@@ -1025,6 +1053,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     color: #f4f4f4;
+    font-weight: 300;
   }
 }
 
@@ -1721,6 +1750,8 @@ body {
     color: #2e2e2e;
     display: block;
     margin-left: 16px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
   }
 
   .popover .close {
