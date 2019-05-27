@@ -5,7 +5,7 @@ if (_window_w < 768) {
     var t_width = 59.946552;
     var t_height = 30.314054;
 } else {
-    var t_width = 59.962552;
+    var t_width = 60.962552;
     var t_height = 30.294054;
 }
 

@@ -1718,7 +1718,7 @@ body {
 
   .popover {
     display: block;
-    max-width: 520px;
+    max-width: 560px;
     width: auto;
     border-radius: 2px;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.15);
@@ -1751,7 +1751,7 @@ body {
     display: block;
     margin-left: 16px;
     font-family: 'Open Sans', sans-serif;
-    line-height: 1.5;
+    line-height: 20px;
   }
 
   .popover .close {
@@ -1765,6 +1765,10 @@ body {
     display: flex;
     padding: 0;
     position: relative;
+  }
+
+  .popover-inner ymaps {
+    height: auto !important;
   }
 }
 
@@ -2904,4 +2908,75 @@ html .ui-button.ui-state-disabled:active {
 
 #calc .btn-warning:hover {
   background: #ffffff;
+}
+
+@media (min-width: 1200px) {
+  .infoshel-main-card {
+    padding-top: 50px;
+    padding-bottom: 80px;
+    background: #f9f9f9;
+    position: relative;
+    overflow: hidden;
+
+    .popover {
+      display: block;
+      max-width: 560px;
+      width: auto;
+      border-radius: 2px;
+      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.15);
+      background-color: #ffffff;
+      position: absolute;
+      border: none;
+    }
+
+    .popover:before {
+      content: '';
+      position: absolute;
+      bottom: -21px;
+      left: 46.3%;
+      z-index: 1;
+      border: 11px solid transparent;
+      border-top: 10px solid #ffffff;
+    }
+
+    .popover-marker {
+      width: 60px;
+      height: 60px;
+      position: absolute;
+      bottom: -50px;
+      left: 42.8%;
+    }
+
+    .popover span {
+      font-size: 18px;
+      color: #2e2e2e;
+      display: block;
+      margin-left: 16px;
+      font-family: 'Open Sans', sans-serif;
+      line-height: 1.5;
+    }
+
+    .popover .close {
+      position: absolute;
+      right: 5px;
+      top: 1px;
+    }
+
+    .popover-content {
+      align-items: center;
+      display: flex;
+      padding: 0;
+      position: relative;
+
+      img {
+        width: 48px !important;
+        height: 46px !important;
+      }
+    }
+
+    .popover-inner ymaps {
+      width: 560px !important;
+      height: auto !important;
+    }
+  }
 }
