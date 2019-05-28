@@ -93,14 +93,14 @@
     <main  id="pagepiling" class="infoshel-main">
         <section class="section infoshel-article-page__firstSlide infoshel-article-page__firstSlide-usabilityBg">
             <div class="infoshel-article-page__firstSlide-usabilityAnalytics-img">
-                <!--<video muted poster="video/01/01-animation.mp4" preload="metadata">-->
-                    <!--&lt;!&ndash;<source src="video/01/01-animation.mp4" type="video/mp4">&ndash;&gt;-->
-                <!--</video>-->
-                <video muted poster="video/03/03-imac_book.mp4" preload="metadata">
-                    <source src="video/03/03-imac_book.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
-                    <source src="video/03/03-imac_book.WebM" type='video/WebM; codecs="vp8, vorbis"'>
-                    <source src="video/03/03-imac_book.ogg" type='video/ogg; codecs="theora, vorbis"'>
+                <video muted poster="video/01/01-animation.mp4" preload="metadata">
+                    <source src="video/01/01-animation.mp4" type="video/mp4">
                 </video>
+                <!--<video muted poster="video/03/03-imac_book.mp4" preload="metadata">-->
+                    <!--<source src="video/03/03-imac_book.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>-->
+                    <!--<source src="video/03/03-imac_book.WebM" type='video/WebM; codecs="vp8, vorbis"'>-->
+                    <!--<source src="video/03/03-imac_book.ogg" type='video/ogg; codecs="theora, vorbis"'>-->
+                <!--</video>-->
                 <img src="img/usability-analytics/ui-mobil.png" alt="">
             </div>
             <div class="infoshel-container container">
@@ -1420,23 +1420,23 @@
         });
     });
 </script>
-<script type="text/javascript">
-    $( function() {
-        $( "#accordion" ).accordion({
-            heightStyle: "content",
-            icons: false,
-            collapsible: true
-        });
-    } );
+<!--<script type="text/javascript">-->
+    <!--$( function() {-->
+        <!--$( "#accordion" ).accordion({-->
+            <!--heightStyle: "content",-->
+            <!--icons: false,-->
+            <!--collapsible: true-->
+        <!--});-->
+    <!--} );-->
 
-    $( function() {
-        $( "#accordion-1" ).accordion({
-            heightStyle: "content",
-            icons: false,
-            collapsible: true
-        });
-    } );
-</script>
+    <!--$( function() {-->
+        <!--$( "#accordion-1" ).accordion({-->
+            <!--heightStyle: "content",-->
+            <!--icons: false,-->
+            <!--collapsible: true-->
+        <!--});-->
+    <!--} );-->
+<!--</script>-->
 <script type="text/javascript">
     $('#carousel-default').floatingCarousel({
         autoScroll : true,
@@ -1452,56 +1452,56 @@
 <script type="text/javascript">
     new WOW().init();
 </script>
-<script type="text/javascript">
-    $( function() {
-        $( document ).tooltip({
-            position: {
-                my: "left top",
-                at: "right+5 top-5",
-                using: function( position, feedback ) {
-                    $( this ).css( position );
-                    $( "<div>" )
-                        .addClass( "arrow" )
-                        .addClass( feedback.vertical )
-                        .addClass( feedback.horizontal )
-                        .appendTo( this );
-                }
-            }
-        });
-    } );
-</script>
-<script type="text/javascript">
-    $(document).ready(function() {
-        $('#pagepiling').pagepiling({
-            menu: null,
-            direction: 'vertical',
-            verticalCentered: true,
-            sectionsColor: [],
-            anchors: [],
-            scrollingSpeed: 700,
-            easing: 'swing',
-            loopBottom: false,
-            loopTop: false,
-            css3: true,
-            navigation: {
-                'textColor': '#000',
-                'bulletsColor': '#000',
-                'position': 'right',
-                'tooltips': ['section1', 'section2', 'section3', 'section4']
-            },
-            normalScrollElements: null,
-            normalScrollElementTouchThreshold: 5,
-            touchSensitivity: 5,
-            keyboardScrolling: true,
-            sectionSelector: '.section',
-            animateAnchor: false,
+<!--<script type="text/javascript">-->
+    <!--$( function() {-->
+        <!--$( document ).tooltip({-->
+            <!--position: {-->
+                <!--my: "left top",-->
+                <!--at: "right+5 top-5",-->
+                <!--using: function( position, feedback ) {-->
+                    <!--$( this ).css( position );-->
+                    <!--$( "<div>" )-->
+                        <!--.addClass( "arrow" )-->
+                        <!--.addClass( feedback.vertical )-->
+                        <!--.addClass( feedback.horizontal )-->
+                        <!--.appendTo( this );-->
+                <!--}-->
+            <!--}-->
+        <!--});-->
+    <!--} );-->
+<!--</script>-->
+<!--<script type="text/javascript">-->
+    <!--$(document).ready(function() {-->
+        <!--$('#pagepiling').pagepiling({-->
+            <!--menu: null,-->
+            <!--direction: 'vertical',-->
+            <!--verticalCentered: true,-->
+            <!--sectionsColor: [],-->
+            <!--anchors: [],-->
+            <!--scrollingSpeed: 700,-->
+            <!--easing: 'swing',-->
+            <!--loopBottom: false,-->
+            <!--loopTop: false,-->
+            <!--css3: true,-->
+            <!--navigation: {-->
+                <!--'textColor': '#000',-->
+                <!--'bulletsColor': '#000',-->
+                <!--'position': 'right',-->
+                <!--'tooltips': ['section1', 'section2', 'section3', 'section4']-->
+            <!--},-->
+            <!--normalScrollElements: null,-->
+            <!--normalScrollElementTouchThreshold: 5,-->
+            <!--touchSensitivity: 5,-->
+            <!--keyboardScrolling: true,-->
+            <!--sectionSelector: '.section',-->
+            <!--animateAnchor: false,-->
 
-            //events
-            onLeave: function(index, nextIndex, direction){},
-            afterLoad: function(anchorLink, index){},
-            afterRender: function(){},
-        });
-    });
-</script>
+            <!--//events-->
+            <!--onLeave: function(index, nextIndex, direction){},-->
+            <!--afterLoad: function(anchorLink, index){},-->
+            <!--afterRender: function(){},-->
+        <!--});-->
+    <!--});-->
+<!--</script>-->
 </body>
 </html>
