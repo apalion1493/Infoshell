@@ -744,7 +744,7 @@ body {
     .infoshel-main-services__main-icon {
       transform: scale(0.75,0.75);
       //animation: scale 0.3s ease-in-out forwards !important;
-      transition: 0.3s;
+      transition: 0.5s;
     }
   }
 }
@@ -761,14 +761,14 @@ body {
 //  }
 //}
 
-@media not all and (min-resolution:.001dpcm)
-{ @supports (-webkit-appearance:none) {
-
-  .infoshel-main-services__main-block-color:hover .infoshel-main-services__main-icon {
-    animation: scale 0.3s ease-in-out forwards !important;
-    transition: 0.3s;
-  }
-}}
+//@media not all and (min-resolution:.001dpcm)
+//{ @supports (-webkit-appearance:none) {
+//
+//  .infoshel-main-services__main-block-color:hover .infoshel-main-services__main-icon {
+//    animation: scale 0.3s ease-in-out forwards !important;
+//    transition: 0.3s;
+//  }
+//}}
 
 
 //@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) { @media
