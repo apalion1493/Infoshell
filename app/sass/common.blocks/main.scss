@@ -753,13 +753,13 @@ body {
 
   .infoshel-main-services__main-block-color {
     transform: scale(1.1,1.1);
-    transition: 0.3s;
+    transition: all 0.3s;
     z-index: 1;
   }
 
   .infoshel-main-services__main-icon {
     transform: scale(0.75,0.75) !important;
-    transition: 0.5s;
+    transition: all 0.5s;
   }
 }
 
