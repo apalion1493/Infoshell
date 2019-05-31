@@ -144,7 +144,7 @@ function Map_Width(myMap){
 
 
     if (_window_w < 768) {
-        myMap.panTo([59.944552, 30.314054]);
+        myMap.panTo([59.950552, 30.314054]);
     } else {
         myMap.panTo([59.962552, 30.294054]);
     }
