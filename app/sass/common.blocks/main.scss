@@ -1,6 +1,9 @@
+@import "fonts.scss";
+
 html, body {
   overflow-x: hidden;
 }
+
 
 a, a:active, a:visited, a:hover {
   text-decoration:none;
@@ -777,15 +780,6 @@ body {
     transition: 0.3s;
   }
 }}
-
-
-//@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) { @media
-//{
-//  .infoshel-main-services__main-block-color:hover .infoshel-main-services__main-icon {
-//        animation: scale 0.3s ease-in-out forwards !important;
-//        transition: 0.3s;
-//      }
-//}}
 
 @keyframes scale {
   from {
@@ -2171,8 +2165,8 @@ html .ui-button.ui-state-disabled:active {
   }
 
   .infoshel-main-ourWork__slider-img .infoshel-main-ourWork__slider-img-text p {
-    line-height: 1.35;
-    letter-spacing: -0.45px;
+    line-height: 24px;
+    letter-spacing: -0.46px;
   }
 
   .infoshel-main-scrum__h2 {

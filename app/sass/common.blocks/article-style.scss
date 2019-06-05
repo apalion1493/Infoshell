@@ -1,7 +1,4 @@
-//@font-face {
-//  font-family: Helvetica; /* Имя шрифта */
-//  src: url(../../fonts/Helvetica_Cyrillic_Upright.ttf); /* Путь к файлу со шрифтом */
-//}
+@import "fonts.scss";
 
 .infoshel-article-page__firstSlide {
   background-color: #f9f9f9;
@@ -793,12 +790,13 @@
 
   p:nth-child(3),
   p:nth-child(4) {
-    font-size: 14px;
-    line-height: 1.38;
-    letter-spacing: -0.1px;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.14px;
     color: #2e2e2e;
     margin-bottom: 6px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Helvetica', sans-serif;
+    margin-right: 16px;
   }
 }
 
@@ -1029,9 +1027,27 @@
   }
 
   .infoshel-article-page__firstSlide-text p {
-    line-height: 1.33;
-    letter-spacing: -0.2px;
-    margin-bottom: 28px;
+    line-height: 1.34;
+    letter-spacing: -0.18px;
+    margin-bottom: 24px;
+  }
+
+  .infoshel-article-page__firstSlide-text-ios {
+    h2 {
+      line-height: 1.05;
+      position: relative;
+      z-index: 2;
+      margin-bottom: 32px;
+    }
+  }
+
+  .infoshel-article-page__firstSlide-text-ios {
+    margin-top: 69px;
+  }
+
+  .pr-30 {
+    padding-right: 30px;
+    margin-bottom: 30px !important;
   }
 
   .infoshel-article-page__webService-row {
@@ -1057,11 +1073,11 @@
 
   .infoshel-article-page__orderWeb-block-img span {
     line-height: 1;
-    letter-spacing: 0.1px;
+    letter-spacing: -0.16px;
   }
 
   .infoshel-article-page__ios-block .infoshel-article-page__orderWeb-block > p {
-    line-height: 1.34;
+    line-height: 24px;
     letter-spacing: -0.2px;
     font-weight: normal;
   }
@@ -1399,7 +1415,7 @@
   }
 
   .infoshel-article-page__firstSlide-text h2 {
-    width: 670px;
+    width: 640px;
   }
 }
 
