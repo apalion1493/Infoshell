@@ -1009,10 +1009,14 @@
 
         owl1.on('drag.owl.carousel', function(event) {
             $('html').css('touch-action', 'pan-y');
+            $('body').css('touch-action', 'pan-y');
+            $(this).css('touch-action', 'pan-y');
         });
 
         owl1.on('dragged.owl.carousel', function(event) {
             $('html').css('touch-action', 'auto');
+            $('body').css('touch-action', 'auto');
+            $(this).css('touch-action', 'auto');
         });
 
 
