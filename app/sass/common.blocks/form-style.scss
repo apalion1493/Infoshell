@@ -42,7 +42,7 @@
   margin-top: 70px;
   display: flex;
   justify-content: space-between;
-  padding-bottom: 30px;
+  padding-bottom: 60px;
 
   label {
     color: #f9f9f9;
@@ -80,7 +80,21 @@ textarea {
   display: flex;
   color: #ffffff;
   align-items: center;
-  cursor: pointer;
+  position: relative;
+
+  &:before {
+    content: 'Отправляя вы заявку, вы соглашаетесь в политикой обработки персональных данных';
+    position: absolute;
+    bottom: -50px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: -0.1px;
+    color: #959595;
+  }
 
   span {
     background: url("../img/form-page/attach-file.svg") no-repeat center;
@@ -89,12 +103,14 @@ textarea {
     height: 46px;
     margin-right: 15.5px;
     display: block;
+    cursor: pointer;
   }
 
   p {
     margin-bottom: 0;
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
   }
 }
 
@@ -118,7 +134,7 @@ textarea {
   }
 
   .infoshel-main-form__block-btn-download {
-    margin-bottom: 27px;
+    margin-bottom: 80px;
   }
 }
 
