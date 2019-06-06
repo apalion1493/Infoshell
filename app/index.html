@@ -1008,15 +1008,15 @@
         });
 
         owl1.on('drag.owl.carousel', function(event) {
-            $('html').css('touch-action', 'pan-y');
-            $('body').css('touch-action', 'pan-y');
-            $(this).css('touch-action', 'pan-y');
+            $('html').css('overflow-y', 'hidden');
+            $('body').css('overflow-y', 'hidden');
+            $(this).css('overflow-y', 'hidden');
         });
 
         owl1.on('dragged.owl.carousel', function(event) {
-            $('html').css('touch-action', 'auto');
-            $('body').css('touch-action', 'auto');
-            $(this).css('touch-action', 'auto');
+            $('html').css('overflow-y', 'auto');
+            $('body').css('overflow-y', 'auto');
+            $(this).css('overflow-y', 'auto');
         });
 
 
