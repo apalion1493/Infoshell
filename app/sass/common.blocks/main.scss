@@ -4,6 +4,13 @@ html, body {
   overflow-x: hidden;
 }
 
+body {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
 
 a, a:active, a:visited, a:hover {
   text-decoration:none;
