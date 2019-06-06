@@ -945,6 +945,8 @@
 <script type="text/javascript">
 
     $(document).ready(function() {
+        var owl1 = $('.infoshel-main-blog__slider');
+
         $(".infoshel-main-slider__container").owlCarousel({
             nav:true,
             loop:false,
@@ -978,7 +980,7 @@
             }
         });
 
-        $(".infoshel-main-blog__slider").owlCarousel({
+        owl1.owlCarousel({
             nav:true,
             loop:true,
             dots: false,
@@ -1004,7 +1006,66 @@
                 }
             }
         });
+
+        owl1.on('drag.owl.carousel', function(event) {
+            $('body').css('overflow', 'hidden');
+        });
+
+        owl1.on('dragged.owl.carousel', function(event) {
+            $('body').css('overflow', 'auto');
+        });
+
+
     });
+
+
+</script>
+
+<script>
+
+    jQuery(document).ready(function($) {
+        var owl = $('.owl-carousel');
+        owl.on('initialize.owl.carousel initialized.owl.carousel ' +
+            'initialize.owl.carousel initialize.owl.carousel ' +
+            'resize.owl.carousel resized.owl.carousel ' +
+            'refresh.owl.carousel refreshed.owl.carousel ' +
+            'update.owl.carousel updated.owl.carousel ' +
+            'drag.owl.carousel dragged.owl.carousel ' +
+            'translate.owl.carousel translated.owl.carousel ' +
+            'to.owl.carousel changed.owl.carousel',
+            function(e) {
+                $('.' + e.type)
+                    .removeClass('secondary')
+                    .addClass('success');
+                window.setTimeout(function() {
+                    $('.' + e.type)
+                        .removeClass('success')
+                        .addClass('secondary');
+                }, 500);
+            });
+        owl.owlCarousel({
+            loop: true,
+            nav: true,
+            lazyLoad: true,
+            margin: 10,
+            video: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 3
+                },
+                960: {
+                    items: 5,
+                },
+                1200: {
+                    items: 6
+                }
+            }
+        });
+    });
+
 </script>
 
 <script type="text/javascript">
