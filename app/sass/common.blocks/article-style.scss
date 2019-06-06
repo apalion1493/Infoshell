@@ -1012,8 +1012,9 @@
 
 .infoshel-article-page__design-sites-block-main p {
   line-height: 24px;
-  letter-spacing: -0.44px;
+  letter-spacing: -0.16px;
   font-size: 18px;
+  font-weight: 300;
 }
 
 @media (min-width: 768px) {
@@ -1270,11 +1271,10 @@
 
   .infoshel-article-page__design {
     .infoshel-article-page__design-block:nth-child(2) {
-      padding-right: 15px;
+      padding-right: 16px;
     }
     .infoshel-article-page__design-block:nth-child(3) {
-      padding-right: 45px;
-      margin-left: auto;
+      padding-right: 38px;
     }
     .infoshel-article-page__design-block:nth-child(4) {
       padding-right: 55px;
