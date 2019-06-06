@@ -1453,7 +1453,11 @@
   }
 
   .infoshel-article-page__process-circleBlue:before {
-    display: none;
+    background: url(../img/usability-analytics/blue-mobil-arrow.svg) no-repeat center;
+    width: 84px;
+    height: 182px;
+    right: 145px;
+    bottom: -126px;
   }
 
 
@@ -1948,7 +1952,7 @@
         position: absolute;
         right: -100%;
         top: 0;
-        background: url("../img/web/web-mob.png") no-repeat center;
+        background: url("../img/web/web-mob@3x.png") no-repeat center;
         background-size: 100% auto;
         width: 145px;
         height: 200px;
@@ -1968,12 +1972,12 @@
       &:before {
         content: '';
         position: absolute;
-        right: -110%;
+        right: -97%;
         top: 0;
-        background: url("../img/android/android.png") no-repeat right;
+        background: url("../img/android/android-mobil@3x.png") no-repeat right;
         background-size: 100% auto;
         width: 223px;
-        height: 200px;
+        height: 210px;
       }
     }
   }
