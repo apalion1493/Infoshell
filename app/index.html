@@ -1008,11 +1008,11 @@
         });
 
         owl1.on('drag.owl.carousel', function(event) {
-            $('html').css('overflow', 'hidden');
+            $('html').css('touch-action', 'pan-y');
         });
 
         owl1.on('dragged.owl.carousel', function(event) {
-            $('html').css('overflow', 'auto');
+            $('html').css('touch-action', 'auto');
         });
 
 
